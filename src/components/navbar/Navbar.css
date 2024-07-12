@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+header{
+    height: min-content;
+    display: flex;
+    position: fixed;
+  
+    width: 100%;
+    padding-left: 3rem;
+}header ul{
+    display: flex;
+    color: white;
+    padding-top: 3rem;
+    justify-content: end;
+    padding-right: 17vh;
+}img{
+    width: 13rem;
+}header li{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+}nav{
+    width: 100%;
+
+}

@@ -1,0 +1,12 @@
+.justificar{
+    height: 100%;
+    background-image: url(../../assets/portrait-autistic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    
+}
+.escuro{
+    background: rgba(0, 0, 0, 0.605);
+    height: 100vh;
+}
