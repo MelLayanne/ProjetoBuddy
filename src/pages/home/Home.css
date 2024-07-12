@@ -9,4 +9,21 @@
 .escuro{
     background: rgba(0, 0, 0, 0.605);
     height: 100vh;
+}.texto{
+    color: white;
+    display: flex;
+    align-items: end;
+    height: 100%;
+
+}.primeiro_paragrafo{
+    width: 80%;
+   text-align: center;
+   
+   
+}
+.ajuste{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 4rem;
 }
