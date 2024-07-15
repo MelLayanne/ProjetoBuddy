@@ -16,14 +16,35 @@
     height: 100%;
 
 }.primeiro_paragrafo{
-    width: 80%;
-   text-align: center;
-   
+
+   text-align: justify;
+   text-justify: inter-word;
+  text-align: center;
    
 }
 .ajuste{
-    width: 70%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 4rem;
+    
+}.titulo{
+    text-align: center;
+}.titulo h1{
+    font-family: "Tinos", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 4rem;
+}.ajuste_do_texto{
+    padding-left: 3rem;
+    padding-top: 2rem;
+    font-family: "Tinos", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+}.ajuste_do_texto{
+    
+}.imagens{
+    display: flex;
+    justify-content: space-evenly;
 }

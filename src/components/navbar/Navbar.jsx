@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import logo from "../../assets/Logo.png"
 
 import "./Navbar.css"
@@ -7,10 +8,10 @@ function Navbar() {
             <img src={logo} alt="" />
             <nav>
                 <ul>
-                    <li>Funções</li>
-                    <li>Referências</li>
-                    <li>Componentes</li>
-                    <li>Sobre nós</li></ul>
+                    <li><Link to='/' className="">Funções</Link></li>
+                    <li><Link to='/referencias'>Referências</Link></li>
+                    <li><Link to='/componentes'>Componentes </Link></li>
+                    <li><Link to=''>Sobre nós</Link></li></ul>
             </nav>
             <div className="logo"></div>
         </header>
