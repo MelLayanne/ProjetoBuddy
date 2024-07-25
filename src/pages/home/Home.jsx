@@ -10,7 +10,7 @@ function Home() {
                     <div className="texto">
 
                         <div className="ajuste">
-
+                            <div className="">
                             <div className="titulo">
                                 <h1>
                                     Buddy
@@ -19,7 +19,7 @@ function Home() {
                             <div className="primeiro_paragrafo">
 
                                 <p>Robô que auxilia responsáveis no desenvolvimento da fala, interação social e reconhecimento de emoções de crianças autistas de nível 2 entre 5 e 10 anos de idade.  Possui integração com App, o que facilita a devolução de relatórios que analisam a evolução do autista.</p>
-                            </div>
+                            </div></div>
 
                         </div>
                     </div>
@@ -36,8 +36,9 @@ function Home() {
             <div className="imagens">
                <div className="info_primeira">
                 <img src="https://i.ibb.co/0Xx4ktf/image-8.png" alt="" />
+                <div className="funcoes">
                 <h3>Reconhecimento de emoções</h3>
-                <div className="textinho"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis illo delectus soluta id sint nulla dolores aspernatur ab labore, sequi doloremque, cum distinctio, eum vel eveniet minus animi. Dolores, vero.</p></div>
+                <div className="info"><p>O Buddy utiliza imagens e animações para ajudar a criança a reconhecer expressões faciais, como a alegria, tristeza, frustração e surpresa. Essa capacidade permite que a criança consiga discernir emoções.</p></div></div>
                </div>
 
                 <img src="https://i.ibb.co/SVRNz6b/image-10.png" alt="" />

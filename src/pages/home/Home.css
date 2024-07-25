@@ -47,4 +47,22 @@
 }.imagens{
     display: flex;
     justify-content: space-evenly;
+    
+}.info_primeira{
+    display: flex;
+    
+}.info{
+    width: 20rem;
+    display: flex;
+    background: #f1f1f1;
+    padding: 1.5rem;
+}.funces{
+    display: flex;
+}.info p{
+    font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  align-items: justify;
+  text-justify: inter-word;
 }

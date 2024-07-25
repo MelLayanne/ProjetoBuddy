@@ -36,4 +36,16 @@ header{
     
 }.info_primeira{
     display: flex;
+  
+    
+}.info_primeira h3{
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #81BAEF;
+}.info_primeira p{
+    font-family: "Fira Sans", sans-serif;
+    font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
