@@ -48,7 +48,10 @@
     display: flex;
     justify-content: space-evenly;
     
-}.info_primeira{
+}.imagens img{
+    width: 18rem;
+}
+.info_primeira{
     display: flex;
     
 }.info{
@@ -56,13 +59,22 @@
     display: flex;
     background: #f1f1f1;
     padding: 1.5rem;
-}.funces{
-    display: flex;
+    padding-left: 2rem;
+    margin-top: 1rem;
+
 }.info p{
     font-family: "Fira Sans", sans-serif;
+ 
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
   align-items: justify;
   text-justify: inter-word;
+}.ajuste_do_texto h2{
+    font-size: 3rem;
+    position:absolute;
+}.titulo_da_segunda p{
+    padding-top: 3rem;
+    padding-left: 0.3rem;
+    padding-bottom: 3rem;
 }
