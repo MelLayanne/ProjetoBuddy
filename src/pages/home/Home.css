@@ -49,7 +49,8 @@
     justify-content: space-evenly;
     
 }.imagens img{
-    width: 18rem;
+    width: 15Rem;
+    margin-top: 0.3rem;
 }
 .info_primeira{
     display: flex;
@@ -74,7 +75,32 @@
     font-size: 3rem;
     position:absolute;
 }.titulo_da_segunda p{
-    padding-top: 3rem;
-    padding-left: 0.3rem;
+    padding-top: 3.5rem;
+    padding-left: 0.1rem;
     padding-bottom: 3rem;
+}.terceira_section{
+   
+    margin-top: 50vh;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+}.terceira_section h2{
+    font-family: "Tinos", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 3rem;
+}.linha hr{
+    height: 400px; /* Altera a altura */
+    width: 8rem; /* Altera a largura */
+    background-color: #81BAEF; /* Altera a cor de fundo */
+    border: none; /* Remove a borda padrão */
+   
+}.linha{
+    padding-top: 2rem;
+    display: flex;
+    width: 50%;
+}.linha hr{
+    margin-right: 2rem;
+}.paragrafo_cientifico p{
+   margin-bottom: 2.5rem;
 }

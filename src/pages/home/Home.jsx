@@ -56,13 +56,14 @@ function Home() {
                     </div>
                     <div className="imagens">
                         <div className="info_primeira">
-                            <img src="https://i.ibb.co/7RBqsSC/image-11.png" alt="" />
+                            <img src="https://i.ibb.co/ZdZ0sDr/image-9.png" alt="" />
                             <div className="funcoes">
                                 <h3>Reconhecimento de emoções</h3>
-                                <div className="info"><p>O robô oferece uma variedade de atividades interativas projetadas para estimular o desenvolvimento cognitivo e social das crianças, como: jogos educativos e histórias interativas que ajudam a melhorar habilidades de comunicação e interação social de maneira divertida</p></div></div>
+                                <div className="info"><p>A interface do robô permite que os responsáveis gravem mensagens para os seus filhos ouvirem durante o dia e se sentirem mais próximos dos pais mesmo que estejam longe.</p></div></div>
+                            
                         </div>
                         <div className="info_primeira">
-                            <img src="https://i.ibb.co/ZdZ0sDr/image-9.png" alt="" />
+                            <img src="https://i.ibb.co/7RBqsSC/image-11.png" alt="" />
                             <div className="funcoes">
                                 <h3>Reconhecimento de emoções</h3>
                                 <div className="info"><p>O robô oferece uma variedade de atividades interativas projetadas para estimular o desenvolvimento cognitivo e social das crianças, como: jogos educativos e histórias interativas que ajudam a melhorar habilidades de comunicação e interação social de maneira divertida</p></div></div>
@@ -74,11 +75,28 @@ function Home() {
             </section>
 
             <section className="h-screen">
-                <div className="m-auto">
-                    <h1>ola
+                <div className="terceira_section">
+                    <h2>Referências
 
-                    </h1>
+                    </h2>
+
+
+
+                    <div className=" texto_base_cientifica">
+                        <div className="linha"><hr />  <div className="paragrafo_cientifico"><p>
+                           
+    A ciência comprova a importância do desenvolvimento de robôs personalizados que auxiliam na terapia e na educação de crianças entre 5 e 10 anos e que se encaixam no nível 1 e 2 do Transtorno do Espectro Autista (TEA).
+  </p>
+  <p>
+    Nesse sentido, pontuam-se maneiras de estimular a atenção, habilidades de comunicação, interação e aprendizado das crianças autistas através de animações que simulavam expressões humanas de forma simplificada na tela dos robôs, já que a falta de emoções nesses dispositivos facilitavam o interesse ao interagir com eles.
+  </p>
+  <p>
+    Por consequência, há uma acentuada melhora na coordenação motora, comunicação e interação social. Pode-se comprovar então, que a ciência oferece embasamento teórico e prático para aplicação de robôs no tratamento terapêutico.
+  </p></div></div>
+                        </div>
                 </div>
+
+
             </section>
 
 
