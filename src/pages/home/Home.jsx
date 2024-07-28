@@ -1,4 +1,5 @@
 import "./Home.css"
+import img from '../../assets/corda 1.png'
 function Home() {
     return (
         <>
@@ -13,7 +14,7 @@ function Home() {
                                 <div className="">
                                     <div className="titulo">
                                         <h1>
-                                            Buddy
+                                            BUDDY
                                         </h1>
                                     </div>
                                     <div className="primeiro_paragrafo">
@@ -60,7 +61,7 @@ function Home() {
                             <div className="funcoes">
                                 <h3>Reconhecimento de emoções</h3>
                                 <div className="info"><p>A interface do robô permite que os responsáveis gravem mensagens para os seus filhos ouvirem durante o dia e se sentirem mais próximos dos pais mesmo que estejam longe.</p></div></div>
-                            
+
                         </div>
                         <div className="info_primeira">
                             <img src="https://i.ibb.co/7RBqsSC/image-11.png" alt="" />
@@ -84,16 +85,22 @@ function Home() {
 
                     <div className=" texto_base_cientifica">
                         <div className="linha"><hr />  <div className="paragrafo_cientifico"><p>
-                           
-    A ciência comprova a importância do desenvolvimento de robôs personalizados que auxiliam na terapia e na educação de crianças entre 5 e 10 anos e que se encaixam no nível 1 e 2 do Transtorno do Espectro Autista (TEA).
-  </p>
-  <p>
-    Nesse sentido, pontuam-se maneiras de estimular a atenção, habilidades de comunicação, interação e aprendizado das crianças autistas através de animações que simulavam expressões humanas de forma simplificada na tela dos robôs, já que a falta de emoções nesses dispositivos facilitavam o interesse ao interagir com eles.
-  </p>
-  <p>
-    Por consequência, há uma acentuada melhora na coordenação motora, comunicação e interação social. Pode-se comprovar então, que a ciência oferece embasamento teórico e prático para aplicação de robôs no tratamento terapêutico.
-  </p></div></div>
-                        </div>
+
+                            A ciência comprova a importância do desenvolvimento de robôs personalizados que auxiliam na terapia e na educação de crianças entre 5 e 10 anos e que se encaixam no nível 1 e 2 do Transtorno do Espectro Autista (TEA).
+                        </p>
+                            <p>
+                                Nesse sentido, pontuam-se maneiras de estimular a atenção, habilidades de comunicação, interação e aprendizado das crianças autistas através de animações que simulavam expressões humanas de forma simplificada na tela dos robôs, já que a falta de emoções nesses dispositivos facilitavam o interesse ao interagir com eles.
+                            </p>
+                            <p>
+                                Por consequência, há uma acentuada melhora na coordenação motora, comunicação e interação social. Pode-se comprovar então, que a ciência oferece embasamento teórico e prático para aplicação de robôs no tratamento terapêutico.
+                            </p></div></div><div className="imagen_terceira"><img src={img} alt="" /> 
+                            
+                            <div className="links"><h3>Artigos Trabalhados</h3> <div className="text-blue-600 flex"><a href="" className="w-56">Tratamento Terapêutico</a> <a href="" className="w-56">Robótica na computação</a></div></div></div>
+
+                    </div>
+
+
+
                 </div>
 
 
