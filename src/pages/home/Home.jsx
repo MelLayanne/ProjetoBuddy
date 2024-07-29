@@ -1,5 +1,10 @@
 import "./Home.css"
 import img from '../../assets/corda 1.png'
+import luminosidade  from'../../assets/sensorL.png'
+import som  from'../../assets/sensorS.png'
+import arduino from'../../assets/arduino mega.png'
+
+
 function Home() {
     return (
         <>
@@ -95,7 +100,7 @@ function Home() {
                                 Por consequência, há uma acentuada melhora na coordenação motora, comunicação e interação social. Pode-se comprovar então, que a ciência oferece embasamento teórico e prático para aplicação de robôs no tratamento terapêutico.
                             </p></div></div><div className="imagen_terceira"><img src={img} alt="" /> 
                             
-                            <div className="links"><h3>Artigos Trabalhados</h3> <div className="text-blue-600 flex"><a href="" className="w-56">Tratamento Terapêutico</a> <a href="" className="w-56">Robótica na computação</a></div></div></div>
+                            <div className="links"><h3>Artigos Trabalhados</h3> <div className="text-blue-600"><a href="" className="w-52">Tratamento Terapêutico</a> <br /><a href="" className="w-52">Robótica na computação</a></div></div></div>
 
                     </div>
 
@@ -104,6 +109,15 @@ function Home() {
                 </div>
 
 
+            </section>
+
+            <section className="h-screen">
+                <div className="quarta">
+                    <h2>Componentes</h2>
+                    <div className="slides">
+                        
+                    </div>
+                </div>
             </section>
 
 

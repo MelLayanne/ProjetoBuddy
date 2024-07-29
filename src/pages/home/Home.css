@@ -120,9 +120,16 @@
 .links{
     display: flex;
   
-    width: 63%;
+    width: 30rem;
     margin-left: 28vh;
 }.links h3{
     width: 15rem;
-    color: #81BAEF;
+    margin-top: 1rem;
+}.quarta{
+    padding-left: 4rem;
+}.quarta h2{
+    font-family: "Tinos", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 3rem;
 }
