@@ -1,51 +1,158 @@
 @import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-header{
+
+header {
     height: min-content;
     display: flex;
     position: absolute;
-  
     width: 100%;
     padding-left: 3rem;
-}header ul{
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10; /* Certifica que o navbar fica acima do conteúdo */
+}
+
+header ul {
     display: flex;
     color: white;
     padding-top: 3rem;
     justify-content: end;
     padding-right: 17vh;
-}img{
+}
+
+img {
     width: 13rem;
-}header li{
+}
+
+header li {
     margin-left: 2rem;
     margin-right: 2rem;
     font-family: "Fira Sans", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 14px;
-}nav{
-    width: 100%;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+}
 
-}nav a:hover{
+nav {
+    width: 100%;
+}
+
+nav a:hover {
     color: rgb(46, 158, 238);
-}.textinho{
+}
+
+.textinho {
     font-size: 16px;
     background: rgba(97, 95, 95, 0.613);
     padding: 0.5rem;
-}.imagens{
-    
-}.info_primeira{
+}
+
+.imagens {
+}
+
+.info_primeira {
     display: flex;
-  
-    
-}.info_primeira h3{
+}
+
+.info_primeira h3 {
     font-family: "Tinos", serif;
     font-weight: 700;
     font-style: normal;
     color: #81BAEF;
-}.info_primeira p{
+}
+
+.info_primeira p {
     font-family: "Fira Sans", sans-serif;
-    font-family: "Fira Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 2rem;
+        height: 2rem;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        z-index: 11; /* Certifica que o botão fica acima do conteúdo */
+    }
+
+    .menu-toggle .hamburger,
+    .menu-toggle .hamburger::before,
+    .menu-toggle .hamburger::after {
+        content: '';
+        width: 2rem;
+        height: 0.2rem;
+        background: #333;
+        border-radius: 10px;
+        transition: all 0.3s linear;
+        position: relative;
+    }
+
+    .menu-toggle .hamburger::before,
+    .menu-toggle .hamburger::after {
+        position: absolute;
+    }
+
+    .menu-toggle .hamburger::before {
+        transform: translateY(-0.6rem);
+    }
+
+    .menu-toggle .hamburger::after {
+        transform: translateY(0.6rem);
+    }
+
+    .menu-toggle.open .hamburger {
+        transform: rotate(45deg);
+    }
+
+    .menu-toggle.open .hamburger::before {
+        transform: rotate(90deg);
+        top: 0;
+    }
+
+    .menu-toggle.open .hamburger::after {
+        transform: rotate(90deg);
+        top: 0;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.9);
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+        padding: 2rem;
+        z-index: 10; /* Certifica que o menu fica acima do conteúdo */
+    }
+
+    .nav-links.open {
+        transform: translateX(0);
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        margin: 1rem 0;
+    }
+
+    .nav-links a {
+        color: #fff;
+        font-size: 1.5rem;
+        text-align: center;
+        width: 100%;
+    }
 }

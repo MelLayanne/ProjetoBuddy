@@ -1,133 +1,213 @@
-.justificar{
+/* Justificar */
+.justificar {
     height: 100%;
-    background-image: url(../../assets/portrait-autistic.png);
+    background-image: url('../../assets/portrait-autistic.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center; /* Centraliza a imagem */
     z-index: 1;
-    
 }
-.escuro{
+
+.escuro {
     background: rgba(0, 0, 0, 0.605);
     height: 100vh;
-}.texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.texto {
     color: white;
     display: flex;
-    align-items: end;
+    align-items: center;
+    justify-content: center;
     height: 100%;
+    width: 100%;
+    text-align: center; /* Garante que o texto esteja centralizado */
+    padding: 0 1rem; /* Adiciona um pouco de padding para responsividade */
+}
 
-}.texto p{
+.texto p {
     color: rgb(189, 184, 184);
+    text-align: justify;
 }
 
-.primeiro_paragrafo{
-
-   text-align: justify;
-   text-justify: inter-word;
-  text-align: center;
-   
-}
-.ajuste{
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 4rem;
-    
-}.titulo{
+.primeiro_paragrafo {
     text-align: center;
-}.titulo h1{
+}
+
+.ajuste {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+    padding-top: 20rem;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.titulo h1 {
     font-family: "Tinos", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 70px;
-}.ajuste_do_texto{
+}
+
+@media (max-width: 768px) {
+    .ajuste {
+        width: 90%;
+        padding-bottom: 2rem;
+    }
+
+    .titulo h1 {
+        font-size: 50px;
+    }
+
+    .texto {
+        padding: 0 1rem;
+    }
+}
+
+/* Funções */
+.funcoes {
+    padding: 2rem 0; /* Adiciona padding vertical */
+}
+
+.ajuste_do_texto {
     padding-left: 3rem;
     padding-top: 2rem;
     font-family: "Tinos", serif;
     font-weight: 300;
     font-style: normal;
     font-size: 1.5rem;
-}.ajuste_do_texto{
-    
-}.imagens{
+}
+
+.imagens {
     display: flex;
     justify-content: space-evenly;
-    
-}.imagens img{
-    width: 15Rem;
+    flex-wrap: wrap; /* Adicionado para responsividade */
+}
+
+.imagens img {
+    width: 15rem;
     margin-top: 0.3rem;
 }
-.info_primeira{
+
+.info_primeira {
     display: flex;
-    
-}.info{
+    flex-direction: column; /* Alterado para responsividade */
+    align-items: center;
+    margin: 0rem; /* Adicionado para espaçamento entre itens */
+}
+
+.funcoes {
+    text-align: center; /* Centraliza o texto */
+}
+
+.info {
     width: 20rem;
     display: flex;
+    flex-direction: column; /* Alterado para responsividade */
     background: #f1f1f1;
     padding: 1.5rem;
     padding-left: 2rem;
     margin-top: 1rem;
+}
 
-}.info p{
+.info p {
     font-family: "Fira Sans", sans-serif;
- 
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-  align-items: justify;
-  text-justify: inter-word;
-}.ajuste_do_texto h2{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.ajuste_do_texto h2 {
     font-size: 3rem;
-    position:absolute;
-}.titulo_da_segunda p{
+    position: relative;
+}
+
+.titulo_da_segunda p {
     padding-top: 3.5rem;
     padding-left: 0.1rem;
     padding-bottom: 3rem;
-}.terceira_section{
+}
 
-    margin-top: 50vh;
-    width: 93%;
-    margin-left: auto;
-    margin-right: auto;
-}.terceira_section h2{
+/* Terceira Section */
+.referencias {
+    padding: 2rem 0; /* Adicionado para espaçamento da seção anterior */
+}
+
+.referencias h2 {
     font-family: "Tinos", serif;
     font-weight: 300;
     font-style: normal;
     font-size: 3rem;
-}.linha hr{
+    text-align: center; /* Centraliza o título */
+}
+
+.linha hr {
     height: 400px; /* Altera a altura */
     width: 8rem; /* Altera a largura */
     background-color: #81BAEF; /* Altera a cor de fundo */
     border: none; /* Remove a borda padrão */
-   
-}.linha{
+}
+
+.linha {
     padding-top: 2rem;
     display: flex;
-    width: 50%;
-}.linha hr{
+    justify-content: center; /* Centraliza o conteúdo */
+    width: 80%;
+}
+
+.linha hr {
     margin-right: 2rem;
-}.paragrafo_cientifico p{
-   margin-bottom: 2.5rem;
-}.texto_base_cientifica{
+}
+
+.paragrafo_cientifico p {
+    margin-bottom: 2.5rem;
+    text-align: justify; /* Justifica o texto */
+}
+
+.texto_base_cientifica {
     display: flex;
-}.texto_base_cientifica img{
-    width: 30rem;
-    margin-left: 20%;
-}.texto_base_cientifica h3{
+    flex-wrap: wrap; /* Adicionado para responsividade */
+    justify-content: center;
+    align-items: center;
+}
+
+.texto_base_cientifica img {
+    width: 20rem; /* Adicionado para espaçamento entre itens */
+}
+
+.texto_base_cientifica h3 {
     font-family: "Fira Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-.links{
+
+.links {
     display: flex;
-  
-    width: 30rem;
-    margin-left: 28vh;
-}.links h3{
+    flex-direction: column; /* Alterado para responsividade */
+    align-items: center;
+    width: 100%; /* Alterado para responsividade */
+    margin-left: 0; /* Removido */
+}
+
+.links h3 {
     width: 15rem;
     margin-top: 1rem;
-}.quarta{
+}
+
+/* Quarta Section */
+.quarta {
     padding-left: 4rem;
-}.quarta h2{
+}
+
+.quarta h2 {
     font-family: "Tinos", serif;
     font-weight: 300;
     font-style: normal;

@@ -1,22 +1,32 @@
-import { Link } from "react-router-dom"
-import logo from "../../assets/Logo.png"
+import { Link } from "react-router-dom";
+import { useState } from "react";
+import logo from "../../assets/Logo.png";
+import "./Navbar.css";
 
-import "./Navbar.css"
 function Navbar() {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+
     return (
         <header>
-            <img src={logo} alt="" />
-            <nav>
+            <img src={logo} alt="Logo" className="logo" />
+            <button className={`menu-toggle ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
+                <span className="hamburger"></span>
+            </button>
+            <nav className={`nav-links ${isOpen ? 'open' : ''}`}>
                 <ul>
                     <li><Link to='/' className="">Funções</Link></li>
                     <li><Link to='/referencias'>Referências</Link></li>
                     <li><Link to='/componentes'>Componentes </Link></li>
-                    <li><Link to=''>Sobre nós</Link></li></ul>
+                    <li><Link to=''>Sobre nós</Link></li>
+                </ul>
             </nav>
             <div className="logo"></div>
         </header>
-    )
-
+    );
 }
 
-export default Navbar
+export default Navbar;
