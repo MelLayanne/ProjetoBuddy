@@ -1,7 +1,44 @@
-import "./Home.css";
+import React from 'react';
+import { Link } from "react-router-dom";
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import logo from "../../assets/Logo.png";
 import img from '../../assets/corda 1.png';
+import img1 from '../../assets/jumpers.png';
+import img2 from '../../assets/Logo.png';
+import img3 from '../../assets/Logo.png';
+import img4 from '../../assets/Logo.png';
+import img5 from '../../assets/Logo.png';
+import "./Home.css";
 
 function Home() {
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    };
+
     return (
         <>
             <section className="h-screen">
@@ -87,7 +124,7 @@ function Home() {
                             </div>
                         </div>
                         <div className="imagen_terceira">
-                            <img src={img} alt="" />
+                            <img src={img} alt="Corda" />
                             <div className="links">
                                 <h3>Artigos Trabalhados</h3>
                                 <div className="text-blue-600">
@@ -100,10 +137,29 @@ function Home() {
                 </div>
             </section>
 
-            <section className="h-screen">
+            <section className="componentes">
                 <div className="quarta">
                     <h2>Componentes</h2>
-                    <div className="slides"></div>
+                    <Slider {...settings}>
+                        <div>
+                            <img src={img1} alt="Slide 1" />
+                        </div>
+                        <div>
+                            <img src={img2} alt="Slide 2" />
+                        </div>
+                        <div>
+                            <img src={img3} alt="Slide 3" />
+                        </div>
+                        <div>
+                            <img src={img4} alt="Slide 4" />
+                        </div>
+                        <div>
+                            <img src={img5} alt="Slide 5" />
+                        </div>
+                        <div>
+                            <img src={logo} alt="Slide 6" /> {/* Adicionei a sexta imagem aqui */}
+                        </div>
+                    </Slider>
                 </div>
             </section>
         </>

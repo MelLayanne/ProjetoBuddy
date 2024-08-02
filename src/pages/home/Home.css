@@ -1,10 +1,12 @@
-/* Justificar */
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 .justificar {
     height: 100%;
     background-image: url('../../assets/portrait-autistic.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; /* Centraliza a imagem */
+    background-position: center;
     z-index: 1;
 }
 
@@ -24,8 +26,8 @@
     justify-content: center;
     height: 100%;
     width: 100%;
-    text-align: center; /* Garante que o texto esteja centralizado */
-    padding: 0 1rem; /* Adiciona um pouco de padding para responsividade */
+    text-align: center;
+    padding: 0 1rem;
 }
 
 .texto p {
@@ -70,9 +72,8 @@
     }
 }
 
-/* Funções */
 .funcoes {
-    padding: 2rem 0; /* Adiciona padding vertical */
+    padding: 2rem 0;
 }
 
 .ajuste_do_texto {
@@ -87,7 +88,7 @@
 .imagens {
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap; /* Adicionado para responsividade */
+    flex-wrap: wrap;
 }
 
 .imagens img {
@@ -97,19 +98,19 @@
 
 .info_primeira {
     display: flex;
-    flex-direction: column; /* Alterado para responsividade */
+    flex-direction: column;
     align-items: center;
-    margin: 0rem; /* Adicionado para espaçamento entre itens */
+    margin: 0rem;
 }
 
 .funcoes {
-    text-align: center; /* Centraliza o texto */
+    text-align: center;
 }
 
 .info {
     width: 20rem;
     display: flex;
-    flex-direction: column; /* Alterado para responsividade */
+    flex-direction: column;
     background: #f1f1f1;
     padding: 1.5rem;
     padding-left: 2rem;
@@ -136,9 +137,8 @@
     padding-bottom: 3rem;
 }
 
-/* Terceira Section */
 .referencias {
-    padding: 2rem 0; /* Adicionado para espaçamento da seção anterior */
+    padding: 2rem 0;
 }
 
 .referencias h2 {
@@ -146,20 +146,20 @@
     font-weight: 300;
     font-style: normal;
     font-size: 3rem;
-    text-align: center; /* Centraliza o título */
+    text-align: center;
 }
 
 .linha hr {
-    height: 400px; /* Altera a altura */
-    width: 8rem; /* Altera a largura */
-    background-color: #81BAEF; /* Altera a cor de fundo */
-    border: none; /* Remove a borda padrão */
+    height: 400px;
+    width: 8rem;
+    background-color: #81BAEF;
+    border: none;
 }
 
 .linha {
     padding-top: 2rem;
     display: flex;
-    justify-content: center; /* Centraliza o conteúdo */
+    justify-content: center;
     width: 80%;
 }
 
@@ -169,18 +169,18 @@
 
 .paragrafo_cientifico p {
     margin-bottom: 2.5rem;
-    text-align: justify; /* Justifica o texto */
+    text-align: justify;
 }
 
 .texto_base_cientifica {
     display: flex;
-    flex-wrap: wrap; /* Adicionado para responsividade */
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
 .texto_base_cientifica img {
-    width: 20rem; /* Adicionado para espaçamento entre itens */
+    width: 20rem;
 }
 
 .texto_base_cientifica h3 {
@@ -191,10 +191,10 @@
 
 .links {
     display: flex;
-    flex-direction: column; /* Alterado para responsividade */
+    flex-direction: column;
     align-items: center;
-    width: 100%; /* Alterado para responsividade */
-    margin-left: 0; /* Removido */
+    width: 100%;
+    margin-left: 0;
 }
 
 .links h3 {
@@ -202,7 +202,6 @@
     margin-top: 1rem;
 }
 
-/* Quarta Section */
 .quarta {
     padding-left: 4rem;
 }
@@ -212,4 +211,23 @@
     font-weight: 300;
     font-style: normal;
     font-size: 3rem;
+}
+
+.slick-slide img {
+    display: block;
+    margin: auto;
+    width: 100%; /* Garante que as imagens do slider ocupem a largura do contêiner */
+    max-width: 300px; /* Limita a largura máxima da imagem */
+}
+
+.slick-dots {
+    bottom: -30px; /* Ajusta a posição dos pontos de navegação */
+}
+
+.slick-prev, .slick-next {
+    color: white; /* Muda a cor das setas */
+}
+
+.slick-prev:before, .slick-next:before {
+    color: white; /* Muda a cor das setas do FontAwesome */
 }
