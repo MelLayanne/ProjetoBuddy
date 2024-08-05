@@ -7,6 +7,7 @@
     import img3 from '../../assets/Logo.png';
     import img4 from '../../assets/Logo.png';
     import img5 from '../../assets/Logo.png';
+
     import "./Home.css";
 
     function Home() {
@@ -41,16 +42,16 @@
         return (
             <>
                 <section className="h-screen w-full">
-                    <div className="justificar">
-                        <div className="escuro">
-                            <div className="texto">
+                    <div className="h-full bg-[url('https://i.ibb.co/X5tntdS/portrait-autistic.png')] bg-no-repeat bg-cover bg-center z-10 w-full">
+                        <div className="bg-black bg-opacity-60 h-screen flex justify-center items-center text-center w-full">
+                            <div className="text-white flex items-center justify-center h-full w-full text-center px-4">
                                 <div className="ajuste">
                                     <div className="">
                                         <div className="titulo">
                                             <h1>BUDDY</h1>
                                         </div>
                                         <div className="primeiro_paragrafo">
-                                            <p>Robô que auxilia responsáveis no desenvolvimento da fala, interação social e reconhecimento de emoções de crianças autistas de nível 2 entre 5 e 10 anos de idade. Possui integração com App, o que facilita a devolução de relatórios que analisam a evolução do autista.</p>
+                                            <p className='text-gray-400 text-justify'>Robô que auxilia responsáveis no desenvolvimento da fala, interação social e reconhecimento de emoções de crianças autistas de nível 2 entre 5 e 10 anos de idade. Possui integração com App, o que facilita a devolução de relatórios que analisam a evolução do autista.</p>
                                         </div>
                                     </div>
                                 </div>
