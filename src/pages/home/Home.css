@@ -104,10 +104,7 @@ html, body {
     width: 100%;
 }
 
-.imagens img {
-    width: 15rem;
-    margin-top: 0.3rem;
-}
+
 
 .info_primeira {
     display: flex;
