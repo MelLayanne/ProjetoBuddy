@@ -10,6 +10,9 @@ export default {
         tinos: ['Tinos', 'serif'],
         fira: ['Fira Sans', 'sans-serif'],
       },
+      colors: {
+        azul: '#81BAEF'
+      }
     },
   },
   plugins: [],
