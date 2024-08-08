@@ -20,12 +20,12 @@ function Home() {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const nextSlide = () => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % (images.length - 2));
     };
 
     const prevSlide = () => {
         setCurrentIndex((prevIndex) =>
-            prevIndex === 0 ? images.length - 1 : prevIndex - 1
+            prevIndex === 0 ? images.length - 3 : prevIndex - 1
         );
     };
 
@@ -49,65 +49,83 @@ function Home() {
                     </div>
                 </div>
             </section>
-
             <section className="py-8">
-                <div className="pt-8 pl-0 font-light text-2xl">
-                    <div className='titulo_da_segunda'>
-                        <h2 className="pl-12 m-0 font-tinos text-6xl">Funções</h2>
-                        <div className='flex'>
-                            <p className="m-0 font-tinos font-bold ml-12 text-azul pl-0.5">Entenda</p>
-                            <div className='ml-4 bg-azul h-4 w-36 mt-3'>
-                                <hr className=' text-azul ' />
-                            </div>
-                        </div>
-                    </div>
+    <div className="flex flex-col md:block w-full md:w-full pt-8 pl-0 font-light text-2xl">
+        <div className="titulo_da_segunda text-center md:text-left">
+            <h2 className="m-0 font-tinos text-6xl">Funções</h2>
+            <div className="flex justify-center md:justify-start">
+                <p className="m-0 font-tinos font-bold text-azul pl-0.5">Entenda</p>
+                <div className="ml-4 bg-azul h-4 w-36 mt-3">
+                    <hr className="text-azul" />
+                </div>
+            </div>
+        </div>
 
-                    <div className="pt-8 pl-0 font-tinos font-light text-2xl flex justify-evenly">
-                        <div className="flex items-center m-0 w-[30rem]">
-                            <img src="https://i.ibb.co/0Xx4ktf/image-8.png" alt="" className='w-60 mt-1' />
-                            <div className="pl-0">
-                                <h3 className='text-azul font-bold'>Reconhecimento de emoções</h3>
-                                <div className="w-80 flex flex-col bg-gray-200 p-6 pl-4 mt-4">
-                                    <p className='font-fira-sans font-normal text-base text-justify'>O Buddy utiliza imagens e animações para ajudar a criança a reconhecer expressões faciais, como a alegria, tristeza, frustração e surpresa. Essa capacidade permite que a criança consiga discernir emoções.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="flex items-center m-0 w-120 pl-20">
-                            <img src="https://i.ibb.co/SVRNz6b/image-10.png" alt="" className='w-60 mt-1' />
-                            <div className=" pl-2">
-                                <h3 className='text-azul font-bold'>Atividades interativas</h3>
-                                <div className="w-80 flex flex-col bg-gray-200 p-6 pl-4 mt-4">
-                                    <p className='font-fira-sans font-normal text-base text-justify'>O robô oferece uma variedade de atividades interativas projetadas para estimular o desenvolvimento cognitivo e social das crianças, como: jogos educativos e histórias interativas que ajudam a melhorar habilidades de comunicação e interação social de maneira divertida.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="pt-8 pl-0 font-tinos font-light text-2xl flex justify-evenly">
-                        <div className="flex items-center m-0 w-120">
-                            <img src="https://i.ibb.co/ZdZ0sDr/image-9.png" alt="" className='w-60 mt-1' />
-                            <div className=" pl-4">
-                                <h3 className='text-azul font-bold'>Gravação de mensagens</h3>
-                                <div className="w-80 flex flex-col bg-gray-200 p-6 pl-4 mt-4">
-                                    <p className='font-fira-sans font-normal text-base text-justify'>A interface do robô permite que os responsáveis gravem mensagens para os seus filhos ouvirem durante o dia e se sentirem mais próximos dos pais mesmo que estejam longe.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="flex items-center m-0 w-120">
-                            <img src="https://i.ibb.co/7RBqsSC/image-11.png" alt="" className='w-60 mt-1' />
-                            <div className=" pl-2">
-                                <h3 className='text-azul font-bold'>Monitoramento e Relatórios</h3>
-                                <div className="w-80 flex flex-col bg-gray-200 p-6 pl-4 mt-4">
-                                    <p className='font-fira-sans font-normal text-base text-justify'>O robô oferece uma variedade de atividades interativas projetadas para estimular o desenvolvimento cognitivo e social das crianças, como: jogos educativos e histórias interativas que ajudam a melhorar habilidades de comunicação e interação social de maneira divertida.</p>
-                                </div>
-                            </div>
-                        </div>
+        <div className="pt-8 pl-0 font-tinos font-light text-2xl flex flex-col md:flex-row md:flex-wrap justify-center md:justify-evenly">
+            <div className="flex flex-col items-center m-0 w-full md:flex-row md:w-[30rem] mb-8">
+                <img src="https://i.ibb.co/0Xx4ktf/image-8.png" alt="" className="w-60 mt-1 mx-auto" />
+                <div className="mt-4 md:mt-0 text-center md:text-left">
+                    <h3 className="text-azul font-bold">Reconhecimento de emoções</h3>
+                    <div className="w-80 mx-auto flex flex-col bg-gray-200 p-6 mt-4">
+                        <p className="font-fira-sans font-normal text-base text-justify">
+                            O Buddy utiliza imagens e animações para ajudar a criança a reconhecer
+                            expressões faciais, como a alegria, tristeza, frustração e surpresa. Essa
+                            capacidade permite que a criança consiga discernir emoções.
+                        </p>
                     </div>
                 </div>
-            </section>
+            </div>
+
+            <div className="flex flex-col items-center m-0 w-full md:flex-row md:w-[30rem] mb-8">
+                <img src="https://i.ibb.co/SVRNz6b/image-10.png" alt="" className="w-60 mt-1 mx-auto" />
+                <div className="mt-4 md:mt-0 text-center md:text-left">
+                    <h3 className="text-azul font-bold">Atividades interativas</h3>
+                    <div className="w-80 mx-auto flex flex-col bg-gray-200 p-6 mt-4">
+                        <p className="font-fira-sans font-normal text-base text-justify">
+                            O robô oferece uma variedade de atividades interativas projetadas para
+                            estimular o desenvolvimento cognitivo e social das crianças, como: jogos
+                            educativos e histórias interativas que ajudam a melhorar habilidades de
+                            comunicação e interação social de maneira divertida.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="flex flex-col items-center m-0 w-full md:flex-row md:w-[30rem] mb-8">
+                <img src="https://i.ibb.co/ZdZ0sDr/image-9.png" alt="" className="w-60 mt-1 mx-auto" />
+                <div className="mt-4 md:mt-0 text-center md:text-left">
+                    <h3 className="text-azul font-bold">Gravação de mensagens</h3>
+                    <div className="w-80 mx-auto flex flex-col bg-gray-200 p-6 mt-4">
+                        <p className="font-fira-sans font-normal text-base text-justify">
+                            A interface do robô permite que os responsáveis gravem mensagens para os
+                            seus filhos ouvirem durante o dia e se sentirem mais próximos dos pais
+                            mesmo que estejam longe.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="flex flex-col items-center m-0 w-full md:flex-row md:w-[30rem]">
+                <img src="https://i.ibb.co/7RBqsSC/image-11.png" alt="" className="w-60 mt-1 mx-auto" />
+                <div className="mt-4 md:mt-0 text-center md:text-left">
+                    <h3 className="text-azul font-bold">Monitoramento e Relatórios</h3>
+                    <div className="w-80 mx-auto flex flex-col bg-gray-200 p-6 mt-4">
+                        <p className="font-fira-sans font-normal text-base text-justify">
+                            O robô oferece uma variedade de atividades interativas projetadas para
+                            estimular o desenvolvimento cognitivo e social das crianças, como: jogos
+                            educativos e histórias interativas que ajudam a melhorar habilidades de
+                            comunicação e interação social de maneira divertida.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
             <section className="py-8">
-                <div className="terceira_section ">
+                <div className="terceira_section">
                     <h2 className='font-tinos ml-[50px] font-light text-6xl'>Referências</h2> 
 
                     <p className='text-azul font-tinos font-bold ml-[50px] text-[20px]'>Base cientifica</p>
@@ -115,7 +133,7 @@ function Home() {
                         <hr className=' text-azul ' />
                     </div>
                     <div className="flex flex-wrap justify-center items-center pl-[18px]">
-                        <div className="pt-[2rem] flex w-[700px]">
+                        <div className="pt-[2rem] flex w-full md:w-[700px]">
                             <hr className='h-[370px] w-[2rem] bg-[rgb(129,186,239)] border-none mr-8' />
                             <div className="mb-auto text-justify mt-auto w-4/6">
                                 <p className='font-fira-sans font-normal text-base text-justify'>A ciência comprova a importância do desenvolvimento de robôs personalizados que auxiliam na terapia e na educação de crianças entre 5 e 10 anos e que se encaixam no nível 1 e 2 do Transtorno do Espectro Autista (TEA).</p><br />
@@ -124,52 +142,29 @@ function Home() {
                             </div>
                         </div>
                         <div className="pr-[3%]">
-                            <img src={corda} alt="Corda" className='w-[519px] pt-2' />
-                            <div className="flex flex-col w-full ml-[10%] ">
-                                <h3 className='font-fira font-normal mt-4'>Artigos Trabalhados</h3>
-                                <div className="text-azul flex">
-                                    <a href="" className="w-52">Tratamento Terapêutico</a> <br />
-                                    <a href="" className="w-52">Robótica na computação</a>
-                                </div>
-                            </div>
+                            <img src={corda} alt="Corda" className='w-60' />
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section className="w-full h-[80vh] flex flex-wrap justify-center items-center relative overflow-hidden bg-gray-200">
-                <h2 className="text-4xl font-tinos font-bold mb-4 w-full text-center">Componentes</h2>
-                <div className="relative w-full h-full flex justify-center items-center">
-                    <button
-                        onClick={prevSlide}
-                        className="absolute left-0 p-2 text-white bg-black bg-opacity-50 rounded-full"
-                        aria-label="Slide anterior"
-                    >
-                        &#10094;
-                    </button>
-                    <div className="w-full h-full overflow-hidden">
-                        <div
-                            className="flex transition-transform duration-500"
-                            style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-                        >
-                            {images.map((image, index) => (
-                                <div key={index} className="w-full h-full flex-shrink-0 flex justify-center">
-                                    <img
-                                        src={image}
-                                        alt={`Slide ${index + 1}`}
-                                        className="w-[48%] object-cover mt-[10vh]"
-                                    />
-                                </div>
-                            ))}
+            {/* Nova Seção de Slide */}
+            <section className="py-8">
+                <div className="flex flex-col items-center">
+                    <h2 className="font-tinos text-6xl mb-4">Slides de Imagens</h2>
+                    <div className="relative w-full max-w-6xl">
+                        <div className="overflow-hidden rounded-lg">
+                            <div className="flex transition-transform duration-500" style={{ transform: `translateX(-${currentIndex * (100 / 3)}%)` }}>
+                                {images.map((image, index) => (
+                                    <div className="w-1/3 p-2" key={index}>
+                                        <img src={image} alt={`Slide ${index + 1}`} className="w-full h-auto" />
+                                    </div>
+                                ))}
+                            </div>
                         </div>
+                        <button onClick={prevSlide} className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-white text-black px-4 py-2">❮</button>
+                        <button onClick={nextSlide} className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-white text-black px-4 py-2">❯</button>
                     </div>
-                    <button
-                        onClick={nextSlide}
-                        className="absolute right-0 p-2 text-white bg-black bg-opacity-50 rounded-full"
-                        aria-label="Próximo slide"
-                    >
-                        &#10095;
-                    </button>
                 </div>
             </section>
         </>
