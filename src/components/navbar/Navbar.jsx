@@ -18,10 +18,10 @@ function Navbar() {
             </button>
             <nav className={`nav-links ${isOpen ? 'open' : ''}`}>
                 <ul>
-                    <li><Link to='/' className="">Funções</Link></li>
-                    <li><Link to='/referencias'>Referências</Link></li>
-                    <li><Link to='/componentes'>Componentes </Link></li>
-                    <li><Link to=''>Sobre nós</Link></li>
+                    <li><a href="#funcoes"> Funções</a></li>
+                    <li><a href="#referencias">Referências</a></li>
+                    <li><a href="#componentes">Componente</a></li>
+                    <li><a href="#sobre">Sobre nós</a> </li>
                 </ul>
             </nav>
             <div className="logo"></div>

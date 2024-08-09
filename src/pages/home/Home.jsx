@@ -149,7 +149,7 @@ function Home() {
 
 
             <section className="py-8 h-full">
-                <div className="terceira_section">
+                <div className="terceira_section" id='referencias'>
                     <h2 className='font-tinos ml-[50px] font-light text-6xl'>Referências</h2>
                     <div className='flex '><p className='text-azul font-tinos font-bold ml-[50px] text-[20px]'>Base cientifica</p>
                      </div>
@@ -163,7 +163,7 @@ function Home() {
                                 <p className='font-fira-sans font-normal text-base text-justify'>Por consequência, há uma acentuada melhora na coordenação motora, comunicação e interação social. Pode-se comprovar então, que a ciência oferece embasamento teórico e prático para aplicação de robôs no tratamento terapêutico.</p>
                             </div>
                         </div>
-                        <div className="pr-[3%]">
+                        <div className="pr-[3%]" >
                             <img src={corda} alt="Corda" className='w-[80vh]' />
                             <div className='flex'><h3 className='pl-11'>Artigos Trabalhados</h3>
                             <div><a className='text-azul w-[30px] md:pl-11' href="">Tratamento Terapêutico</a><br /> <a className='text-azul w-[30px] md:p-11' href="">Robótica na educação</a></div></div>
@@ -173,7 +173,7 @@ function Home() {
             </section>
 
             {/* Nova Seção de Slide */}
-            <section className="py-8 mb-[20vh] mt-[10vh]">
+            <section className="py-8 mb-[20vh] mt-[10vh]" id='componentes'>
                 <h2 className="font-tinos text-6xl text-center md:pl-[50px] pb-[30px]">Componentes</h2>
                 <div className="flex flex-col items-center ">
 
@@ -195,7 +195,7 @@ function Home() {
             </section>
             <section>
 
-            <div className=" text-center  md:text-left ml-[50px] mr-10">
+            <div className=" text-center  md:text-left ml-[50px] mr-10" id='sobre'>
                         <h2 className="m-0 font-tinos text-6xl ">Sobre nós</h2>
                        <div className='flex mb-[50px]'>
                         <p className='font-fira text-azul'>Conheça</p>
