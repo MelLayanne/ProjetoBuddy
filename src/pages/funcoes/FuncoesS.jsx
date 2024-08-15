@@ -1,12 +1,14 @@
 import React from 'react';
 
+
 export default function CompletePage() {
     return (
         <div className="bg-white">
             {/* Seção 1: Funções */}
-            
+
             <section className="h-screen w-full">
-                <div className="h-full bg-[url('https://wallpaperbat.com/img/532459-ndis-funding-for-autism-spectrum-disorder.jpg')] bg-no-repeat bg-cover bg-center z-10 w-full">
+                <div className={`h-full bg-[url('https://i.imgur.com/MRvKKUX.png')] bg-no-repeat bg-cover bg-center z-10 w-full`}>
+
                     <div className="bg-black bg-opacity-60 h-screen flex justify-center items-center text-center w-full">
                         <div className="text-white flex items-center justify-center h-full w-full text-center px-4">
                             <div className="w-3/5 mx-auto pb-16 pt-80 max-w-full text-center md:w-9/10 md:pb-8">
@@ -23,158 +25,191 @@ export default function CompletePage() {
                     </div>
                 </div>
             </section>
-            <section className="py-16">
-                <div className="text-center md:text-left mx-8 md:ml-16">
-                    <h2 className="text-6xl font-tinos text-azul mb-4">Funções</h2>
-                    <div className="flex justify-center md:justify-start mb-12">
-                        <p className="text-3xl font-bold text-azul">Entenda</p>
-                        <div className="ml-4 bg-azul h-1 w-36 mt-3"></div>
-                    </div>
-                    {/* Card 1 */}
-                    <div className="flex flex-col md:flex-row items-center mb-12">
-                        <img src="https://i.ibb.co/0Xx4ktf/image-8.png" alt="Emoções" className="w-60 mx-auto mb-4 md:mb-0 md:mr-8" />
-                        <div className="bg-gray-200 p-6 rounded-lg shadow-md">
-                            <h3 className="text-2xl font-bold text-azul mb-4">Reconhecimento de emoções</h3>
-                            <p className="font-fira-sans text-base text-justify">
-                                O Buddy utiliza imagens e animações para ajudar a criança a reconhecer expressões faciais,
-                                como a alegria, tristeza, frustração e surpresa.
-                            </p>
+            <section className="py-8">
+                <div className="flex flex-col md:block w-full md:w-full pt-8 pl-0 font-light text-2xl">
+                    <div className="titulo_da_segunda text-center md:text-left ml-[50px]">
+                        <h2 className="m-0 font-tinos text-6xl">Funções</h2>
+                        <div className="flex justify-center md:justify-start">
+                            <p className="m-0 font-tinos font-bold text-azul pl-0.5">Compreenda os detalhes que moldaram o companheiro da sua criança</p>
+                            <div className="ml-4 bg-azul h-4 w-36 mt-3 ">
+                                <hr className="text-azul" />
+                            </div>
                         </div>
                     </div>
-                    {/* Card 2 */}
-                    <div className="flex flex-col md:flex-row items-center mb-12">
-                        <img src="https://i.ibb.co/SVRNz6b/image-10.png" alt="Interatividade" className="w-60 mx-auto mb-4 md:mb-0 md:mr-8" />
-                        <div className="bg-gray-200 p-6 rounded-lg shadow-md">
-                            <h3 className="text-2xl font-bold text-azul mb-4">Atividades interativas</h3>
-                            <p className="font-fira-sans text-base text-justify">
-                                O robô oferece uma variedade de atividades interativas projetadas para estimular o desenvolvimento
-                                cognitivo e social das crianças, como jogos educativos e histórias interativas.
-                            </p>
+
+                    <div className="pt-8 pl-0 font-tinos font-light text-2xl flex flex-col md:flex-row md:flex-wrap mt-12 justify-center md:justify-evenly">
+                        <div className="flex flex-col items-center m-0 w-full md:flex-row md:w-[30rem] mb-8">
+                            <img src="https://i.ibb.co/0Xx4ktf/image-8.png" alt="" className="w-60 mt-1 mx-auto" />
+                            <div className="mt-4 md:mt-0 text-center md:text-left">
+                                <h3 className="text-azul font-bold">Reconhecimento de emoções</h3>
+                                <div className="w-80 mx-auto flex flex-col bg-gray-200 p-6 mt-4">
+                                    <p className="font-fira-sans font-normal text-base text-justify">
+                                        O Buddy utiliza imagens e animações para ajudar a criança a reconhecer
+                                        expressões faciais, como a alegria, tristeza, frustração e surpresa. Essa
+                                        capacidade permite que a criança consiga discernir emoções.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    {/* Card 3 */}
-                    <div className="flex flex-col md:flex-row items-center mb-12">
-                        <img src="https://i.ibb.co/ZdZ0sDr/image-9.png" alt="Gravação de mensagens" className="w-60 mx-auto mb-4 md:mb-0 md:mr-8" />
-                        <div className="bg-gray-200 p-6 rounded-lg shadow-md">
-                            <h3 className="text-2xl font-bold text-azul mb-4">Gravação de mensagens</h3>
-                            <p className="font-fira-sans text-base text-justify">
-                                A interface do robô permite que os responsáveis gravem mensagens para os seus filhos ouvirem durante o dia e se sentirem mais próximos.
-                            </p>
+
+                        <div className="flex flex-col items-center m-0 w-full md:flex-row md:w-[30rem] mb-8">
+                            <img src="https://i.ibb.co/SVRNz6b/image-10.png" alt="" className="w-60 mt-1 mx-auto" />
+                            <div className="mt-4 md:mt-0 text-center md:text-left">
+                                <h3 className="text-azul font-bold">Atividades interativas</h3>
+                                <div className="w-80 mx-auto flex flex-col bg-gray-200 p-6 mt-4">
+                                    <p className="font-fira-sans font-normal text-base text-justify">
+                                        O robô oferece uma variedade de atividades interativas projetadas para
+                                        estimular o desenvolvimento cognitivo e social das crianças, como: jogos
+                                        educativos e histórias interativas que ajudam a melhorar habilidades de
+                                        comunicação e interação social de maneira divertida.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    {/* Card 4 */}
-                    <div className="flex flex-col md:flex-row items-center">
-                        <img src="https://i.ibb.co/7RBqsSC/image-11.png" alt="Monitoramento" className="w-60 mx-auto mb-4 md:mb-0 md:mr-8" />
-                        <div className="bg-gray-200 p-6 rounded-lg shadow-md">
-                            <h3 className="text-2xl font-bold text-azul mb-4">Monitoramento e Relatórios</h3>
-                            <p className="font-fira-sans text-base text-justify">
-                                O robô oferece monitoramento em tempo real e relatórios detalhados do progresso da criança, garantindo uma análise precisa das interações.
-                            </p>
+
+                        <div className="flex flex-col items-center m-0 w-full md:flex-row md:w-[30rem] mb-8">
+                            <img src="https://i.ibb.co/ZdZ0sDr/image-9.png" alt="" className="w-60 mt-1 mx-auto" />
+                            <div className="mt-4 md:mt-0 text-center md:text-left">
+                                <h3 className="text-azul font-bold">Gravação de mensagens</h3>
+                                <div className="w-80 mx-auto flex flex-col bg-gray-200 p-6 mt-4">
+                                    <p className="font-fira-sans font-normal text-base text-justify">
+                                        A interface do robô permite que os responsáveis gravem mensagens para os
+                                        seus filhos ouvirem durante o dia e se sentirem mais próximos dos pais
+                                        mesmo que estejam longe.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="flex flex-col items-center m-0 w-full md:flex-row md:w-[30rem]">
+                            <img src="https://i.ibb.co/7RBqsSC/image-11.png" alt="" className="w-60 mt-1 mx-auto" />
+                            <div className="mt-4 md:mt-0 text-center md:text-left">
+                                <h3 className="text-azul font-bold">Monitoramento e Relatórios</h3>
+                                <div className="w-80 mx-auto flex flex-col bg-gray-200 p-6 mt-4">
+                                    <p className="font-fira-sans font-normal text-base text-justify">
+                                        O robô oferece uma variedade de atividades interativas projetadas para
+                                        estimular o desenvolvimento cognitivo e social das crianças, como: jogos
+                                        educativos e histórias interativas que ajudam a melhorar habilidades de
+                                        comunicação e interação social de maneira divertida.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            {/* Seção 2: Benefícios */}
-            <section className="py-16 bg-gray-100">
-                <div className="text-center mx-8 md:ml-16">
-                    <h2 className="text-6xl font-tinos text-azul mb-8">Benefícios</h2>
-                    <div className="flex justify-center md:justify-start mb-12">
-                        <p className="text-3xl font-bold text-azul">Descubra</p>
-                        <div className="ml-4 bg-azul h-1 w-36 mt-3"></div>
+            <section className='h-full pb-[3rem]'>
+                <div className='bg-pink-100 h-full pb-[3rem] pt-9'>
+                    <div className='pl-[3rem]'>
+                        <h2 className='font-tinos text-6xl'>Benefícios</h2>
+                        <p className='text-azul'>Conheça os benefícios que tornam essa experiência ainda mais significativa</p>
                     </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-                        {/* Benefício 1 */}
-                        <div className="bg-white p-6 rounded-lg shadow-md">
-                            <h3 className="text-2xl font-bold text-azul mb-4">Educação Personalizada</h3>
-                            <p className="font-fira-sans text-base text-justify">
-                                Cada criança aprende em seu próprio ritmo. Nosso robô adapta as atividades de acordo com as necessidades individuais de cada uma.
+                    <div className='flex'>
+                        <div className='bg-white pl-[3rem] mt-[3rem] ml-[8rem] w-[30rem] text-center p-9'>
+                            <h3 className='font-tinos text-azul font-bold'>Educação personalizada</h3>
+                            <p className='font-fira text-justify'>Cada criança aprende em seu próprio ritmo. Nosso robô adapta as atividades de acordo com as necessidades individuais de cada uma.
                             </p>
                         </div>
-                        {/* Benefício 2 */}
-                        <div className="bg-white p-6 rounded-lg shadow-md">
-                            <h3 className="text-2xl font-bold text-azul mb-4">Segurança e Conforto</h3>
-                            <p className="font-fira-sans text-base text-justify">
-                                Nossa tecnologia garante que as interações sejam seguras e adequadas para todas as idades, promovendo um ambiente de conforto para as crianças.
+                        <div className='bg-white pl-[3rem] mt-[3rem] ml-[5rem] w-[30rem] text-center p-9'>
+                            <h3 className='font-tinos text-azul font-bold'>Educação personalizada</h3>
+                            <p className='font-fira text-justify'>Cada criança aprende em seu próprio ritmo. Nosso robô adapta as atividades de acordo com as necessidades individuais de cada uma.
+                            </p>
+                        </div></div>
+                    <div className='flex'>
+                        <div className='bg-white pl-[3rem] mt-[3rem] ml-[8rem] w-[30rem] text-center p-9'>
+                            <h3 className='font-tinos text-azul font-bold'>Educação personalizada</h3>
+                            <p className='font-fira text-justify'>Cada criança aprende em seu próprio ritmo. Nosso robô adapta as atividades de acordo com as necessidades individuais de cada uma.
                             </p>
                         </div>
-                        {/* Benefício 3 */}
-                        <div className="bg-white p-6 rounded-lg shadow-md">
-                            <h3 className="text-2xl font-bold text-azul mb-4">Interatividade Avançada</h3>
-                            <p className="font-fira-sans text-base text-justify">
-                                Através de jogos e atividades, o robô melhora a comunicação, a criatividade e as habilidades cognitivas das crianças.
+                        <div className='bg-white pl-[3rem] pb-[3rem] mt-[3rem] ml-[5rem] w-[30rem] text-center p-9'>
+                            <h3 className='font-tinos text-azul font-bold'>Educação personalizada</h3>
+                            <p className='font-fira text-justify'>Cada criança aprende em seu próprio ritmo. Nosso robô adapta as atividades de acordo com as necessidades individuais de cada uma.
                             </p>
+                        </div></div></div>
+            </section>
+
+            <section className='pl-[3rem] pt-[3rem] h-full '>
+                <h2 className='font-tinos text-6xl'>Principais Telas</h2>
+                <p className='font-fira text-azul'>Explore as principais telas que guiam sua navegação e experiência no projeto</p>
+
+                <div className='flex justify-start
+            '><div className='w-1/3  mt-3'>
+                        <h3 className='text-azul font-tinos text-2xl '>Tela inicial</h3>
+                        <p className='font-fira w-[20rem] '>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
+                        <div className='flex justify-start'> <img className='w-[20rem] pt-[30px]' src="https://th.bing.com/th/id/OIP.7kBYXt-ZDu9GYF7J0zvx3wHaFn?rs=1&pid=ImgDetMain" alt="" /></div>
+                    </div>
+                    <div className='mt-3'>
+                        <img className='w-[50rem] h-96' src="https://th.bing.com/th/id/OIP.7kBYXt-ZDu9GYF7J0zvx3wHaFn?rs=1&pid=ImgDetMain" alt="" />
+                    </div></div>
+
+                <div className='flex justify-start'>
+
+                    <div className='flex justify-start'> <img className='w-[50rem] h-[30rem] pt-[30px] pr-9' src="https://th.bing.com/th/id/OIP.7kBYXt-ZDu9GYF7J0zvx3wHaFn?rs=1&pid=ImgDetMain" alt="" /></div>
+
+                    <div className='flex justify-start
+            '><div className='w-2/3 pt-3  mt-3'>
+                            <h3 className='text-azul font-tinos text-2xl '>Tela inicial</h3>
+                            <p className='font-fira w-[20rem] '>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
+                            <div className='flex justify-start'> <img className='w-[20rem] pt-[100px]' src="https://th.bing.com/th/id/OIP.7kBYXt-ZDu9GYF7J0zvx3wHaFn?rs=1&pid=ImgDetMain" alt="" /></div>
                         </div>
-                        {/* Benefício 4 */}
-                        <div className="bg-white p-6 rounded-lg shadow-md">
-                            <h3 className="text-2xl font-bold text-azul mb-4">Relatórios Detalhados</h3>
-                            <p className="font-fira-sans text-base text-justify">
-                                Obtenha insights valiosos sobre o desenvolvimento do seu filho com relatórios que detalham o progresso e as áreas que necessitam de mais atenção.
-                            </p>
-                        </div>
+
+
                     </div>
                 </div>
             </section>
 
-            {/* Seção 3: Testemunhos */}
-            <section className="py-16">
-                <div className="text-center mx-8 md:ml-16">
-                    <h2 className="text-6xl font-tinos text-azul mb-8">Testemunhos</h2>
-                    <div className="flex justify-center md:justify-start mb-12">
-                        <p className="text-3xl font-bold text-azul">Depoimentos</p>
-                        <div className="ml-4 bg-azul h-1 w-36 mt-3"></div>
-                    </div>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-                        {/* Testemunho 1 */}
-                        <div className="bg-white p-6 rounded-lg shadow-md">
-                            <p className="font-fira-sans text-base text-justify">
-                                "O robô ajudou meu filho a entender melhor suas emoções. Ele agora consegue expressar o que sente com mais facilidade."
-                            </p>
-                            <p className="mt-4 text-right font-fira-sans text-azul">- João, pai de Lucas</p>
-                        </div>
-                        {/* Testemunho 2 */}
-                        <div className="bg-white p-6 rounded-lg shadow-md">
-                            <p className="font-fira-sans text-base text-justify">
-                                "Minha filha adora as atividades interativas do robô. Ela fica super engajada e sempre quer brincar mais."
-                            </p>
-                            <p className="mt-4 text-right font-fira-sans text-azul">- Maria, mãe de Ana</p>
-                        </div>
-                        {/* Testemunho 3 */}
-                        <div className="bg-white p-6 rounded-lg shadow-md">
-                            <p className="font-fira-sans text-base text-justify">
-                                "Os relatórios detalhados me ajudam a acompanhar o progresso do meu filho e saber onde ele precisa de mais ajuda."
-                            </p>
-                            <p className="mt-4 text-right font-fira-sans text-azul">- Pedro, pai de Gabriel</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* Seção 4: Contato */}
-            <section className="py-16 bg-gray-100">
-                <div className="text-center mx-8 md:ml-16">
-                    <h2 className="text-6xl font-tinos text-azul mb-8">Contato</h2>
-                    <div className="flex justify-center md:justify-start mb-12">
-                        <p className="text-3xl font-bold text-azul">Fale Conosco</p>
-                        <div className="ml-4 bg-azul h-1 w-36 mt-3"></div>
-                    </div>
-                    <form className="max-w-lg mx-auto">
-                        <div className="mb-6">
-                            <label className="block text-left font-fira-sans text-lg text-azul mb-2" htmlFor="nome">Nome</label>
-                            <input type="text" id="nome" className="w-full p-3 border border-gray-300 rounded-lg" />
-                        </div>
-                        <div className="mb-6">
-                            <label className="block text-left font-fira-sans text-lg text-azul mb-2" htmlFor="email">Email</label>
-                            <input type="email" id="email" className="w-full p-3 border border-gray-300 rounded-lg" />
-                        </div>
-                        <div className="mb-6">
-                            <label className="block text-left font-fira-sans text-lg text-azul mb-2" htmlFor="mensagem">Mensagem</label>
-                            <textarea id="mensagem" className="w-full p-3 border border-gray-300 rounded-lg" rows="4"></textarea>
-                        </div>
-                        <button type="submit" className="bg-azul text-white font-bold py-3 px-6 rounded-lg">Enviar</button>
-                    </form>
-                </div>
-            </section>
+            <section className=' pt-[3rem] h-full'>
+  <div className='pl-[5rem] pb-9'>
+    <h2 className='font-tinos text-6xl'>Contate-nos</h2>
+    <p className='font-fira text-azul'>
+      Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar.
+    </p>
+    <form className='mt-6'>
+      <div className='mb-4'>
+        <label className='block text-azul text-sm font-bold mb-2' htmlFor='name'>
+          Nome
+        </label>
+        <input
+          className='shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          id='name'
+          type='text'
+          placeholder='Seu nome'
+        />
+      </div>
+      <div className='mb-4'>
+        <label className='block text-azul text-sm font-bold mb-2' htmlFor='email'>
+          Email
+        </label>
+        <input
+          className='shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          id='email'
+          type='email'
+          placeholder='Seu email'
+        />
+      </div>
+      <div className='mb-4'>
+        <label className='block text-azul text-sm font-bold mb-2' htmlFor='message'>
+          Mensagem
+        </label>
+        <textarea
+          className='shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          id='message'
+          rows='4'
+          placeholder='Sua mensagem'
+        ></textarea>
+      </div>
+      <div className='mb-4'>
+        <button
+          className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
+          type='submit'
+        >
+          Enviar
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
         </div>
     );
 }

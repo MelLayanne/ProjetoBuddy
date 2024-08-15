@@ -76,83 +76,159 @@ function Home() {
             <section className="py-8">
                 <div className="flex flex-col md:block w-full md:w-full pt-8 pl-0 font-light text-2xl">
                     <div className="titulo_da_segunda text-center md:text-left ml-[50px]">
-                        <h2 className="m-0 font-tinos text-6xl">Funções</h2>
+                        <h2 className="m-0 font-tinos text-6xl">Processo de criação</h2>
                         <div className="flex justify-center md:justify-start">
-                            <p className="m-0 font-tinos font-bold text-azul pl-0.5">Entenda</p>
+                            <p className="m-0 font-tinos font-bold text-azul pl-0.5">Compreenda os detalhes que moldaram o companheiro da sua criança</p>
                             <div className="ml-4 bg-azul h-4 w-36 mt-3 ">
                                 <hr className="text-azul" />
                             </div>
                         </div>
                     </div>
 
-                    <div className="pt-8 pl-0 font-tinos font-light text-2xl flex flex-col md:flex-row md:flex-wrap justify-center md:justify-evenly">
-                        <div className="flex flex-col items-center m-0 w-full md:flex-row md:w-[30rem] mb-8">
-                            <img src="https://i.ibb.co/0Xx4ktf/image-8.png" alt="" className="w-60 mt-1 mx-auto" />
-                            <div className="mt-4 md:mt-0 text-center md:text-left">
-                                <h3 className="text-azul font-bold">Reconhecimento de emoções</h3>
-                                <div className="w-80 mx-auto flex flex-col bg-gray-200 p-6 mt-4">
-                                    <p className="font-fira-sans font-normal text-base text-justify">
-                                        O Buddy utiliza imagens e animações para ajudar a criança a reconhecer
-                                        expressões faciais, como a alegria, tristeza, frustração e surpresa. Essa
-                                        capacidade permite que a criança consiga discernir emoções.
-                                    </p>
+                    <div className='pl-[8rem] pr-[1rem] flex'>
+                        <div className='mt-[3rem] flex  '>
+                            <div>
+                                <h2 className='text-azul font-bold font-tinos'>Cor Azul</h2>
+                                <div className='bg-gray-200 p-7 w-[380px] text-[14px]' >
+                                    <p className='font-fira text-14  -tracking-widest'>É menos estimulante visualmente em comparação a cores mais vibrantes como o vermelho ou o amarelo, o que pode ser benéfico para minimizar a agitação e ajudar a criança a se acalmar.</p>
                                 </div>
-                            </div>
-                        </div>
 
-                        <div className="flex flex-col items-center m-0 w-full md:flex-row md:w-[30rem] mb-8">
-                            <img src="https://i.ibb.co/SVRNz6b/image-10.png" alt="" className="w-60 mt-1 mx-auto" />
-                            <div className="mt-4 md:mt-0 text-center md:text-left">
-                                <h3 className="text-azul font-bold">Atividades interativas</h3>
-                                <div className="w-80 mx-auto flex flex-col bg-gray-200 p-6 mt-4">
-                                    <p className="font-fira-sans font-normal text-base text-justify">
-                                        O robô oferece uma variedade de atividades interativas projetadas para
-                                        estimular o desenvolvimento cognitivo e social das crianças, como: jogos
-                                        educativos e histórias interativas que ajudam a melhorar habilidades de
-                                        comunicação e interação social de maneira divertida.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="flex flex-col items-center m-0 w-full md:flex-row md:w-[30rem] mb-8">
-                            <img src="https://i.ibb.co/ZdZ0sDr/image-9.png" alt="" className="w-60 mt-1 mx-auto" />
-                            <div className="mt-4 md:mt-0 text-center md:text-left">
-                                <h3 className="text-azul font-bold">Gravação de mensagens</h3>
-                                <div className="w-80 mx-auto flex flex-col bg-gray-200 p-6 mt-4">
-                                    <p className="font-fira-sans font-normal text-base text-justify">
-                                        A interface do robô permite que os responsáveis gravem mensagens para os
-                                        seus filhos ouvirem durante o dia e se sentirem mais próximos dos pais
-                                        mesmo que estejam longe.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="flex flex-col items-center m-0 w-full md:flex-row md:w-[30rem]">
-                            <img src="https://i.ibb.co/7RBqsSC/image-11.png" alt="" className="w-60 mt-1 mx-auto" />
-                            <div className="mt-4 md:mt-0 text-center md:text-left">
-                                <h3 className="text-azul font-bold">Monitoramento e Relatórios</h3>
-                                <div className="w-80 mx-auto flex flex-col bg-gray-200 p-6 mt-4">
-                                    <p className="font-fira-sans font-normal text-base text-justify">
-                                        O robô oferece uma variedade de atividades interativas projetadas para
-                                        estimular o desenvolvimento cognitivo e social das crianças, como: jogos
-                                        educativos e histórias interativas que ajudam a melhorar habilidades de
-                                        comunicação e interação social de maneira divertida.
-                                    </p>
+                            </div><img className='w-[400px] pl-9 pr-3' src="https://th.bing.com/th/id/R.7f6ecb4efca234c948d4271b41bf16db?rik=ImU8rVRg9uFVng&pid=ImgRaw&r=0" alt="" />
+                            <div className='pl-[1rem] pr-[1rem]'>
+                                <div className=''>
+                                    <h2 className='text-azul font-bold font-tinos'>Cor Azul</h2>
+                                    <div className='bg-gray-200 p-9 w-[380px] text-[14px]' >
+                                        <p className='font-fira tracking-tighter'>É menos estimulante visualmente em comparação a cores mais vibrantes como o vermelho ou o amarelo, o que pode ser benéfico para minimizar a agitação e ajudar a criança a se acalmar.</p>
+                                    </div>
+                                    <img src="" alt="" />
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div className='pl-[8rem] pr-[1rem] flex'>
+                        <div className='mt-[3rem] flex  '>
+                            <div>
+                                <h2 className='text-azul font-bold font-tinos'>Logo Azul</h2>
+                                <div className='bg-gray-200 p-9 w-[380px] text-[14px]' >
+                                    <p className='font-fira text-14 tracking-tighter'>É menos estimulante visualmente em comparação a cores mais vibrantes como o vermelho ou o amarelo, o que pode ser benéfico para minimizar a agitação e ajudar a criança a se acalmar.</p>
+                                </div>
+
+                            </div><img className='w-[400px] pl-9 pr-3' src="https://th.bing.com/th/id/R.7f6ecb4efca234c948d4271b41bf16db?rik=ImU8rVRg9uFVng&pid=ImgRaw&r=0" alt="" />
+                            <div className='pl-[1rem] pr-[1rem]'>
+                                <div className=''>
+                                    <h2 className='text-azul font-bold font-tinos'>Cor Azul</h2>
+                                    <div className='bg-gray-200 p-9 w-[380px] text-[14px]' >
+                                        <p className='font-fira tracking-tighter'>É menos estimulante visualmente em comparação a cores mais vibrantes como o vermelho ou o amarelo, o que pode ser benéfico para minimizar a agitação e ajudar a criança a se acalmar.</p>
+                                    </div>
+                                    <img src="" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='pl-[8rem] pr-[1rem] flex'>
+                        <div className='mt-[3rem] flex  '>
+                            <div>
+                                <h2 className='text-azul font-bold font-tinos'>Comunicação Azul</h2>
+                                <div className='bg-gray-200 p-9 w-[380px] text-[14px]' >
+                                    <p className='font-fira text-14 tracking-tighter'>É menos estimulante visualmente em comparação a cores mais vibrantes como o vermelho ou o amarelo, o que pode ser benéfico para minimizar a agitação e ajudar a criança a se acalmar.</p>
+                                </div>
+
+                            </div><img className='w-[400px] pl-9 pr-3' src="https://th.bing.com/th/id/R.7f6ecb4efca234c948d4271b41bf16db?rik=ImU8rVRg9uFVng&pid=ImgRaw&r=0" alt="" />
+                            <div className='pl-[1rem] pr-[1rem]'>
+                                <div className=''>
+                                    <h2 className='text-azul font-bold font-tinos'>Cor Azul</h2>
+                                    <div className='bg-gray-100 p-9 w-[400px] text-[14px]' >
+                                        <p className='font-fira tracking-tighter'>É menos estimulante visualmente em comparação a cores mais vibrantes como o vermelho ou o amarelo, o que pode ser benéfico para minimizar a agitação e ajudar a criança a se acalmar.</p>
+                                    </div>
+                                    <img src="" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='pl-[8rem] pr-[1rem] flex'>
+                        <div className='mt-[3rem] flex  '>
+                            <div>
+                                <h2 className='text-azul font-bold font-tinos'>Relatórios Azul</h2>
+                                <div className='bg-gray-200 p-9 w-[380px] text-[14px]' >
+                                    <p className='font-fira text-14 tracking-tighter'>É menos estimulante visualmente em comparação a cores mais vibrantes como o vermelho ou o amarelo, o que pode ser benéfico para minimizar a agitação e ajudar a criança a se acalmar.</p>
+                                </div>
+
+                            </div><img className='w-[400px] pl-9 pr-3' src="https://th.bing.com/th/id/R.7f6ecb4efca234c948d4271b41bf16db?rik=ImU8rVRg9uFVng&pid=ImgRaw&r=0" alt="" />
+                            <div className='pl-[1rem] pr-[1rem]'>
+                                <div className=''>
+                                    <h2 className='text-azul font-bold font-tinos'>Cor Azul</h2>
+                                    <div className='bg-gray-200 p-9 w-[400px] text-[14px]' >
+                                        <p className='font-fira tracking-tighter'>É menos estimulante visualmente em comparação a cores mais vibrantes como o vermelho ou o amarelo, o que pode ser benéfico para minimizar a agitação e ajudar a criança a se acalmar.</p>
+                                    </div>
+                                    <img src="" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </section>
+           
+
+            <section className='bg-pink-100'>
+  <div className='pl-[5rem] pb-9'>
+    <h2 className='font-tinos text-6xl'>Contate-nos</h2>
+    <p className='font-fira text-azul'>
+      Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar.
+    </p>
+    <form className='mt-6'>
+      <div className='mb-4'>
+        <label className='block text-azul text-sm font-bold mb-2' htmlFor='name'>
+          Nome
+        </label>
+        <input
+          className='shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          id='name'
+          type='text'
+          placeholder='Seu nome'
+        />
+      </div>
+      <div className='mb-4'>
+        <label className='block text-azul text-sm font-bold mb-2' htmlFor='email'>
+          Email
+        </label>
+        <input
+          className='shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          id='email'
+          type='email'
+          placeholder='Seu email'
+        />
+      </div>
+      <div className='mb-4'>
+        <label className='block text-azul text-sm font-bold mb-2' htmlFor='message'>
+          Mensagem
+        </label>
+        <textarea
+          className='shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          id='message'
+          rows='4'
+          placeholder='Sua mensagem'
+        ></textarea>
+      </div>
+      <div className='mb-4'>
+        <button
+          className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
+          type='submit'
+        >
+          Enviar
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
 
 
             <section className="py-8 h-full">
                 <div className="terceira_section" id='referencias'>
                     <h2 className='font-tinos ml-[50px] font-light text-6xl'>Referências</h2>
                     <div className='flex '><p className='text-azul font-tinos font-bold ml-[50px] text-[20px]'>Base cientifica</p>
-                     </div>
+                    </div>
 
                     <div className="flex flex-wrap justify-center items-center pl-[18px]">
                         <div className="pt-[2rem] flex w-full md:w-[700px]">
@@ -166,7 +242,7 @@ function Home() {
                         <div className="pr-[3%]" >
                             <img src={corda} alt="Corda" className='w-[80vh]' />
                             <div className='flex'><h3 className='pl-11'>Artigos Trabalhados</h3>
-                            <div><a className='text-azul w-[30px] md:pl-11' href="">Tratamento Terapêutico</a><br /> <a className='text-azul w-[30px] md:p-11' href="">Robótica na educação</a></div></div>
+                                <div><a className='text-azul w-[30px] md:pl-11' href="">Tratamento Terapêutico</a><br /> <a className='text-azul w-[30px] md:p-11' href="">Robótica na educação</a></div></div>
                         </div>
                     </div>
                 </div>
@@ -195,54 +271,54 @@ function Home() {
             </section>
             <section>
 
-            <div className=" text-center  md:text-left ml-[50px] mr-10" id='sobre'>
-                        <h2 className="m-0 font-tinos text-6xl ">Sobre nós</h2>
-                       <div className='flex mb-[50px]'>
+                <div className=" text-center  md:text-left ml-[50px] mr-10" id='sobre'>
+                    <h2 className="m-0 font-tinos text-6xl ">Sobre nós</h2>
+                    <div className='flex mb-[50px]'>
                         <p className='font-fira text-azul'>Conheça</p>
                         <div className="ml-4 bg-azul h-4 w-36 mt-1 ">
-                                <hr className="text-azul" />
-                            </div></div> 
-                        <div className="flex justify-center md:justify-start mb-10">
-                            <p className="m-0 font-fira  pl-0.5">Trabalhando juntas para o sucesso do projeto Buddy, unindo habilidades e conhecimentos diversos para trazer soluções criativas 
+                            <hr className="text-azul" />
+                        </div></div>
+                    <div className="flex justify-center md:justify-start mb-10">
+                        <p className="m-0 font-fira  pl-0.5">Trabalhando juntas para o sucesso do projeto Buddy, unindo habilidades e conhecimentos diversos para trazer soluções criativas
                             e eficientes, e com muito comprometimento, fornecer a melhor experiência  para os usuários.</p>
-                            
+
+                    </div>
+                    <div className="flex flex-col justify-center mr-[2vh] items-center space-y-6 md:flex-row md:space-y-0 md:space-x-10">
+                        {/* Card */}
+                        <div className="flex flex-col md:flex-row items-center bg-white shadow-lg rounded-lg overflow-hidden w-full max-w-[20rem] transition-transform duration-300 transform hover:scale-105 hover:shadow-xl hover:bg-gray-100 mb-6 md:mb-0">
+                            <img className="w-full h-48 object-cover md:w-1/3" src={k} alt="Kauhanny" />
+                            <div className="p-4 text-left md:w-2/3">
+                                <h4 className="font-bold text-lg mb-2">Kauhanny Santos</h4>
+                                <p className="text-gray-600">17 anos</p>
+                                <p className="text-gray-600">Ensino médio T.I.</p>
+                                <p className="text-gray-600 mb-4">UNASP-SP</p>
+                                <div className="flex justify-start space-x-4">
+                                    <img className="w-6 h-6" src={instagram} alt="Instagram" />
+                                    <img className="w-6 h-6" src={linkedin} alt="LinkedIn" />
+                                    <img className="w-6 h-6" src={em} alt="Email" />
+                                </div>
+                            </div>
                         </div>
-                        <div className="flex flex-col justify-center mr-[2vh] items-center space-y-6 md:flex-row md:space-y-0 md:space-x-10">
-  {/* Card */}
-  <div className="flex flex-col md:flex-row items-center bg-white shadow-lg rounded-lg overflow-hidden w-full max-w-[20rem] transition-transform duration-300 transform hover:scale-105 hover:shadow-xl hover:bg-gray-100 mb-6 md:mb-0">
-    <img className="w-full h-48 object-cover md:w-1/3" src={k} alt="Kauhanny" />
-    <div className="p-4 text-left md:w-2/3">
-      <h4 className="font-bold text-lg mb-2">Kauhanny Santos</h4>
-      <p className="text-gray-600">17 anos</p>
-      <p className="text-gray-600">Ensino médio T.I.</p>
-      <p className="text-gray-600 mb-4">UNASP-SP</p>
-      <div className="flex justify-start space-x-4">
-        <img className="w-6 h-6" src={instagram} alt="Instagram" />
-        <img className="w-6 h-6" src={linkedin} alt="LinkedIn" />
-        <img className="w-6 h-6" src={em} alt="Email" />
-      </div>
-    </div>
-  </div>
 
-  {/* Card */}
-  <div className="flex flex-col md:flex-row items-center bg-white shadow-lg rounded-lg overflow-hidden w-full max-w-[20rem] transition-transform duration-300 transform hover:scale-105 hover:shadow-xl hover:bg-gray-100 mb-6 md:mb-0">
-    <img className="w-full h-48 object-cover md:w-1/3" src="https://media.licdn.com/dms/image/v2/D4D03AQHr9eKiQT65ZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710469014338?e=1728518400&v=beta&t=_l0PLQwHIctnf52_iguHfKZTXGJI78lFteb4G1wYx5E" alt="Kauhanny" />
-    <div className="p-4 text-left md:w-2/3">
-      <h4 className="font-bold text-lg mb-2">Kauhanny Santos</h4>
-      <p className="text-gray-600">17 anos</p>
-      <p className="text-gray-600">Ensino médio T.I.</p>
-      <p className="text-gray-600 mb-4">UNASP-SP</p>
-      <div className="flex justify-start space-x-4">
-        <img className="w-6 h-6" src={instagram} alt="Instagram" />
-        <img className="w-6 h-6" src={linkedin} alt="LinkedIn" />
-        <img className="w-6 h-6" src={em} alt="Email" />
-      </div>
-    </div>
-  </div>
-</div>
-
-
+                        {/* Card */}
+                        <div className="flex flex-col md:flex-row items-center bg-white shadow-lg rounded-lg overflow-hidden w-full max-w-[20rem] transition-transform duration-300 transform hover:scale-105 hover:shadow-xl hover:bg-gray-100 mb-6 md:mb-0">
+                            <img className="w-full h-48 object-cover md:w-1/3" src="https://media.licdn.com/dms/image/v2/D4D03AQHr9eKiQT65ZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710469014338?e=1728518400&v=beta&t=_l0PLQwHIctnf52_iguHfKZTXGJI78lFteb4G1wYx5E" alt="Kauhanny" />
+                            <div className="p-4 text-left md:w-2/3">
+                                <h4 className="font-bold text-lg mb-2">Kauhanny Santos</h4>
+                                <p className="text-gray-600">17 anos</p>
+                                <p className="text-gray-600">Ensino médio T.I.</p>
+                                <p className="text-gray-600 mb-4">UNASP-SP</p>
+                                <div className="flex justify-start space-x-4">
+                                    <img className="w-6 h-6" src={instagram} alt="Instagram" />
+                                    <img className="w-6 h-6" src={linkedin} alt="LinkedIn" />
+                                    <img className="w-6 h-6" src={em} alt="Email" />
+                                </div>
+                            </div>
                         </div>
+                    </div>
+
+
+                </div>
             </section>
         </>
     );
