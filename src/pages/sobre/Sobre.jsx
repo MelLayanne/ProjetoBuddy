@@ -8,7 +8,7 @@ const Sobre = () => {
   return (
     <>
       <section className="h-screen w-full">
-        <div className="h-full bg-[url('https://th.bing.com/th/id/R.2045d90089182341751269c275389391?rik=f78vWk9xmb5Gzg&pid=ImgRaw&r=0')] bg-no-repeat bg-cover bg-center z-10 w-full">
+        <div className="h-full bg-[url('https://i.imgur.com/xGywgSj.png')] bg-no-repeat bg-cover bg-center z-10 w-full">
           <div className="bg-black bg-opacity-60 h-screen flex justify-center items-center text-center w-full">
             <div className="text-white flex items-center justify-center h-full w-full text-center px-4">
               <div className="w-3/5 mx-auto pb-16 pt-80 max-w-full text-center md:w-9/10 md:pb-8">

@@ -8,7 +8,7 @@ import img4 from '../../assets/bluetooth.png';
 import ima from '../../assets/sensorS.png';
 import img6 from '../../assets/sensorL.png';
 import img5 from '../../assets/Logo.png';
-import corda from '../../assets/corda 1.png';
+
 import k from '../../assets/Kau.png'
 import instagram from '../../assets/instagram 3 (1).png'
 import linkedin from '../../assets/linkedin 11 (1).png'
@@ -224,29 +224,7 @@ function Home() {
 </section>
 
 
-            <section className="py-8 h-full">
-                <div className="terceira_section" id='referencias'>
-                    <h2 className='font-tinos ml-[50px] font-light text-6xl'>Referências</h2>
-                    <div className='flex '><p className='text-azul font-tinos font-bold ml-[50px] text-[20px]'>Base cientifica</p>
-                    </div>
-
-                    <div className="flex flex-wrap justify-center items-center pl-[18px]">
-                        <div className="pt-[2rem] flex w-full md:w-[700px]">
-                            <hr className='h-[370px] w-[2rem] bg-[rgb(129,186,239)] border-none mr-8' />
-                            <div className="mb-auto text-justify mt-auto w-[40vh] md:w-full">
-                                <p className='font-fira-sans font-normal text-base text-justify'>A ciência comprova a importância do desenvolvimento de robôs personalizados que auxiliam na terapia e na educação de crianças entre 5 e 10 anos e que se encaixam no nível 1 e 2 do Transtorno do Espectro Autista (TEA).</p><br />
-                                <p className='font-fira-sans font-normal text-base text-justify'>Nesse sentido, pontuam-se maneiras de estimular a atenção, habilidades de comunicação, interação e aprendizado das crianças autistas através de animações que simulavam expressões humanas de forma simplificada na tela dos robôs, já que a falta de emoções nesses dispositivos facilitavam o interesse ao interagir com eles.</p><br />
-                                <p className='font-fira-sans font-normal text-base text-justify'>Por consequência, há uma acentuada melhora na coordenação motora, comunicação e interação social. Pode-se comprovar então, que a ciência oferece embasamento teórico e prático para aplicação de robôs no tratamento terapêutico.</p>
-                            </div>
-                        </div>
-                        <div className="pr-[3%]" >
-                            <img src={corda} alt="Corda" className='w-[80vh]' />
-                            <div className='flex'><h3 className='pl-11'>Artigos Trabalhados</h3>
-                                <div><a className='text-azul w-[30px] md:pl-11' href="">Tratamento Terapêutico</a><br /> <a className='text-azul w-[30px] md:p-11' href="">Robótica na educação</a></div></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+           
 
             {/* Nova Seção de Slide */}
             <section className="py-8 mb-[20vh] mt-[10vh]" id='componentes'>
@@ -269,57 +247,7 @@ function Home() {
                     </div>
                 </div>
             </section>
-            <section>
-
-                <div className=" text-center  md:text-left ml-[50px] mr-10" id='sobre'>
-                    <h2 className="m-0 font-tinos text-6xl ">Sobre nós</h2>
-                    <div className='flex mb-[50px]'>
-                        <p className='font-fira text-azul'>Conheça</p>
-                        <div className="ml-4 bg-azul h-4 w-36 mt-1 ">
-                            <hr className="text-azul" />
-                        </div></div>
-                    <div className="flex justify-center md:justify-start mb-10">
-                        <p className="m-0 font-fira  pl-0.5">Trabalhando juntas para o sucesso do projeto Buddy, unindo habilidades e conhecimentos diversos para trazer soluções criativas
-                            e eficientes, e com muito comprometimento, fornecer a melhor experiência  para os usuários.</p>
-
-                    </div>
-                    <div className="flex flex-col justify-center mr-[2vh] items-center space-y-6 md:flex-row md:space-y-0 md:space-x-10">
-                        {/* Card */}
-                        <div className="flex flex-col md:flex-row items-center bg-white shadow-lg rounded-lg overflow-hidden w-full max-w-[20rem] transition-transform duration-300 transform hover:scale-105 hover:shadow-xl hover:bg-gray-100 mb-6 md:mb-0">
-                            <img className="w-full h-48 object-cover md:w-1/3" src={k} alt="Kauhanny" />
-                            <div className="p-4 text-left md:w-2/3">
-                                <h4 className="font-bold text-lg mb-2">Kauhanny Santos</h4>
-                                <p className="text-gray-600">17 anos</p>
-                                <p className="text-gray-600">Ensino médio T.I.</p>
-                                <p className="text-gray-600 mb-4">UNASP-SP</p>
-                                <div className="flex justify-start space-x-4">
-                                    <img className="w-6 h-6" src={instagram} alt="Instagram" />
-                                    <img className="w-6 h-6" src={linkedin} alt="LinkedIn" />
-                                    <img className="w-6 h-6" src={em} alt="Email" />
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Card */}
-                        <div className="flex flex-col md:flex-row items-center bg-white shadow-lg rounded-lg overflow-hidden w-full max-w-[20rem] transition-transform duration-300 transform hover:scale-105 hover:shadow-xl hover:bg-gray-100 mb-6 md:mb-0">
-                            <img className="w-full h-48 object-cover md:w-1/3" src="https://media.licdn.com/dms/image/v2/D4D03AQHr9eKiQT65ZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710469014338?e=1728518400&v=beta&t=_l0PLQwHIctnf52_iguHfKZTXGJI78lFteb4G1wYx5E" alt="Kauhanny" />
-                            <div className="p-4 text-left md:w-2/3">
-                                <h4 className="font-bold text-lg mb-2">Kauhanny Santos</h4>
-                                <p className="text-gray-600">17 anos</p>
-                                <p className="text-gray-600">Ensino médio T.I.</p>
-                                <p className="text-gray-600 mb-4">UNASP-SP</p>
-                                <div className="flex justify-start space-x-4">
-                                    <img className="w-6 h-6" src={instagram} alt="Instagram" />
-                                    <img className="w-6 h-6" src={linkedin} alt="LinkedIn" />
-                                    <img className="w-6 h-6" src={em} alt="Email" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-            </section>
+          
         </>
     );
 }

@@ -11,30 +11,30 @@ const ComponentesP = () => {
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
-  const itemsPerSlide = 1;
+  const itemsPerSlide = 3;
 
   const prevSlide = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+      prevIndex === 0 ? Math.floor(images.length / itemsPerSlide) * itemsPerSlide : prevIndex - itemsPerSlide
     );
   };
 
   const nextSlide = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === images.length - 1 ? 0 : prevIndex + 1
+      prevIndex + itemsPerSlide >= images.length ? 0 : prevIndex + itemsPerSlide
     );
   };
 
   return (
     <>
       <section className="h-screen w-full">
-        <div className="h-full bg-[url('https://png.pngtree.com/background/20230614/original/pngtree-autism-puzzle-pieces-that-are-colorful-background-stock-photo-picture-image_3523481.jpg')] bg-no-repeat bg-cover bg-center z-10 w-full">
+        <div className="h-full bg-[url('https://i.imgur.com/t6vSe9p.png')] bg-no-repeat bg-cover bg-center z-10 w-full">
           <div className="bg-black bg-opacity-60 h-screen flex justify-center items-center text-center w-full">
             <div className="text-white flex items-center justify-center h-full w-full text-center px-4">
-              <div className="w-full md:w-4/5 mx-auto pb-16 pt-40 max-w-full text-center">
+              <div className="w-full md:w-4/5 mx-auto pb-16 pt-40 max-w-full ">
                 <div className="">
                   <h1 className="text-5xl md:text-6xl pb-7">Componentes</h1>
-                  <p className="text-gray-400 text-justify font-fira">
+                  <p className="text-gray-400 text-justifyfont-fira">
                     Veja todas as funções do nosso TCC aqui no site. Pesquise, interaja e entre em contato conosco.
                   </p>
                 </div>
@@ -43,6 +43,7 @@ const ComponentesP = () => {
           </div>
         </div>
       </section>
+
       <div className="bg-gradient-to-b from-blue-100 to-blue-50 py-12">
         <section className="py-8 mb-[20vh] mt-[10vh]" id="componentes">
           <div className="flex flex-col items-center">
@@ -51,12 +52,12 @@ const ComponentesP = () => {
                 <div
                   className="flex transition-transform duration-700 ease-in-out transform-gpu"
                   style={{
-                    transform: `translateX(-${currentIndex * (100 / itemsPerSlide)}%)`,
+                    transform: `translateX(-${(currentIndex / itemsPerSlide) * 100}%)`,
                   }}
                 >
                   {images.map((image, index) => (
                     <div
-                      className="flex-none w-full"
+                      className="flex-none w-1/3 px-2"
                       key={index}
                     >
                       <img
@@ -83,36 +84,58 @@ const ComponentesP = () => {
             </div>
           </div>
         </section>
-
-        {/* Outras Seções */}
-        <section className="py-12 bg-white">
-          <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
-            <h2 className="font-tinos text-5xl text-center text-azul mb-12">
-              Mais Componentes
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-              <div className="bg-blue-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
-                <h3 className="text-azul font-bold text-2xl mb-4">Tela DWIN</h3>
-                <p className="font-fira-sans text-justify">
-                  A Tela DWIN é uma tela de interface inteligente que desempenha um papel crucial na criação de soluções interativas e personalizadas em projetos de automação e eletrônica. Destinada a desenvolvedores que buscam integrar recursos visuais avançados em seus dispositivos, a Tela DWIN se destaca por sua versatilidade e capacidade de adaptação a uma ampla gama de aplicações.
-                </p>
-              </div>
-              <div className="bg-blue-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
-                <h3 className="text-azul font-bold text-2xl mb-4">Jumpers</h3>
-                <p className="font-fira-sans text-justify">
-                  Jumpers de Pino: Normalmente consistem em um ou mais pinos que podem ser conectados a outros pinos. Usados para fazer conexões simples. Jumpers de Conexão: Usados em fios com conectores de fêmea nas extremidades, facilitando a conexão entre componentes em protoboards.
-                </p>
-              </div>
-              <div className="bg-blue-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
-                <h3 className="text-azul font-bold text-2xl mb-4">Monitoramento e Relatórios</h3>
-                <p className="font-fira-sans text-justify">
-                  O robô oferece uma variedade de atividades interativas projetadas para estimular o desenvolvimento cognitivo e social das crianças.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
       </div>
+      <section className=' pt-[3rem] h-full'>
+  <div className='pl-[5rem] pb-9'>
+    <h2 className='font-tinos text-6xl'>Contate-nos</h2>
+    <p className='font-fira text-azul'>
+      Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar.
+    </p>
+    <form className='mt-6'>
+      <div className='mb-4'>
+        <label className='block text-azul text-sm font-bold mb-2' htmlFor='name'>
+          Nome
+        </label>
+        <input
+          className='shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          id='name'
+          type='text'
+          placeholder='Seu nome'
+        />
+      </div>
+      <div className='mb-4'>
+        <label className='block text-azul text-sm font-bold mb-2' htmlFor='email'>
+          Email
+        </label>
+        <input
+          className='shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          id='email'
+          type='email'
+          placeholder='Seu email'
+        />
+      </div>
+      <div className='mb-4'>
+        <label className='block text-azul text-sm font-bold mb-2' htmlFor='message'>
+          Mensagem
+        </label>
+        <textarea
+          className='shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          id='message'
+          rows='4'
+          placeholder='Sua mensagem'
+        ></textarea>
+      </div>
+      <div className='mb-4'>
+        <button
+          className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
+          type='submit'
+        >
+          Enviar
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
     </>
   );
 };
