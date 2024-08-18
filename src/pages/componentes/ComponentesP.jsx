@@ -30,41 +30,42 @@ const ComponentesP = () => {
       <section className="h-screen w-full">
         <div className="h-full bg-[url('https://i.imgur.com/t6vSe9p.png')] bg-no-repeat bg-cover bg-center z-10 w-full">
           <div className="bg-black bg-opacity-60 h-screen flex justify-center items-center text-center w-full">
-            <div className="text-white flex items-center justify-center h-full w-full text-center px-4">
-              <div className="w-full md:w-4/5 mx-auto pb-16 pt-40 max-w-full ">
-                <div className="">
-                <div className="font-tinos font-normal text-7xl md:text-5xl">
-                <h1 className=' text-7xl pb-7 md:px-4'>Componentes</h1>
-                </div>
-                <div className="text-center">
-                  <p className='text-gray-400  text-justify font-fira'>Descubra todos os componentes usados no nosso projeto e veja como cada peça foi fundamental para realização desse trabalho.</p>
-                  </div>
-                 
+            <div className="text-white flex flex-col items-center justify-center h-full w-full text-center px-4">
+              <div className="w-full max-w-full px-4">
+                <h1 className="font-tinos text-5xl md:text-7xl mb-4 mt-[20vh] md:mt-[30vh]">
+                  BUDDY
+                </h1>
+                <div className="w-full max-w-full px-4">
+                  <p className="text-gray-400 text-justify font-fira text-sm md:text-base">
+                    Robô que auxilia responsáveis no desenvolvimento da fala, interação social e reconhecimento de emoções de crianças autistas de nível 2 entre 5 e 10 anos de idade. Possui integração com App, o que facilita a devolução de relatórios que analisam a evolução do autista.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      
 
       <section className="py-8">
-                <div className="flex flex-col md:block w-full md:w-full pt-8 pl-0 font-light text-2xl">
-                    <div className="titulo_da_segunda text-center md:text-left ml-[100px]">
-                        <h2 className="m-0 font-tinos text-6xl">Componentes</h2>
-                        <div className="flex justify-center md:justify-start">
-                            <p className="m-0 font-tinos font-bold text-azul pl-0.5">Conheça os materiais que tornaram esse projeto possível</p>
-                            <div className="ml-4 bg-azul h-4 w-36 mt-3 ">
-                                <hr className="text-azul" />
-                            </div>
-                        </div>
-                    </div>
-                  </div>
-      </section>              
+        <div className="flex flex-col md:block w-full md:w-full pt-8 pl-0 font-light text-2xl">
+          <div className="titulo_da_segunda text-center md:text-left ml-0 md:ml-[100px]">
+            <h2 className="m-0 font-tinos text-4xl md:text-6xl">Componentes</h2>
+            <div className="flex justify-center md:justify-start">
+              <p className="m-0 font-tinos font-bold text-azul pl-0.5 text-base md:text-lg">
+                Conheça os materiais que tornaram esse projeto possível
+              </p>
+              <div className="ml-0 md:ml-4 bg-azul h-2 md:h-4 w-24 md:w-36 mt-3">
+                <hr className="text-azul" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <div className="bg-white py-12">
         <section className="py-8 mb-[20vh] mt-[10vh]" id="componentes">
           <div className="flex flex-col items-center">
-            <div className="relative w-full max-w-6xl">
+            <div className="relative w-full max-w-full md:max-w-6xl">
               <div className="overflow-hidden rounded-lg shadow-lg">
                 <div
                   className="flex transition-transform duration-700 ease-in-out transform-gpu"
@@ -74,7 +75,7 @@ const ComponentesP = () => {
                 >
                   {images.map((image, index) => (
                     <div
-                      className="flex-none w-1/3 px-2"
+                      className="flex-none w-full md:w-1/3 px-2"
                       key={index}
                     >
                       <img
@@ -88,117 +89,73 @@ const ComponentesP = () => {
               </div>
               <button
                 onClick={prevSlide}
-                className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-white text-azul px-4 py-2 rounded-full shadow-md hover:bg-blue-100 transition duration-300"
+                className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-white text-azul px-3 py-1 rounded-full shadow-md hover:bg-blue-100 transition duration-300 md:px-4 md:py-2"
               >
                 ❮
               </button>
               <button
                 onClick={nextSlide}
-                className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-white text-azul px-4 py-2 rounded-full shadow-md hover:bg-blue-100 transition duration-300"
+                className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-white text-azul px-3 py-1 rounded-full shadow-md hover:bg-blue-100 transition duration-300 md:px-4 md:py-2"
               >
                 ❯
               </button>
             </div>
           </div>
-
-          <div className="bg-white py-12">
-        <section className="py-8 mb-[20vh] mt-[10vh]" id="componentes">
-          <div className="flex flex-col items-center">
-            <div className="relative w-full max-w-6xl">
-              <div className="overflow-hidden rounded-lg shadow-lg">
-                <div
-                  className="flex transition-transform duration-700 ease-in-out transform-gpu"
-                  style={{
-                    transform: `translateX(-${(currentIndex / itemsPerSlide) * 100}%)`,
-                  }}
-                >
-                  {images.map((image, index) => (
-                    <div
-                      className="flex-none w-1/3 px-2"
-                      key={index}
-                    >
-                      <img
-                        src={image}
-                        alt={`Slide ${index + 1}`}
-                        className="w-full h-auto object-cover rounded-lg"
-                      />
-                    </div>
-                  ))}
-                </div>
-              </div>
-              <button
-                onClick={prevSlide}
-                className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-white text-azul px-4 py-2 rounded-full shadow-md hover:bg-blue-100 transition duration-300"
-              >
-                ❮
-              </button>
-              <button
-                onClick={nextSlide}
-                className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-white text-azul px-4 py-2 rounded-full shadow-md hover:bg-blue-100 transition duration-300"
-              >
-                ❯
-              </button>
-            </div>
-          </div>
-        
         </section>
-        
-       
       </div>
-      <section className='bg-gray-100  pt-[3rem] h-full'>
-  <div className='pl-[5rem] pb-9'>
-    <h2 className='font-tinos text-6xl'>Contate-nos</h2>
-    <p className='font-fira text-azul'>
-      Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar.
-    </p>
-    <form className='mt-6'>
-      <div className='mb-4'>
-        <label className='block text-azul text-sm font-bold mb-2' htmlFor='name'>
-          Nome
-        </label>
-        <input
-          className='shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
-          id='name'
-          type='text'
-          placeholder='Seu nome'
-        />
-      </div>
-      <div className='mb-4'>
-        <label className='block text-azul text-sm font-bold mb-2' htmlFor='email'>
-          Email
-        </label>
-        <input
-          className='shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
-          id='email'
-          type='email'
-          placeholder='Seu email'
-        />
-      </div>
-      <div className='mb-4'>
-        <label className='block text-azul text-sm font-bold mb-2' htmlFor='message'>
-          Mensagem
-        </label>
-        <textarea
-          className='shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
-          id='message'
-          rows='4'
-          placeholder='Sua mensagem'
-        ></textarea>
-      </div>
-      <div className='mb-4'>
-        <button
-          className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
-          type='submit'
-        >
-          Enviar
-        </button>
-      </div>
-    </form>
-  </div>
-</section>
-</section>
-</div>
-   </>
+
+      <section className='bg-gray-100 pt-[3rem] h-full'>
+        <div className='pl-[5rem] pb-9'>
+          <h2 className='font-tinos text-6xl'>Contate-nos</h2>
+          <p className='font-fira text-azul'>
+            Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar.
+          </p>
+          <form className='mt-6'>
+            <div className='mb-4'>
+              <label className='block text-azul text-sm font-bold mb-2' htmlFor='name'>
+                Nome
+              </label>
+              <input
+                className='shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+                id='name'
+                type='text'
+                placeholder='Seu nome'
+              />
+            </div>
+            <div className='mb-4'>
+              <label className='block text-azul text-sm font-bold mb-2' htmlFor='email'>
+                Email
+              </label>
+              <input
+                className='shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+                id='email'
+                type='email'
+                placeholder='Seu email'
+              />
+            </div>
+            <div className='mb-4'>
+              <label className='block text-azul text-sm font-bold mb-2' htmlFor='message'>
+                Mensagem
+              </label>
+              <textarea
+                className='shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+                id='message'
+                rows='4'
+                placeholder='Sua mensagem'
+              ></textarea>
+            </div>
+            <div className='mb-4'>
+              <button
+                className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
+                type='submit'
+              >
+                Enviar
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </>
   );
 };
 

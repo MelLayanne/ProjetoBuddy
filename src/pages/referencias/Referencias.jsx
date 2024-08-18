@@ -5,23 +5,24 @@ export default function CompletePage() {
         <>
        
             
-            <section className="h-screen w-full">
-                <div className="h-full bg-[url('https://i.imgur.com/MRvKKUX.png')] bg-no-repeat bg-cover bg-center z-10 w-full">
-                    <div className="bg-black bg-opacity-60 h-screen flex justify-center items-center text-center w-full">
-                        <div className="text-white flex items-center justify-center h-full w-full text-center px-4">
-                            <div className="w-3/5 mx-auto pb-16 pt-80 max-w-full text-center md:w-9/10 md:pb-8">
-                                <div className="">
-                                    <div className="font-tinos font-normal text-7xl md:text-5xl">
-                                        <h1 className=' text-7xl pb-7 md:px-4'>Referências</h1>
-                                    </div>
-                                    <div className="text-center">
-                                        <p className='text-gray-400  text-justify font-fira'>Explore a nossa base ciêntífica aqui. Consulte, aprofunde-se  e fique por dentro.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+       <section className="h-screen w-full ">
+            <div className="h-full bg-[url('https://i.imgur.com/QTJkkpi.png')] bg-no-repeat bg-cover bg-center z-10 w-full">
+    <div className="bg-black bg-opacity-60 h-screen flex justify-center items-center text-center w-full">
+        <div className="text-white flex flex-col items-center justify-center h-full w-full text-center px-4">
+            <div className="w-full max-w-full px-4">
+                <h1 className="font-tinos text-5xl md:text-7xl mb-4 mt-[20vh] md:mt-[30vh]">
+                    BUDDY
+                </h1>
+                <div className="w-full max-w-full px-4">
+                    <p className="text-gray-400 text-justify font-fira text-sm md:text-base">
+                        Robô que auxilia responsáveis no desenvolvimento da fala, interação social e reconhecimento de emoções de crianças autistas de nível 2 entre 5 e 10 anos de idade. Possui integração com App, o que facilita a devolução de relatórios que analisam a evolução do autista.
+                    </p>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
             </section>
             <section className="py-8 h-full">
                 <div className="terceira_section" id='referencias'>
