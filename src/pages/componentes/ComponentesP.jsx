@@ -24,7 +24,7 @@ const ComponentesP = () => {
       prevIndex + itemsPerSlide >= images.length ? 0 : prevIndex + itemsPerSlide
     );
   };
-
+   
   return (
     <>
       <section className="h-screen w-full">
@@ -33,18 +33,35 @@ const ComponentesP = () => {
             <div className="text-white flex items-center justify-center h-full w-full text-center px-4">
               <div className="w-full md:w-4/5 mx-auto pb-16 pt-40 max-w-full ">
                 <div className="">
-                  <h1 className="text-5xl md:text-6xl pb-7">Componentes</h1>
-                  <p className="text-gray-400 text-justifyfont-fira">
-                    Veja todas as funções do nosso TCC aqui no site. Pesquise, interaja e entre em contato conosco.
-                  </p>
+                <div className="font-tinos font-normal text-7xl md:text-5xl">
+                <h1 className=' text-7xl pb-7 md:px-4'>Componentes</h1>
+                </div>
+                <div className="text-center">
+                  <p className='text-gray-400  text-justify font-fira'>Descubra todos os componentes usados no nosso projeto e veja como cada peça foi fundamental para realização desse trabalho.</p>
+                  </div>
+                 
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+      
 
-      <div className="bg-gradient-to-b from-blue-100 to-blue-50 py-12">
+      <section className="py-8">
+                <div className="flex flex-col md:block w-full md:w-full pt-8 pl-0 font-light text-2xl">
+                    <div className="titulo_da_segunda text-center md:text-left ml-[100px]">
+                        <h2 className="m-0 font-tinos text-6xl">Componentes</h2>
+                        <div className="flex justify-center md:justify-start">
+                            <p className="m-0 font-tinos font-bold text-azul pl-0.5">Conheça os materiais que tornaram esse projeto possível</p>
+                            <div className="ml-4 bg-azul h-4 w-36 mt-3 ">
+                                <hr className="text-azul" />
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+      </section>              
+      <div className="bg-white py-12">
         <section className="py-8 mb-[20vh] mt-[10vh]" id="componentes">
           <div className="flex flex-col items-center">
             <div className="relative w-full max-w-6xl">
@@ -83,9 +100,52 @@ const ComponentesP = () => {
               </button>
             </div>
           </div>
+
+          <div className="bg-white py-12">
+        <section className="py-8 mb-[20vh] mt-[10vh]" id="componentes">
+          <div className="flex flex-col items-center">
+            <div className="relative w-full max-w-6xl">
+              <div className="overflow-hidden rounded-lg shadow-lg">
+                <div
+                  className="flex transition-transform duration-700 ease-in-out transform-gpu"
+                  style={{
+                    transform: `translateX(-${(currentIndex / itemsPerSlide) * 100}%)`,
+                  }}
+                >
+                  {images.map((image, index) => (
+                    <div
+                      className="flex-none w-1/3 px-2"
+                      key={index}
+                    >
+                      <img
+                        src={image}
+                        alt={`Slide ${index + 1}`}
+                        className="w-full h-auto object-cover rounded-lg"
+                      />
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <button
+                onClick={prevSlide}
+                className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-white text-azul px-4 py-2 rounded-full shadow-md hover:bg-blue-100 transition duration-300"
+              >
+                ❮
+              </button>
+              <button
+                onClick={nextSlide}
+                className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-white text-azul px-4 py-2 rounded-full shadow-md hover:bg-blue-100 transition duration-300"
+              >
+                ❯
+              </button>
+            </div>
+          </div>
+        
         </section>
+        
+       
       </div>
-      <section className=' pt-[3rem] h-full'>
+      <section className='bg-gray-100  pt-[3rem] h-full'>
   <div className='pl-[5rem] pb-9'>
     <h2 className='font-tinos text-6xl'>Contate-nos</h2>
     <p className='font-fira text-azul'>
@@ -136,7 +196,9 @@ const ComponentesP = () => {
     </form>
   </div>
 </section>
-    </>
+</section>
+</div>
+   </>
   );
 };
 

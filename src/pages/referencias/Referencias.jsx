@@ -15,7 +15,7 @@ export default function CompletePage() {
                                         <h1 className=' text-7xl pb-7 md:px-4'>Referências</h1>
                                     </div>
                                     <div className="text-center">
-                                        <p className='text-gray-400  text-justify font-fira'>Veja todas as funções do nosso TCC aqui no site. Pesquise, interaja e entre em contato conosco.</p>
+                                        <p className='text-gray-400  text-justify font-fira'>Explore a nossa base ciêntífica aqui. Consulte, aprofunde-se  e fique por dentro.</p>
                                     </div>
                                 </div>
                             </div>
@@ -26,7 +26,7 @@ export default function CompletePage() {
             <section className="py-8 h-full">
                 <div className="terceira_section" id='referencias'>
                     <h2 className='font-tinos ml-[50px] font-light text-6xl'>Referências</h2>
-                    <div className='flex '><p className='text-azul font-tinos font-bold ml-[50px] text-[20px]'>Confira a base ciêntifica que fundamentaram o desenvolvimento deste projeto</p>
+                    <div className='flex '><p className='text-azul font-tinos font-bold ml-[50px] text-[20px]'>Confira as bases ciêntificas que fundamentaram o desenvolvimento deste projeto</p>
                     </div>
 
                     <div className="flex flex-wrap justify-center items-center pl-[18px]">
@@ -47,7 +47,7 @@ export default function CompletePage() {
                 </div>
             </section>
 
-            <section className=' pt-[3rem] h-full'>
+            <section className='bg-gray-100 pt-[3rem] h-full'>
   <div className='pl-[5rem] pb-9'>
     <h2 className='font-tinos text-6xl'>Contate-nos</h2>
     <p className='font-fira text-azul'>
