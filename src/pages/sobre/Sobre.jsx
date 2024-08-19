@@ -8,7 +8,7 @@ import corda from '../../assets/corda 1.png'
 const Sobre = () => { 
   return (
     <>
-      <section className="h-screen w-full ">
+      <section className="h-screen w-full  ">
             <div className="h-full bg-[url('https://i.imgur.com/xGywgSj.png')] bg-no-repeat bg-cover bg-center z-10 w-full">
     <div className="bg-black bg-opacity-60 h-screen flex justify-center items-center text-center w-full">
         <div className="text-white flex flex-col items-center justify-center h-full w-full text-center px-4">
@@ -34,9 +34,6 @@ const Sobre = () => {
                         <h2 className="m-0 font-tinos text-6xl">Sobre Nós</h2>
                         <div className="flex justify-center md:justify-start">
                             <p className="m-0 font-tinos font-bold text-azul pl-0.5 ">Saiba mais sobre nós e nossa missão de transformar ideias em experiências únicas</p>
-                            <div className="ml-4 bg-azul h-4 w-36 mt-3 ">
-                                <hr className="text-azul" />
-                            </div>
                         </div>
                     </div>
                   </div>
@@ -44,19 +41,19 @@ const Sobre = () => {
 
       <section>
         <div>
-            <p className='font-fira-sans font-normal text-base text-justify ml-[107px] text-[20px] mt[4rem]'>Trabalhando juntas para o sucesso do projeto Buddy, unindo habilidades e conhecimentos diversos para trazer soluções criativas
-            e eficientes, e com muito comprometimento,<br /> fornecer a melhor experiência  para os usuários.</p><br />
+            <p className='font-fira-sans font-normal text-base text-justify ml-[107px] text-[20px] mt[4rem]	xl:max-w-5xl'>Trabalhando juntas para o sucesso do projeto Buddy, unindo habilidades e conhecimentos diversos para trazer soluções criativas
+            e eficientes, e com muito comprometimento, fornecer a melhor experiência  para os usuários.</p><br />
             
           </div>
 
   <section>
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 flex-col md:flex-row ">
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 flex-col md:flex-row max-lg:block">
     <div className="flex flex-col ml-[7rem] items-center bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl mb-6 w-[37rem] h-48">
       <div className="flex justify-center w-full">
         <img className="h-48 object-cover rounded-lg mr-[25rem]" src="https://media.licdn.com/dms/image/v2/D4D03AQHr9eKiQT65ZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710469014338?e=1728518400&v=beta&t=_l0PLQwHIctnf52_iguHfKZTXGJI78lFteb4G1wYx5E" alt="Kauhanny" />
       </div>
       <div className="p-4 text-left">
-        <h4 className="font-bold text-lg mb-2">Kauhanny Santos</h4>
+        <h4 className="font-bold text-lg mb-2">Kauhany Santos</h4>
         <p className="text-gray-600">17 anos</p>
         <p className="text-gray-600">Ensino médio T.I.</p>
         <p className="text-gray-600 mb-4">UNASP-SP</p>
@@ -69,12 +66,12 @@ const Sobre = () => {
     </div>
 
     
-    <div className="flex flex-col items-center justify-start bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl mb-6 w-[37rem] h-48">
-      <div className="flex justify-center w-full">
+    <div className="flex flex-col items-center justify-start bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl mb-6 w-[37rem] h-48 max-lg:ml-[7rem]">
+      <div className="flex justify-center w-full ">
         <img className="h-48 object-cover rounded-lg mr-[25rem]" src="https://media.licdn.com/dms/image/v2/D4D03AQHr9eKiQT65ZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710469014338?e=1728518400&v=beta&t=_l0PLQwHIctnf52_iguHfKZTXGJI78lFteb4G1wYx5E" alt="Kauhanny" />
       </div>
-      <div className="p-4 text-left">
-        <h4 className="font-bold text-lg mb-2">Kauhanny Santos</h4>
+      <div className="p-4 text-left ">
+        <h4 className="font-bold text-lg mb-2">Kauhany Santos</h4>
         <p className="text-gray-600">17 anos</p>
         <p className="text-gray-600">Ensino médio T.I.</p>
         <p className="text-gray-600 mb-4">UNASP-SP</p>
@@ -99,7 +96,7 @@ const Sobre = () => {
                     <div className="flex flex-wrap justify-center items-center pl-[18px]">
                         <div className="pt-[2rem] flex w-full md:w-[700px]">
                             <div className="mb-auto text-justify mt-auto w-[40vh] md:w-full">
-                                <p className='font-fira-sans font-normal text-base text-justify ml-[2rem] mr-[10rem] translate-x-[+1.8rem] translate-y-[-3rem]'>As histórias e insights compartilhados despertaram nossa motivação e foram fundamentais para a decisão de iniciar este projeto. Elas ilustraram desafios e conquistas que ressoaram profundamente conosco, oferecendo uma nova perspectiva e fortalecendo nossa determinação. Essa influência nos impulsionou a buscar soluções inovadoras e a abraçar com entusiasmo as oportunidades à nossa frente.</p><br />
+                                <p className='font-fira-sans font-normal text-base text-justify ml-[2rem] mr-[10rem] translate-x-[+1.8rem] translate-y-[-3rem] max-2xl:mt-6 max-2xl:ml-[-1rem] max-xl:mr-[4rem] max-md:ml-[2rem] max-md:mr-[-12rem] max-sm:mr-[-7rem]'>As histórias e insights compartilhados despertaram nossa motivação e foram fundamentais para a decisão de iniciar este projeto. Elas ilustraram desafios e conquistas que ressoaram profundamente conosco, oferecendo uma nova perspectiva e fortalecendo nossa determinação. Essa influência nos impulsionou a buscar soluções inovadoras e a abraçar com entusiasmo as oportunidades à nossa frente.</p><br />
                             </div>
                         </div>
                         <div className="pr-[3%]" >
@@ -126,7 +123,7 @@ const Sobre = () => {
                   </div>
       </section>
 
-      <div className='flex flex-col md:flex-row md:flex-wrap md:justify-center mt-[3rem]'>
+      <div className='flex flex-col md:flex-row md:flex-wrap md:justify-center mt-[3rem] max-lg:ml-[7rem]'>
     <div className='bg-white p-6 mx-4 mb-6 w-full md:w-[25rem] text-center shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl'>
       <p className='font-fira text-base md:text-lg leading-relaxed text-justify'>
         "O robô ajudou meu filho a entender melhor suas emoções. Ele agora consegue expressar o que sente com mais facilidade."
