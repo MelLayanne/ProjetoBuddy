@@ -16,8 +16,8 @@ const Sobre = () => {
                 <h1 className="font-tinos text-5xl md:text-7xl mb-4 mt-[20vh] md:mt-[30vh]">
                   BUDDY
                 </h1>
-                <div className="w-full max-w-full px-4">
-                    <p className="text-gray-400  font-fira text-sm md:text-base text-justify">
+                <div className="w-full max-w-full px-4 md:ml-[35rem]">
+                    <p className="text-gray-400  font-fira text-sm md:text-base text-justify text-center">
                         Saiba sobre nossos objetivos e motivações. Explore, conheça nossa equipe e conecte-se conosco.
                     </p> 
                 </div>
@@ -96,7 +96,7 @@ const Sobre = () => {
                     <div className="flex flex-wrap justify-center items-center pl-[18px] ">
                         <div className="pt-[2rem] flex w-full md:w-[700px]">
                             <div className="mb-auto text-justify mt-auto w-[40vh] md:w-full">
-                            <p className='font-fira-sans font-normal text-base text-justify ml-[3rem] mt-[-16rem] max-2xl:mt-[0rem] md:mt-[-10rem]'>As histórias e insights compartilhados despertaram nossa motivação e foram fundamentais para a decisão de iniciar este projeto. Elas ilustraram desafios e conquistas que ressoaram profundamente conosco, oferecendo uma nova perspectiva e fortalecendo nossa determinação. Essa influência nos impulsionou a buscar soluções inovadoras e a abraçar com entusiasmo as oportunidades à nossa frente</p><br />
+                            <p className='font-fira-sans font-normal text-base text-justify ml-[-5rem] mt-[-16rem] max-2xl:mt-[0rem] md:mt-[-14rem] md:w-[90%]'>As histórias e insights compartilhados despertaram nossa motivação e foram fundamentais para a decisão de iniciar este projeto. Elas ilustraram desafios e conquistas que ressoaram profundamente conosco, oferecendo uma nova perspectiva e fortalecendo nossa determinação. Essa influência nos impulsionou a buscar soluções inovadoras e a abraçar com entusiasmo as oportunidades à nossa frente</p><br />
                             </div>
                         </div>
                         <div className="pr-[3%]">

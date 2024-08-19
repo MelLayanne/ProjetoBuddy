@@ -28,7 +28,7 @@ export default function CompletePage() {
 <section className="py-8 px-4">
     <div className="flex flex-col w-full pt-8 font-light text-xl">
         <div className="titulo_da_segunda text-center md:text-left">
-            <h2 className="text-4xl md:text-6xl font-tinos md:ml-[6rem]">Funções</h2>
+            <h2 className="text-4xl md:text-6xl font-tinos md:ml-[6rem]">BUDDY</h2>
             <div className="flex justify-center md:justify-start">
                 <p className="m-0 font-tinos font-bold text-azul pl-0.5 md:ml-[6rem]">Descubra as funcionalidades que revelam os detalhes que moldam essa experiência </p>
             </div>
@@ -94,14 +94,14 @@ export default function CompletePage() {
 </section>
 
 
-<section className='h-full pb-[3rem]'>
+<section className='h-full pb-[3rem] md:mb-[-2rem]'>
     <div className='bg-gray-100 h-full pb-[3rem] pt-9 mx-4 md:mx-[59px]'>
         <div className='pl-0 md:pl-[3rem]'>
             <h2 className='font-tinos text-4xl md:text-6xl'>Benefícios</h2>
             <p className='text-azul text-lg md:text-base'>Conheça os benefícios que tornam essa experiência ainda mais significativa</p>
         </div>
         <div className='flex flex-col md:flex-row md:space-x-4'>
-            <div className='bg-white mb-4 md:mb-0 md:pl-[3rem] mt-[3rem] md:ml-[2rem] md:mr-[0.5rem] w-full md:w-[40rem] text-center p-6 md:p-9'>
+            <div className='bg-white mb-4 md:mb-0 md:pl-[3rem] mt-[3rem] md:ml-[12rem] md:mr-[0.5rem] w-full md:w-[40rem] text-center p-6 md:p-9'>
                 <h3 className='font-tinos text-azul font-bold text-lg md:text-xl'>Educação Personalizada</h3>
                 <p className='font-fira text-justify text-sm md:text-base'>Cada criança aprende em seu próprio ritmo. Nosso robô adapta as atividades de acordo com as necessidades individuais de cada uma.</p>
             </div>
@@ -111,11 +111,11 @@ export default function CompletePage() {
             </div>
         </div>
         <div className='flex flex-col md:flex-row md:space-x-4'>
-            <div className='bg-white mb-4 md:mb-0 md:pl-[3rem] mt-[3rem] md:ml-[2rem] w-full md:w-[40rem] text-center p-6 md:p-9'>
+            <div className='bg-white mb-4 md:mb-0 md:pl-[3rem] mt-[3rem] md:ml-[12rem] md:mr-[0.5rem] w-full md:w-[40rem] text-center p-6 md:p-9'>
                 <h3 className='font-tinos text-azul font-bold text-lg md:text-xl'>Interatividade Avançada</h3>
                 <p className='font-fira text-justify text-sm md:text-base'>Através de jogos e atividades, o robô melhora a comunicação, a criatividade e as habilidades cognitivas das crianças.</p>
             </div>
-            <div className='bg-white mb-4 md:mb-0 md:pl-[3rem] pb-[3rem] mt-[3rem] md:ml-[10rem] md:mr-[4rem] w-full md:w-[40rem] text-center p-6 md:p-9'>
+            <div className='bg-white mb-4 md:mb-0 md:pl-[3rem] pb-[3rem] mt-[3rem]  md:ml-[10rem] md:mr-[4rem] w-full md:w-[40rem] text-center p-6 md:p-9'>
                 <h3 className='font-tinos text-azul font-bold text-lg md:text-xl'>Relatórios Detalhados</h3>
                 <p className='font-fira text-justify text-sm md:text-base'>Obtenha insights valiosos sobre o desenvolvimento do seu filho com relatórios que detalham o progresso e as áreas que necessitam de mais atenção.</p>
             </div>
@@ -123,38 +123,6 @@ export default function CompletePage() {
     </div>
 </section>
 
-<section className='pr-[3rem] pt-[3rem] h-full ml-[60px]'>
-    <h2 className='font-tinos text-6xl md:text-6xl text-4xl md:ml-[2rem]'>Principais Telas</h2>
-    <p className='font-fira text-azul text-lg md:text-lg text-base md:ml-[2rem]'>Explore as principais telas que guiam sua navegação e experiência no projeto</p>
-
-    <div className='flex flex-col md:flex-row md:justify-start'>
-        <div className='w-full md:w-1/3 mt-6'>
-            <h3 className='text-azul font-tinos text-2xl md:text-2xl text-xl md:ml-[2rem]'>Tela inicial</h3>
-            <p className='font-fira text-justify text-base md:text-base md:-translate-x-[-0.2rem] text-sm md:ml-[2rem]'>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
-            <div className='flex justify-center md:justify-start'>
-                <img className='w-full md:w-[20rem] h-auto md:h-[12rem] mt-4 md:mt-12 md:-translate-x-[-0.2rem] md:ml-[2rem]' src="https://th.bing.com/th/id/OIP.7kBYXt-ZDu9GYF7J0zvx3wHaFn?rs=1&pid=ImgDetMain" alt="" />
-            </div>
-        </div>
-        <div className='w-full md:w-2/3 mt-4 md:mt-6 flex justify-center md:justify-start'>
-            <img className='w-full md:w-[50rem] h-auto md:h-96 pl-0 md:pl-[4rem] md:-translate-x-[-0.2rem] md:ml-[2rem]' src="https://th.bing.com/th/id/OIP.7kBYXt-ZDu9GYF7J0zvx3wHaFn?rs=1&pid=ImgDetMain" alt="" />
-        </div>
-    </div>
-
-    <div className='flex flex-col md:flex-row md:justify-start mt-4'>
-        <div className='w-full md:w-2/3 flex mt-4 md:mt-6 justify-center md:justify-start'>
-            <img className='w-full md:w-[150rem] h-auto md:h-96 md:pl-[4rem] mt-4 pr-0 md:pr-[3rem] md:ml-[-2rem]' src="https://th.bing.com/th/id/OIP.7kBYXt-ZDu9GYF7J0zvx3wHaFn?rs=1&pid=ImgDetMain" alt="" />
-        </div>
-        <div className='w-full md:w-1/2 flex flex-col items-center md:items-start'>
-            <div className='w-full md:w-2/3 pt-3'>
-                <h3 className='text-azul font-tinos text-xl md:text-2xl mt-4 md:mt-6 text-center md:text-left md:ml-[10rem] md:-translate-x-[-0.5rem]'>Tela Home</h3>
-                <p className='font-fira text-justify text-sm md:text-base mt-2 md:mt-2 text-center md:text-left md:ml-[1.5rem] md:-translate-x-[-8.9rem]'>A tela home conta com abas projetada para ser intuitiva e organizar as informações de forma clara e acessível, permitindo que o usuário navegue facilmente entre as diferentes funções.</p>
-                <div className='flex justify-center md:justify-start'>
-                    <img className='w-full md:w-[22rem] h-auto md:h-[12rem] mt-12 mb-[4rem] md:-translate-x-[-10rem]' src="https://th.bing.com/th/id/OIP.7kBYXt-ZDu9GYF7J0zvx3wHaFn?rs=1&pid=ImgDetMain" alt="" />
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section className='bg-gray-100 pt-[3rem] h-full'>
   <div className='pl-[5rem] pb-9'>
