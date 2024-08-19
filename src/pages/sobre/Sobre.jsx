@@ -149,7 +149,7 @@ const Sobre = () => {
   </section>
       
 
-  <section className='bg-gray-100 container mx-auto p-4 md:p-6 lg:p-8 xl:p-10'>
+  <section className='bg-gray-100 pt-[3rem] h-full'>
   <div className='pl-[5rem] pb-9'>
     <h2 className='font-tinos text-6xl'>Contate-nos</h2>
     <p className='font-fira text-azul'>

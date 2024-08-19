@@ -156,10 +156,10 @@ export default function CompletePage() {
     </div>
 </section>
 
-<section className='bg-gray-100 pt-[3rem] h-full '>
-  <div className='pl-[5rem] pb-9 md:pl-4 pr-[5rem] md:pr-0'>
-    <h2 className='font-tinos text-6xl ml-[2rem] text-4xl md:text-3xl md:ml-0'>Contate-nos</h2>
-    <p className='font-fira text-azul ml-[2rem] text-base md:text-sm md:ml-0'>
+<section className='bg-gray-100 pt-[3rem] h-full'>
+  <div className='pl-[5rem] pb-9'>
+    <h2 className='font-tinos text-6xl'>Contate-nos</h2>
+    <p className='font-fira text-azul'>
       Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar.
     </p>
     <form className='mt-6'>

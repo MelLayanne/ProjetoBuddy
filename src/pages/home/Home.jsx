@@ -77,12 +77,11 @@ function Home() {
             <section className="py-8 container mx-auto px-4 md:px-6 lg:px-8 xl:px-10">
     <div className="flex flex-col w-full pt-8 font-light text-2xl">
         <div className="titulo_da_segunda text-center md:text-left">
-            <h2 className="m-0 font-tinos text-6xl">Processo de criação</h2>
-            <div className="flex justify-center md:justify-start mt-4">
-                <p className="m-0 font-tinos font-bold text-azul">Compreenda os detalhes que moldaram o companheiro da sua criança</p>
-                <div className="ml-4 bg-azul h-4 w-36 mt-3">
-                    <hr className="text-azul" />
-                </div>
+            <h2 className="m-0 font-tinos text-6xl md:ml-[-9rem]">Processo de criação</h2>
+        <div className="flex justify-center md:justify-start mt-4">
+            <p className='font-fira text-azul text-1xl md:ml-[-9rem] md:mt-[-1rem]'>
+            Compreenda os detalhes que moldaram o companheiro da sua criança
+            </p>
             </div>
         </div>
 
@@ -150,19 +149,14 @@ function Home() {
             </div>
             
         </div>
-    
-    
-        
-
       
-        
     </div>
 </section>
 
 
            
 
-            <section className='bg-gray-100 container mx-auto p-4 md:p-6 lg:p-8 xl:p-10"'>
+<section className='bg-gray-100 pt-[3rem] h-full'>
   <div className='pl-[5rem] pb-9'>
     <h2 className='font-tinos text-6xl'>Contate-nos</h2>
     <p className='font-fira text-azul'>

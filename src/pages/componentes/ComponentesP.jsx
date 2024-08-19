@@ -104,58 +104,98 @@ const ComponentesP = () => {
         </section>
       </div>
 
-
-      <section className='bg-gray-100 pt-[3rem] h-full'>
-        <div className='pl-[5rem] pb-9'>
-          <h2 className='font-tinos text-6xl'>Contate-nos</h2>
-          <p className='font-fira text-azul'>
-            Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar.
-          </p>
-          <form className='mt-6'>
-            <div className='mb-4'>
-              <label className='block text-azul text-sm font-bold mb-2' htmlFor='name'>
-                Nome
-              </label>
-              <input
-                className='shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
-                id='name'
-                type='text'
-                placeholder='Seu nome'
-              />
-            </div>
-            <div className='mb-4'>
-              <label className='block text-azul text-sm font-bold mb-2' htmlFor='email'>
-                Email
-              </label>
-              <input
-                className='shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
-                id='email'
-                type='email'
-                placeholder='Seu email'
-              />
-            </div>
-            <div className='mb-4'>
-              <label className='block text-azul text-sm font-bold mb-2' htmlFor='message'>
-                Mensagem
-              </label>
-              <textarea
-                className='shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
-                id='message'
-                rows='4'
-                placeholder='Sua mensagem'
-              ></textarea>
-            </div>
-            <div className='mb-4'>
+      <div className="bg-white py-12">
+        <section className="py-8 mb-[2rem] mt-[-2rem] ml-[-5rem]" id="componentes">
+          <div className="flex flex-col items-center">
+            <div className="relative w-full max-w-full md:max-w-6xl">
+              <div className="overflow-hidden rounded-lg shadow-lg">
+                <div
+                  className="flex transition-transform duration-700 ease-in-out transform-gpu"
+                  style={{
+                    transform: `translateX(-${(currentIndex / itemsPerSlide) * 100}%)`,
+                  }}
+                >
+                  {images.map((image, index) => (
+                    <div
+                      className="flex-none w-full md:w-1/3 px-2"
+                      key={index}
+                    >
+                      <img
+                        src={image}
+                        alt={`Slide ${index + 1}`}
+                        className="w-full h-auto object-cover rounded-lg"
+                      />
+                    </div>
+                  ))}
+                </div>
+              </div>
               <button
-                className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
-                type='submit'
+                onClick={prevSlide}
+                className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-white text-azul px-3 py-1 rounded-full shadow-md hover:bg-blue-100 transition duration-300 md:px-4 md:py-2"
               >
-                Enviar
+                ❮
+              </button>
+              <button
+                onClick={nextSlide}
+                className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-white text-azul px-3 py-1 rounded-full shadow-md hover:bg-blue-100 transition duration-300 md:px-4 md:py-2">❯
               </button>
             </div>
-          </form>
-        </div>
-      </section>
+          </div>
+        </section>
+      </div>
+      <section className='bg-gray-100 pt-[3rem] h-full'>
+  <div className='pl-[5rem] pb-9'>
+    <h2 className='font-tinos text-6xl'>Contate-nos</h2>
+    <p className='font-fira text-azul'>
+      Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar.
+    </p>
+    <form className='mt-6'>
+      <div className='mb-4'>
+        <label className='block text-azul text-sm font-bold mb-2' htmlFor='name'>
+          Nome
+        </label>
+        <input
+          className='shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          id='name'
+          type='text'
+          placeholder='Seu nome'
+        />
+      </div>
+      <div className='mb-4'>
+        <label className='block text-azul text-sm font-bold mb-2' htmlFor='email'>
+          Email
+        </label>
+        <input
+          className='shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          id='email'
+          type='email'
+          placeholder='Seu email'
+        />
+      </div>
+      <div className='mb-4'>
+        <label className='block text-azul text-sm font-bold mb-2' htmlFor='message'>
+          Mensagem
+        </label>
+        <textarea
+          className='shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          id='message'
+          rows='4'
+          placeholder='Sua mensagem'
+        ></textarea>
+      </div>
+      <div className='mb-4'>
+        <button
+          className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
+          type='submit'
+        >
+          Enviar
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+
+      
     </>
   );
 };
