@@ -20,7 +20,7 @@ function Navbar() {
                 <span className={`block w-8 h-0.5 bg-gray-300 rounded-md transition-transform duration-300 ease-linear ${isOpen ? 'opacity-0' : ''}`}></span>
                 <span className={`block w-8 h-0.5 bg-gray-300 rounded-md transition-transform duration-300 ease-linear ${isOpen ? 'rotate-[-45deg] -translate-y-2' : ''}`}></span>
             </button>
-            <nav className={`fixed top-0 right-0 h-screen w-full bg-black bg-opacity-90 flex flex-col items-center justify-center transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'} p-8 z-20 md:hidden`}>
+            <nav className={`fixed top-0 right-0 w-[250px] h-[350px] rounded-lg bg-black bg-opacity-85 flex flex-col items-center justify-center transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'} p-8 z-20 md:hidden`}>
                 <button
                     className="absolute top-4 right-4 text-white text-3xl"
                     onClick={toggleMenu}

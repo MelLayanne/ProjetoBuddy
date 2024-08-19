@@ -9,7 +9,7 @@ const Sobre = () => {
   return (
     <>
       <section className="h-screen w-full  ">
-            <div className="h-full bg-[url('https://i.imgur.com/xGywgSj.png')] bg-no-repeat bg-cover bg-center z-10 w-full">
+            <div className=" bg-[url('https://i.imgur.com/xGywgSj.png')] bg-no-repeat object-cover bg-cover bg-center z-10 h-full w-full">
     <div className="bg-black bg-opacity-60 h-screen flex justify-center items-center text-center w-full">
         <div className="text-white flex flex-col items-center justify-center h-full w-full text-center px-4">
             <div className="w-full max-w-full px-4">
@@ -17,7 +17,7 @@ const Sobre = () => {
                   Sobre nós 
                 </h1>
                 <div className="w-full max-w-full px-4">
-                    <p className="text-gray-400  font-fira text-sm md:text-base text-center ">
+                    <p className="text-gray-400  font-fira text-sm md:text-base text-justify">
                         Saiba sobre nossos objetivos e motivações. Explore, conheça nossa equipe e conecte-se conosco.
                     </p>
                 </div>
@@ -28,7 +28,7 @@ const Sobre = () => {
 
             </section>
 
-      <section className="py-8">
+      <section className="py-8 h-full">
                 <div className="flex flex-col md:block w-full md:w-full pt-8 pl-0 font-light text-2xl">
                     <div className="titulo_da_segunda text-center md:text-left ml-[100px]">
                         <h2 className="m-0 font-tinos text-6xl">Sobre Nós</h2>
@@ -47,10 +47,10 @@ const Sobre = () => {
           </div>
 
   <section>
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 flex-col md:flex-row max-lg:block">
-    <div className="flex flex-col ml-[7rem] items-center bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl mb-6 w-[37rem] h-48">
+  <div className="grid grid-cols-1 md:grid-cols-2  ">
+    <div className="flex flex-col ml-[7rem] items-center bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl mb-6 h-48 md:w-[37rem] w-[72%] sm:w-[90%]">
       <div className="flex justify-center w-full">
-        <img className="h-48 object-cover rounded-lg mr-[25rem]" src="https://media.licdn.com/dms/image/v2/D4D03AQHr9eKiQT65ZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710469014338?e=1728518400&v=beta&t=_l0PLQwHIctnf52_iguHfKZTXGJI78lFteb4G1wYx5E" alt="Kauhanny" />
+        <img className="h-48 object-cover rounded-lg mr-[15rem] w-1/3  absolute  transform md:translate-x-[-6rem] translate-x-1/5 mobile:left-1/4 mobile:transform-none" src="https://media.licdn.com/dms/image/v2/D4D03AQHr9eKiQT65ZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710469014338?e=1728518400&v=beta&t=_l0PLQwHIctnf52_iguHfKZTXGJI78lFteb4G1wYx5E" alt="Kauhanny" />
       </div>
       <div className="p-4 text-left">
         <h4 className="font-bold text-lg mb-2">Kauhany Santos</h4>
@@ -66,9 +66,9 @@ const Sobre = () => {
     </div>
 
     
-    <div className="flex flex-col items-center justify-start bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl mb-6 w-[37rem] h-48 max-lg:ml-[7rem]">
-      <div className="flex justify-center w-full ">
-        <img className="h-48 object-cover rounded-lg mr-[25rem]" src="https://media.licdn.com/dms/image/v2/D4D03AQHr9eKiQT65ZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710469014338?e=1728518400&v=beta&t=_l0PLQwHIctnf52_iguHfKZTXGJI78lFteb4G1wYx5E" alt="Kauhanny" />
+    <div className=" flex flex-col sm:w-3/4 ml-[7rem] items-center bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl mb-6  h-48 md:w-[37rem] w-[72%]">
+      <div className=" relative flex justify-center w-full ">
+        <img className="h-48 object-cover rounded-lg mr-[15rem] w-1/3  absolute  transform md:translate-x-[-6rem] translate-x-1/5 mobile:left-1/4 mobile:transform-none" src="https://media.licdn.com/dms/image/v2/D4D03AQHr9eKiQT65ZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710469014338?e=1728518400&v=beta&t=_l0PLQwHIctnf52_iguHfKZTXGJI78lFteb4G1wYx5E" alt="Kauhanny" />
       </div>
       <div className="p-4 text-left ">
         <h4 className="font-bold text-lg mb-2">Kauhany Santos</h4>
@@ -89,20 +89,19 @@ const Sobre = () => {
 
       <section className="py-8 h-full">
                 
-                    <h2 className='font-tinos ml-[7rem] font-light  m-0  text-6xl mt-[5rem]'>O que nos motiva</h2>
+                    <h2 className='font-tinos ml-[7rem] font-light  m-0  text-6xl mt-[7rem]'>O que nos motiva</h2>
                     <div className='flex '><p className='text-azul font-tinos font-bold text-[20px] ml-[7.25rem]'>Descubra o que nos motiva a criar soluções que fazem a diferença.</p>
                     </div>
 
                     <div className="flex flex-wrap justify-center items-center pl-[18px]">
                         <div className="pt-[2rem] flex w-full md:w-[700px]">
                             <div className="mb-auto text-justify mt-auto w-[40vh] md:w-full">
-                                <p className='font-fira-sans font-normal text-base text-justify ml-[2rem] mr-[10rem] translate-x-[+1.8rem] translate-y-[-3rem] max-2xl:mt-6 max-2xl:ml-[-1rem] max-xl:mr-[4rem] max-md:ml-[2rem] max-md:mr-[-12rem] max-sm:mr-[-7rem]'>As histórias e insights compartilhados despertaram nossa motivação e foram fundamentais para a decisão de iniciar este projeto. Elas ilustraram desafios e conquistas que ressoaram profundamente conosco, oferecendo uma nova perspectiva e fortalecendo nossa determinação. Essa influência nos impulsionou a buscar soluções inovadoras e a abraçar com entusiasmo as oportunidades à nossa frente.</p><br />
+                            <p className='font-fira-sans font-normal text-base text-justify ml-[107px] text-[20px] md:translate-x-[-24rem] mt[4rem]	xl:max-w-5xl'>As histórias e insights compartilhados despertaram nossa motivação e foram fundamentais para a decisão de iniciar este projeto. Elas ilustraram desafios e conquistas que ressoaram profundamente conosco, oferecendo uma nova perspectiva e fortalecendo nossa determinação. Essa influência nos impulsionou a buscar soluções inovadoras e a abraçar com entusiasmo as oportunidades à nossa frente</p><br />
                             </div>
                         </div>
-                        <div className="pr-[3%]" >
-                            <img src={corda} alt="Corda" className='w-[80vh] h-[40vh] translate-y-[-5rem] mr-[4rem] mt-[2.5rem]' />
-                        </div>
-    
+                        <div className="relative pr-[10rem] ml-[7.25rem]">
+                          <img src={corda} alt="Corda" className=" w-[80vh] h-[40vh] translate-y-[-5rem] md:-translate-y-[20rem]  md:translate-x-[26rem] md:ml-[2rem]  -translate-x-1/3  sm:h-autosm:translate-x-[10rem] sm:ml-0 md:h-auto object-cover  mt-[4rem] md:mt-[2.5rem] mr-[2rem] sm:mr-0" /></div>
+
                         </div>
                     
 
@@ -112,7 +111,7 @@ const Sobre = () => {
       <section className="py-8">
                 <div className="flex flex-col md:block w-full md:w-full pt-8 pl-0 font-light text-2xl mt[-5rem]">
                     <div className="titulo_da_segunda text-center md:text-left ml-[100px]">
-                        <h2 className="m-0 font-tinos text-6xl">Depoimentos</h2>
+                        <h2 className="m-0 font-tinos text-6xl md:mt-[-20rem]">Depoimentos</h2>
                         <div className="flex justify-center md:justify-start">
                             <p className="m-0 font-tinos font-bold text-azul pl-0.5 ">Saiba mais sobre nós e nossa missão de transformar ideias em experiências únicas</p>
                             <div className="ml-4 bg-azul h-4 w-36 mt-3 ">
@@ -123,8 +122,8 @@ const Sobre = () => {
                   </div>
       </section>
 
-      <div className='flex flex-col md:flex-row md:flex-wrap md:justify-center mt-[3rem] max-lg:ml-[7rem]'>
-    <div className='bg-white p-6 mx-4 mb-6 w-full md:w-[25rem] text-center shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl'>
+      <div className='flex flex-col md:flex-row md:flex-wrap md:justify-center md:mt-[-14rem] max-lg:ml-[7rem] mb-[5rem]'>
+    <div className='bg-white p-6  mx-4 mb-6 w-[82%] md:w-[25rem] text-center shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl'>
       <p className='font-fira text-base md:text-lg leading-relaxed text-justify'>
         "O robô ajudou meu filho a entender melhor suas emoções. Ele agora consegue expressar o que sente com mais facilidade."
       </p>
@@ -132,7 +131,7 @@ const Sobre = () => {
         - João, pai de Lucas
       </p>
     </div>
-    <div className='bg-white p-6 mx-4 mb-6 w-full md:w-[25rem] text-center shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl'>
+    <div className='bg-white p-6 mx-4 mb-6 md:w-[25rem] text-center shadow-lg  w-[82%] rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl'>
       <p className='font-fira text-base md:text-lg leading-relaxed text-justify'>
         "Minha filha adora as atividades interativas do robô. Ela fica super engajada e sempre quer brincar mais."
       </p>
@@ -140,7 +139,7 @@ const Sobre = () => {
         - Maria, mãe de Ana
       </p>
     </div>
-    <div className='bg-white p-6 mx-4 mb-6 w-full md:w-[25rem] text-center shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl'>
+    <div className='bg-white p-6 mx-4 mb-6 w-[82%] md:w-[25rem] text-center shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl'>
       <p className='font-fira text-base md:text-lg leading-relaxed text-justify'>
         "Os relatórios detalhados me ajudam a acompanhar o progresso do meu filho e saber onde ele precisa de mais ajuda."
       </p>
