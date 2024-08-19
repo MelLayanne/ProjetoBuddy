@@ -54,9 +54,7 @@ const ComponentesP = () => {
               <p className="m-0 font-tinos font-bold text-azul pl-0.5 text-base md:text-lg">
                 Conheça os materiais que tornaram esse projeto possível
               </p>
-              <div className="ml-0 md:ml-4 bg-azul h-2 md:h-4 w-24 md:w-36 mt-3">
-                <hr className="text-azul" />
-              </div>
+              
             </div>
           </div>
         </div>
