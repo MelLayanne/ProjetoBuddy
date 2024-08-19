@@ -30,10 +30,7 @@ export default function CompletePage() {
         <div className="titulo_da_segunda text-center md:text-left">
             <h2 className="text-4xl md:text-6xl font-tinos">Funções</h2>
             <div className="flex justify-center md:justify-start">
-                <p className="m-0 font-tinos font-bold text-azul pl-0.5">Entenda</p>
-                <div className="ml-4 bg-azul h-2 md:h-4 w-24 md:w-36 mt-3 ">
-                    <hr className="text-azul" />
-                </div>
+                <p className="m-0 font-tinos font-bold text-azul pl-0.5">Descubra as funcionalidades que revelam os detalhes que moldam essa experiência </p>
             </div>
         </div>
 
