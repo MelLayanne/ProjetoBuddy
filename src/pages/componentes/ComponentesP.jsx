@@ -63,7 +63,7 @@ const ComponentesP = () => {
       </section>
 
       <div className="bg-white py-12">
-        <section className="py-8 mb-[20vh] mt-[-2rem] ml-[-5rem]" id="componentes">
+        <section className="py-8 mb-[2rem] mt-[-2rem] ml-[-5rem]" id="componentes">
           <div className="flex flex-col items-center">
             <div className="relative w-full max-w-full md:max-w-6xl">
               <div className="overflow-hidden rounded-lg shadow-lg">
@@ -104,47 +104,6 @@ const ComponentesP = () => {
         </section>
       </div>
 
-      <div className="bg-white py-12">
-        <section className="py-8 mb-[4rem] mt-[-10rem] ml-[-5rem]" id="componentes">
-          <div className="flex flex-col items-center">
-            <div className="relative w-full max-w-full md:max-w-6xl">
-              <div className="overflow-hidden rounded-lg shadow-lg">
-                <div
-                  className="flex transition-transform duration-700 ease-in-out transform-gpu"
-                  style={{
-                    transform: `translateX(-${(currentIndex / itemsPerSlide) * 100}%)`,
-                  }}
-                >
-                  {images.map((image, index) => (
-                    <div
-                      className="flex-none w-full md:w-1/3 px-2"
-                      key={index}
-                    >
-                      <img
-                        src={image}
-                        alt={`Slide ${index + 1}`}
-                        className="w-full h-auto object-cover rounded-lg"
-                      />
-                    </div>
-                  ))}
-                </div>
-              </div>
-              <button
-                onClick={prevSlide}
-                className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-white text-azul px-3 py-1 rounded-full shadow-md hover:bg-blue-100 transition duration-300 md:px-4 md:py-2"
-              >
-                ❮
-              </button>
-              <button
-                onClick={nextSlide}
-                className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-white text-azul px-3 py-1 rounded-full shadow-md hover:bg-blue-100 transition duration-300 md:px-4 md:py-2"
-              >
-                ❯
-              </button>
-            </div>
-          </div>
-        </section>
-      </div>
 
       <section className='bg-gray-100 pt-[3rem] h-full'>
         <div className='pl-[5rem] pb-9'>

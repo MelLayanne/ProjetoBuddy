@@ -26,8 +26,8 @@ export default function CompletePage() {
             </section>
             <section className="py-8 h-full">
                 <div className="terceira_section" id='referencias'>
-                    <h2 className='font-tinos ml-[50px] font-light text-6xl'>Referências</h2>
-                    <div className='flex '><p className='text-azul font-tinos font-bold ml-[50px] text-[20px]'>Confira as bases ciêntificas que fundamentaram o desenvolvimento deste projeto</p>
+                    <h2 className='font-tinos ml-[6rem] font-light text-6xl '>Referências</h2>
+                    <div className='flex '><p className='text-azul font-tinos font-bold ml-[6rem] text-[20px]'>Confira as bases ciêntificas que fundamentaram o desenvolvimento deste projeto</p>
                     </div>
 
                     <div className="flex flex-wrap justify-center items-center pl-[18px]">
@@ -41,7 +41,7 @@ export default function CompletePage() {
                         </div>
                         <div className="pr-[3%]" >
                             <img src={corda} alt="Corda" className='w-[80vh]' />
-                            <div className='flex'><h3 className='pl-11'>Artigos Trabalhados</h3>
+                            <div className='flex ml-[1rem]'><h3 className='pl-11'>Artigos Trabalhados</h3>
                                 <div><a className='text-azul w-[30px] md:pl-11' href="">Tratamento Terapêutico</a><br /> <a className='text-azul w-[30px] md:p-11' href="">Robótica na educação</a></div></div>
                         </div>
                     </div>

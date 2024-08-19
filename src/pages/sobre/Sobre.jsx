@@ -8,7 +8,7 @@ import corda from '../../assets/corda 1.png'
 const Sobre = () => { 
   return (
     <>
-      <section className="h-screen w-full  ">
+      <section className="h-screen w-full ">
             <div className=" bg-[url('https://i.imgur.com/xGywgSj.png')] bg-no-repeat object-cover bg-cover bg-center z-10 h-full w-full">
     <div className="bg-black bg-opacity-60 h-screen flex justify-center items-center text-center w-full">
         <div className="text-white flex flex-col items-center justify-center h-full w-full text-center px-4">
@@ -41,13 +41,13 @@ const Sobre = () => {
 
       <section>
         <div>
-            <p className='font-fira-sans font-normal text-base text-justify ml-[107px] text-[20px] mt[4rem]	xl:max-w-5xl'>Trabalhando juntas para o sucesso do projeto Buddy, unindo habilidades e conhecimentos diversos para trazer soluções criativas
+            <p className='font-fira-sans font-normal text-base text-justify ml-[107px] text-[20px] mt[4rem]	xl:max-w-7xl'>Trabalhando juntas para o sucesso do projeto Buddy, unindo habilidades e conhecimentos diversos para trazer soluções criativas
             e eficientes, e com muito comprometimento, fornecer a melhor experiência  para os usuários.</p><br />
             
           </div>
 
   <section>
-  <div className="grid grid-cols-1 md:grid-cols-2  ">
+  <div className="grid grid-cols-1 md:grid-cols-2">
     <div className="flex flex-col ml-[7rem] items-center bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl mb-6 h-48 md:w-[37rem] w-[72%] sm:w-[90%]">
       <div className="flex justify-center w-full">
         <img className="h-48 object-cover rounded-lg mr-[15rem] w-1/3  absolute  transform md:translate-x-[-6rem] translate-x-1/5 mobile:left-1/4 mobile:transform-none" src="https://media.licdn.com/dms/image/v2/D4D03AQHr9eKiQT65ZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710469014338?e=1728518400&v=beta&t=_l0PLQwHIctnf52_iguHfKZTXGJI78lFteb4G1wYx5E" alt="Kauhanny" />
@@ -66,7 +66,7 @@ const Sobre = () => {
     </div>
 
     
-    <div className=" flex flex-col sm:w-3/4 ml-[7rem] items-center bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl mb-6  h-48 md:w-[37rem] w-[72%]">
+    <div className=" flex flex-col sm:w-3/4 ml-[2.9rem] items-center bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl mb-6  h-48 md:w-[37rem] w-[72%]">
       <div className=" relative flex justify-center w-full ">
         <img className="h-48 object-cover rounded-lg mr-[15rem] w-1/3  absolute  transform md:translate-x-[-6rem] translate-x-1/5 mobile:left-1/4 mobile:transform-none" src="https://media.licdn.com/dms/image/v2/D4D03AQHr9eKiQT65ZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710469014338?e=1728518400&v=beta&t=_l0PLQwHIctnf52_iguHfKZTXGJI78lFteb4G1wYx5E" alt="Kauhanny" />
       </div>
@@ -89,14 +89,14 @@ const Sobre = () => {
 
       <section className="py-8 h- ">
                 
-                    <h2 className='font-tinos ml-[7rem] font-light  m-0  text-6xl mt-[7rem] max-md:ml-[3rem]'>O que nos motiva</h2>
+                    <h2 className='font-tinos ml-[7rem] font-light  m-0  text-6xl  md:mt-[3rem] mt-[7rem] max-md:ml-[3rem]'>O que nos motiva</h2>
                     <div className='flex '><p className='text-azul font-tinos font-bold text-[20px] ml-[7.25rem] max-md:ml-[3rem] '>Descubra o que nos motiva a criar soluções que fazem a diferença.</p>
                     </div>
 
                     <div className="flex flex-wrap justify-center items-center pl-[18px] ">
                         <div className="pt-[2rem] flex w-full md:w-[700px]">
                             <div className="mb-auto text-justify mt-auto w-[40vh] md:w-full">
-                            <p className='font-fira-sans font-normal text-base text-justify ml-[3rem] mt-[-16rem] max-2xl:mt-[0rem]'>As histórias e insights compartilhados despertaram nossa motivação e foram fundamentais para a decisão de iniciar este projeto. Elas ilustraram desafios e conquistas que ressoaram profundamente conosco, oferecendo uma nova perspectiva e fortalecendo nossa determinação. Essa influência nos impulsionou a buscar soluções inovadoras e a abraçar com entusiasmo as oportunidades à nossa frente</p><br />
+                            <p className='font-fira-sans font-normal text-base text-justify ml-[3rem] mt-[-16rem] max-2xl:mt-[0rem] md:mt-[-10rem]'>As histórias e insights compartilhados despertaram nossa motivação e foram fundamentais para a decisão de iniciar este projeto. Elas ilustraram desafios e conquistas que ressoaram profundamente conosco, oferecendo uma nova perspectiva e fortalecendo nossa determinação. Essa influência nos impulsionou a buscar soluções inovadoras e a abraçar com entusiasmo as oportunidades à nossa frente</p><br />
                             </div>
                         </div>
                         <div className="pr-[3%]">
@@ -149,7 +149,7 @@ const Sobre = () => {
   </section>
       
 
-      <section className='bg-gray-100'>
+  <section className='bg-gray-100 container mx-auto p-4 md:p-6 lg:p-8 xl:p-10'>
   <div className='pl-[5rem] pb-9'>
     <h2 className='font-tinos text-6xl'>Contate-nos</h2>
     <p className='font-fira text-azul'>
@@ -200,7 +200,6 @@ const Sobre = () => {
     </form>
   </div>
 </section>
-
     </>
   );
 };
