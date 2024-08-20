@@ -117,7 +117,7 @@ export default function Home() {
 
            
 
-<section className='bg-gray-100 pt-[3rem] h-full'>
+<section className='bg-gray-100 pt-[3rem] h-full md:h-[65%]'>
   <div className='pl-[5rem] pb-9 '>
     <h2 className='font-tinos text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
     <p className='font-fira text-azul text-justify md:w-[50rem]  w-[20rem] md:ml-0 ml-[-2.8rem]'>
@@ -129,7 +129,7 @@ export default function Home() {
           Nome
         </label>
         <input
-          className='md:ml-0 ml-[-2.8rem] md:w-[76rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          className='md:ml-0 ml-[-2.8rem] md:w-[82rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
           id='name'
           type='text'
           placeholder='Seu nome'
@@ -140,7 +140,7 @@ export default function Home() {
           Email
         </label>
         <input
-          className=' md:ml-0 ml-[-2.8rem] md:w-[76rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          className=' md:ml-0 ml-[-2.8rem] md:w-[82rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
           id='email'
           type='email'
           placeholder='Seu email'
@@ -151,7 +151,7 @@ export default function Home() {
           Mensagem
         </label>
         <textarea
-          className='md:ml-0 ml-[-2.8rem] md:w-[76rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          className='md:ml-0 ml-[-2.8rem] md:w-[82rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
           id='message'
           rows='4'
           placeholder='Sua mensagem'

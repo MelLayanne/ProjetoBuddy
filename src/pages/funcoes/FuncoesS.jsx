@@ -94,8 +94,8 @@ export default function CompletePage() {
 </section>
 
 
-<section className='h-full pb-[3rem] md:mb-[-2rem]'>
-    <div className='bg-gray-100 h-full pb-[3rem] pt-9 mx-4 md:mx-[59px]'>
+<section className='h-full pb-[3rem] md:mb-[-2rem] md:w-[180%] md:ml-[-4rem]  w-[108%] ml-[-1rem]  '>
+    <div className='bg-gray-100 h-full pb-[3rem] pt-9 mx-4 md:mx-[72px] '>
         <div className='pl-0 md:pl-[3rem]'>
             <h2 className='font-tinos text-4xl md:text-6xl'>Benefícios</h2>
             <p className='text-azul text-lg md:text-base'>Conheça os benefícios que tornam essa experiência ainda mais significativa</p>
@@ -105,7 +105,7 @@ export default function CompletePage() {
                 <h3 className='font-tinos text-azul font-bold text-lg md:text-xl'>Educação Personalizada</h3>
                 <p className='font-fira text-justify text-sm md:text-base'>Cada criança aprende em seu próprio ritmo. Nosso robô adapta as atividades de acordo com as necessidades individuais de cada uma.</p>
             </div>
-            <div className='bg-white mb-4 md:mb-0 md:pl-[3rem] mt-[3rem] md:ml-[10rem] md:mr-[4rem] w-full md:w-[40rem] text-center p-6 md:p-9'>
+            <div className='bg-white mb-4 md:mb-0 md:pl-[3rem] mt-[3rem] md:mr-[-2rem] w-full md:w-[40rem] text-center p-6 md:p-9'>
                 <h3 className='font-tinos text-azul font-bold text-lg md:text-xl'>Segurança e Conforto</h3>
                 <p className='font-fira text-justify text-sm md:text-base'>Nossa tecnologia garante que as interações sejam seguras e adequadas para todas as idades, promovendo um ambiente de conforto para as crianças.</p>
             </div>
@@ -123,7 +123,7 @@ export default function CompletePage() {
     </div>
 </section>
 
-<section className='bg-gray-100 pt-[3rem] h-full'>
+<section className='bg-gray-100 pt-[3rem] h-full md:h-[65%]'>
   <div className='pl-[5rem] pb-9 '>
     <h2 className='font-tinos text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
     <p className='font-fira text-azul text-justify md:w-[50rem]  w-[20rem] md:ml-0 ml-[-2.8rem]'>
@@ -135,7 +135,7 @@ export default function CompletePage() {
           Nome
         </label>
         <input
-          className='md:ml-0 ml-[-2.8rem] md:w-[76rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          className='md:ml-0 ml-[-2.8rem] md:w-[97rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
           id='name'
           type='text'
           placeholder='Seu nome'
@@ -146,7 +146,7 @@ export default function CompletePage() {
           Email
         </label>
         <input
-          className=' md:ml-0 ml-[-2.8rem] md:w-[76rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          className=' md:ml-0 ml-[-2.8rem] md:w-[97rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
           id='email'
           type='email'
           placeholder='Seu email'
@@ -157,7 +157,7 @@ export default function CompletePage() {
           Mensagem
         </label>
         <textarea
-          className='md:ml-0 ml-[-2.8rem] md:w-[76rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          className='md:ml-0 ml-[-2.8rem] md:w-[97rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
           id='message'
           rows='4'
           placeholder='Sua mensagem'

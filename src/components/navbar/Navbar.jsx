@@ -10,8 +10,8 @@ function Navbar() {
     };
 
     return (
-        <header className="flex items-center justify-between absolute w-full px-12 z-10 h-auto">
-            <img src={logo} alt="Logo" className="w-52" />
+        <header className="flex items-center justify-between absolute w-full px-12 z-10 h-auto mt-[-1.5rem]">
+            <img src={logo} alt="Logo" className="md:w-50 w-40 md:ml-0 ml-[-3.5rem]" />
             <button
                 className={`md:hidden flex flex-col justify-between w-8 h-8 bg-transparent border-none cursor-pointer z-20 transition-transform duration-300 ease-linear ${isOpen ? 'open' : ''}`}
                 onClick={toggleMenu}

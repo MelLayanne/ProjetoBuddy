@@ -49,7 +49,7 @@ export default function CompletePage() {
                 </div>
             </section>
 
-            <section className='bg-gray-100 pt-[3rem] h-full'>
+            <section className='bg-gray-100 pt-[3rem] h-full md:h-[65%]'>
   <div className='pl-[5rem] pb-9 '>
     <h2 className='font-tinos text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
     <p className='font-fira text-azul text-justify md:w-[50rem]  w-[20rem] md:ml-0 ml-[-2.8rem]'>
