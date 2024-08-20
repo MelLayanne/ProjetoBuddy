@@ -1,5 +1,6 @@
 import React from 'react';
-import corda from '../../assets/corda 1.png'
+import corda from '../../assets/corda 1.png';
+
 export default function CompletePage() {
     return (
         <>
@@ -49,55 +50,55 @@ export default function CompletePage() {
             </section>
 
             <section className='bg-gray-100 pt-[3rem] h-full'>
-  <div className='pl-[5rem] pb-9'>
-    <h2 className='font-tinos text-6xl'>Contate-nos</h2>
-    <p className='font-fira text-azul'>
+  <div className='pl-[5rem] pb-9 '>
+    <h2 className='font-tinos text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
+    <p className='font-fira text-azul text-justify md:w-[50rem]  w-[20rem] md:ml-0 ml-[-2.8rem]'>
       Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar.
     </p>
     <form className='mt-6'>
       <div className='mb-4'>
-        <label className='block text-azul text-sm font-bold mb-2' htmlFor='name'>
+        <label className='block text-azul text-sm font-bold mb-2 md:ml-0 ml-[-2.8rem]' htmlFor='name'>
           Nome
         </label>
         <input
-          className='shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          className='md:ml-0 ml-[-2.8rem] md:w-[76rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
           id='name'
           type='text'
           placeholder='Seu nome'
         />
       </div>
       <div className='mb-4'>
-        <label className='block text-azul text-sm font-bold mb-2' htmlFor='email'>
+        <label className='block text-azul text-sm font-bold mb-2 md:ml-0 ml-[-2.8rem]' htmlFor='email'>
           Email
         </label>
         <input
-          className='shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          className=' md:ml-0 ml-[-2.8rem] md:w-[76rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
           id='email'
           type='email'
           placeholder='Seu email'
         />
       </div>
       <div className='mb-4'>
-        <label className='block text-azul text-sm font-bold mb-2' htmlFor='message'>
+        <label className='block text-azul text-sm font-bold mb-2 md:ml-0 ml-[-2.8rem]' htmlFor='message'>
           Mensagem
         </label>
         <textarea
-          className='shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          className='md:ml-0 ml-[-2.8rem] md:w-[76rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
           id='message'
           rows='4'
           placeholder='Sua mensagem'
-        ></textarea>
+></textarea>
       </div>
       <div className='mb-4'>
         <button
-          className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
-          type='submit'
-        >
+          className='md:ml-0 ml-[-2.8rem] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
+          type='submit'>
           Enviar
         </button>
       </div>
     </form>
   </div>
+ 
 </section>
 
 </>
