@@ -1,4 +1,7 @@
 import React from 'react';
+import imgTemporarea from '../../assets/imgTemporarea.svg';
+
+
 
 
 export default function CompletePage() {
@@ -13,7 +16,7 @@ export default function CompletePage() {
                 <div className="w-4/5 mx-auto pb-16 pt-40 max-w-full text-center md:w-9/10 md:pb-8">
                     <div className="">
                         <div className="font-tinos font-normal text-4xl md:text-5xl">
-                            <h1 className='text-4xl pb-7 md:text-7xl'>Funções</h1>
+                            <h1 className='text-4xl pb-7 md:text-7xl'>BUDDY</h1>
                         </div>
                         <div className="text-center">
                             <p className='text-gray-400 text-base md:text-lg font-fira'>Veja todas as funções do nosso TCC aqui no site. Pesquise, interaja e entre em contato conosco.</p>
@@ -27,10 +30,10 @@ export default function CompletePage() {
 
 <section className="py-8 px-4">
     <div className="flex flex-col w-full pt-8 font-light text-xl">
-        <div className="titulo_da_segunda text-center md:text-left">
-            <h2 className="text-4xl md:text-6xl font-tinos md:ml-[6rem]">BUDDY</h2>
+        <div className="pl-[4rem] ">
+            <h2 className="text-4xl md:text-6xl font-tinos">Funções</h2>
             <div className="flex justify-center md:justify-start">
-                <p className="m-0 font-tinos font-bold text-azul pl-0.5 md:ml-[6rem]">Descubra as funcionalidades que revelam os detalhes que moldam essa experiência </p>
+                <p className="m-0 font-tinos font-bold text-azul ">Descubra as funcionalidades que revelam os detalhes que moldam essa experiência </p>
             </div>
         </div>
 
@@ -94,28 +97,28 @@ export default function CompletePage() {
 </section>
 
 
-<section className='h-full pb-[3rem] md:mb-[-2rem] md:w-[180%] md:ml-[-4rem]  w-[108%] ml-[-1rem]  '>
-    <div className='bg-gray-100 h-full pb-[3rem] pt-9 mx-4 md:mx-[72px] '>
+<section className='pb-[3rem] bg-gray-100 pt-[3rem] h-full '>
+    <div className='bg-gray-100 h-full pb-[3rem] pt-9 mx-4 md:mx-[72px]pl-[5rem]'>
         <div className='pl-0 md:pl-[3rem]'>
             <h2 className='font-tinos text-4xl md:text-6xl'>Benefícios</h2>
-            <p className='text-azul text-lg md:text-base'>Conheça os benefícios que tornam essa experiência ainda mais significativa</p>
+            <p className='text-azul text-lg md:text-base text-fira font-bold'>Conheça os benefícios que tornam essa experiência ainda mais significativa</p>
         </div>
-        <div className='flex flex-col md:flex-row md:space-x-4'>
-            <div className='bg-white mb-4 md:mb-0 md:pl-[3rem] mt-[3rem] md:ml-[12rem] md:mr-[0.5rem] w-full md:w-[40rem] text-center p-6 md:p-9'>
+        <div className='flex gap-10 ml-12 mt-8 max-sm:block max-sm:ml-1'>
+            <div className='bg-white p-5 md:p-9 w-[48%] text-center max-sm:w-[98%] max-sm:mb-7'>
                 <h3 className='font-tinos text-azul font-bold text-lg md:text-xl'>Educação Personalizada</h3>
                 <p className='font-fira text-justify text-sm md:text-base'>Cada criança aprende em seu próprio ritmo. Nosso robô adapta as atividades de acordo com as necessidades individuais de cada uma.</p>
             </div>
-            <div className='bg-white mb-4 md:mb-0 md:pl-[3rem] mt-[3rem] md:mr-[-2rem] w-full md:w-[40rem] text-center p-6 md:p-9'>
+            <div className='bg-white p-5 md:p-9 w-[48%] text-center max-sm:w-[98%] max-sm:mb-7'>
                 <h3 className='font-tinos text-azul font-bold text-lg md:text-xl'>Segurança e Conforto</h3>
                 <p className='font-fira text-justify text-sm md:text-base'>Nossa tecnologia garante que as interações sejam seguras e adequadas para todas as idades, promovendo um ambiente de conforto para as crianças.</p>
             </div>
         </div>
-        <div className='flex flex-col md:flex-row md:space-x-4'>
-            <div className='bg-white mb-4 md:mb-0 md:pl-[3rem] mt-[3rem] md:ml-[12rem] md:mr-[0.5rem] w-full md:w-[40rem] text-center p-6 md:p-9'>
+        <div className='flex gap-10 mt-10 ml-12 max-sm:block max-sm:ml-1'>
+            <div className='bg-white p-5 md:p-9 w-[48%] text-center max-sm:w-[98%] max-sm:mb-7'>
                 <h3 className='font-tinos text-azul font-bold text-lg md:text-xl'>Interatividade Avançada</h3>
                 <p className='font-fira text-justify text-sm md:text-base'>Através de jogos e atividades, o robô melhora a comunicação, a criatividade e as habilidades cognitivas das crianças.</p>
             </div>
-            <div className='bg-white mb-4 md:mb-0 md:pl-[3rem] pb-[3rem] mt-[3rem]  md:ml-[10rem] md:mr-[4rem] w-full md:w-[40rem] text-center p-6 md:p-9'>
+            <div className='bg-white p-5 md:p-9 w-[48%] text-center max-sm:w-[98%] max-sm:mb-7'>
                 <h3 className='font-tinos text-azul font-bold text-lg md:text-xl'>Relatórios Detalhados</h3>
                 <p className='font-fira text-justify text-sm md:text-base'>Obtenha insights valiosos sobre o desenvolvimento do seu filho com relatórios que detalham o progresso e as áreas que necessitam de mais atenção.</p>
             </div>
@@ -123,10 +126,37 @@ export default function CompletePage() {
     </div>
 </section>
 
+<section className='mt-10 pb-10 mb-7'>
+    <div>
+        <div className='pl-[5rem] pb-9'>
+            <h2 className='font-tinos text-4xl md:text-6xl md:ml-0 ml-[-3rem]'>Principais Telas</h2>
+            <p className='text-azul text-lg md:text-base font-bold w-50% md:ml-0 ml-[-2.8rem]'>Explore as principais telas que guiam sua navegação e experiência no projeto</p>
+        </div>
+        <div className='flex pl-[5rem] gap-32 max-sm:block max-sm:pl-[2.5rem] '>
+            <div className='max-w-80 max-sm:max-w-60.5'>
+                <h3 className='font-tinos text-azul text-xl '>Tela Inicial:</h3>
+                <p className='font-fira text-justify text-sm '>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
+                <img className='mt-4 mb-15 max-sm:mb-10' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
+            </div>
+            <div className='max-w-80'>
+                <h3 className='font-tinos text-azul text-xl '>Tela Inicial:</h3>
+                <p className='font-fira text-justify text-sm '>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
+                <img className='mt-4 mb-15' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
+            </div>
+            <div className='max-w-80'>
+                <h3 className='font-tinos text-azul text-xl '>Tela Inicial:</h3>
+                <p className='font-fira text-justify text-sm '>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
+                <img className='mt-4 mb-15' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
+            </div>
+
+        </div>
+    </div>
+</section>
+
 <section className='bg-gray-100 pt-[3rem] h-full md:h-[65%]'>
   <div className='pl-[5rem] pb-9 '>
-    <h2 className='font-tinos text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
-    <p className='font-fira text-azul text-justify md:w-[50rem]  w-[20rem] md:ml-0 ml-[-2.8rem]'>
+    <h2 className='font-tinos text-4xl md:text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
+    <p className='font-fira text-azul font-bold text-justify w-50% md:ml-0 ml-[-2.8rem]'>
       Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar.
     </p>
     <form className='mt-6'>
@@ -135,7 +165,7 @@ export default function CompletePage() {
           Nome
         </label>
         <input
-          className='md:ml-0 ml-[-2.8rem] md:w-[97rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          className='md:ml-0 ml-[-2.8rem] md:w-[95%] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
           id='name'
           type='text'
           placeholder='Seu nome'
@@ -146,7 +176,7 @@ export default function CompletePage() {
           Email
         </label>
         <input
-          className=' md:ml-0 ml-[-2.8rem] md:w-[97rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          className=' md:ml-0 ml-[-2.8rem] md:w-[95%] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
           id='email'
           type='email'
           placeholder='Seu email'
@@ -157,7 +187,7 @@ export default function CompletePage() {
           Mensagem
         </label>
         <textarea
-          className='md:ml-0 ml-[-2.8rem] md:w-[97rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          className='md:ml-0 ml-[-2.8rem] md:w-[95%] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
           id='message'
           rows='4'
           placeholder='Sua mensagem'
