@@ -15,7 +15,7 @@ export default function CompletePage() {
                     BUDDY
                 </h1>
                 <div className="w-full max-w-full px-4">
-                    <p className="text-gray-400 text-justify font-fira text-sm md:text-base">
+                    <p className="text-gray-400 text-justify font-fira text-sm md:text-base md:ml-[1.5rem] md:mr-[4rem]">
                         Robô que auxilia responsáveis no desenvolvimento da fala, interação social e reconhecimento de emoções de crianças autistas de nível 2 entre 5 e 10 anos de idade. Possui integração com App, o que facilita a devolução de relatórios que analisam a evolução do autista.
                     </p>
                 </div>
@@ -27,22 +27,21 @@ export default function CompletePage() {
             </section>
             <section className="py-8 h-full">
                 <div className="terceira_section" id='referencias'>
-                    <h2 className='font-tinos ml-[6rem] font-light text-6xl '>Referências</h2>
-                    <div className='flex '><p className='text-azul font-tinos font-bold ml-[6rem] text-[20px]'>Confira as bases ciêntificas que fundamentaram o desenvolvimento deste projeto</p>
+                    <h2 className='font-tinos md:ml-[4rem] ml-[6rem] font-light text-6xl md:mt-[2rem] '>Referências</h2>
+                    <div className='flex '><p className='text-azul font-tinos font-bold ml-[6rem] text-[20px] md:ml-[4rem]'>Confira as bases ciêntificas que fundamentaram o desenvolvimento deste projeto</p>
                     </div>
 
                     <div className="flex flex-wrap justify-center items-center pl-[18px]">
                         <div className="pt-[2rem] flex w-full md:w-[700px]">
-                            <hr className='h-[370px] w-[2rem] bg-[rgb(129,186,239)] border-none mr-8' />
                             <div className="mb-auto text-justify mt-auto w-[40vh] md:w-full">
-                                <p className='font-fira-sans font-normal text-base text-justify'>A ciência comprova a importância do desenvolvimento de robôs personalizados que auxiliam na terapia e na educação de crianças entre 5 e 10 anos e que se encaixam no nível 1 e 2 do Transtorno do Espectro Autista (TEA).</p><br />
-                                <p className='font-fira-sans font-normal text-base text-justify'>Nesse sentido, pontuam-se maneiras de estimular a atenção, habilidades de comunicação, interação e aprendizado das crianças autistas através de animações que simulavam expressões humanas de forma simplificada na tela dos robôs, já que a falta de emoções nesses dispositivos facilitavam o interesse ao interagir com eles.</p><br />
-                                <p className='font-fira-sans font-normal text-base text-justify'>Por consequência, há uma acentuada melhora na coordenação motora, comunicação e interação social. Pode-se comprovar então, que a ciência oferece embasamento teórico e prático para aplicação de robôs no tratamento terapêutico.</p>
+                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-10rem] md:mt-[-8rem]'>A ciência comprova a importância do desenvolvimento de robôs personalizados que auxiliam na terapia e na educação de crianças entre 5 e 10 anos e que se encaixam no nível 1 e 2 do Transtorno do Espectro Autista (TEA).</p><br />
+                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-10rem]'>Nesse sentido, pontuam-se maneiras de estimular a atenção, habilidades de comunicação, interação e aprendizado das crianças autistas através de animações que simulavam expressões humanas de forma simplificada na tela dos robôs, já que a falta de emoções nesses dispositivos facilitavam o interesse ao interagir com eles.</p><br />
+                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-10rem]'>Por consequência, há uma acentuada melhora na coordenação motora, comunicação e interação social. Pode-se comprovar então, que a ciência oferece embasamento teórico e prático para aplicação de robôs no tratamento terapêutico.</p>
                             </div>
                         </div>
-                        <div className="pr-[3%]" >
-                            <img src={corda} alt="Corda" className='w-[80vh]' />
-                            <div className='flex ml-[1rem]'><h3 className='pl-11'>Artigos Trabalhados</h3>
+                        <div className="pr-[3%] md:mt-[-2rem]" >
+                            <img src={corda} alt="Corda" className='w-[100%] md:ml-[10rem]' />
+                            <div className='flex ml-[1rem]'><h3 className='pl-11 md:ml-[10rem]'>Artigos Trabalhados:</h3>
                                 <div><a className='text-azul w-[30px] md:pl-11' href="">Tratamento Terapêutico</a><br /> <a className='text-azul w-[30px] md:p-11' href="">Robótica na educação</a></div></div>
                         </div>
                     </div>
@@ -51,8 +50,8 @@ export default function CompletePage() {
 
             <section className='bg-gray-100 pt-[3rem] h-full md:h-[65%]'>
   <div className='pl-[5rem] pb-9 '>
-    <h2 className='font-tinos text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
-    <p className='font-fira text-azul text-justify md:w-[50rem]  w-[20rem] md:ml-0 ml-[-2.8rem]'>
+    <h2 className='font-tinos text-4xl md:text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
+    <p className='font-fira text-azul font-bold text-justify w-50% md:ml-0 ml-[-2.8rem]'>
       Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar.
     </p>
     <form className='mt-6'>
@@ -61,7 +60,7 @@ export default function CompletePage() {
           Nome
         </label>
         <input
-          className='md:ml-0 ml-[-2.8rem] md:w-[76rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          className='md:ml-0 ml-[-2.8rem] md:w-[95%] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
           id='name'
           type='text'
           placeholder='Seu nome'
@@ -72,7 +71,7 @@ export default function CompletePage() {
           Email
         </label>
         <input
-          className=' md:ml-0 ml-[-2.8rem] md:w-[76rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          className=' md:ml-0 ml-[-2.8rem] md:w-[95%] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
           id='email'
           type='email'
           placeholder='Seu email'
@@ -83,7 +82,7 @@ export default function CompletePage() {
           Mensagem
         </label>
         <textarea
-          className='md:ml-0 ml-[-2.8rem] md:w-[76rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          className='md:ml-0 ml-[-2.8rem] md:w-[95%] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
           id='message'
           rows='4'
           placeholder='Sua mensagem'

@@ -36,7 +36,7 @@ const ComponentesP = () => {
                   BUDDY
                 </h1>
                 <div className="w-full max-w-full px-4">
-                  <p className="text-gray-400 text-justify font-fira text-sm md:text-base">
+                  <p className="text-gray-400 text-justify font-fira text-sm md:text-base md:ml-[1.5rem] md:mr-[4rem]">
                     Robô que auxilia responsáveis no desenvolvimento da fala, interação social e reconhecimento de emoções de crianças autistas de nível 2 entre 5 e 10 anos de idade. Possui integração com App, o que facilita a devolução de relatórios que analisam a evolução do autista.
                   </p>
                 </div>
@@ -144,8 +144,8 @@ const ComponentesP = () => {
 
       <section className='bg-gray-100 pt-[3rem] h-full md:h-[65%]'>
   <div className='pl-[5rem] pb-9 '>
-    <h2 className='font-tinos text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
-    <p className='font-fira text-azul text-justify md:w-[50rem]  w-[20rem] md:ml-0 ml-[-2.8rem]'>
+    <h2 className='font-tinos text-4xl md:text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
+    <p className='font-fira text-azul font-bold text-justify w-50% md:ml-0 ml-[-2.8rem]'>
       Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar.
     </p>
     <form className='mt-6'>
@@ -154,7 +154,7 @@ const ComponentesP = () => {
           Nome
         </label>
         <input
-          className='md:ml-0 ml-[-2.8rem] md:w-[76rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          className='md:ml-0 ml-[-2.8rem] md:w-[95%] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
           id='name'
           type='text'
           placeholder='Seu nome'
@@ -165,7 +165,7 @@ const ComponentesP = () => {
           Email
         </label>
         <input
-          className=' md:ml-0 ml-[-2.8rem] md:w-[76rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          className=' md:ml-0 ml-[-2.8rem] md:w-[95%] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
           id='email'
           type='email'
           placeholder='Seu email'
@@ -176,7 +176,7 @@ const ComponentesP = () => {
           Mensagem
         </label>
         <textarea
-          className='md:ml-0 ml-[-2.8rem] md:w-[76rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          className='md:ml-0 ml-[-2.8rem] md:w-[95%] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
           id='message'
           rows='4'
           placeholder='Sua mensagem'
@@ -193,7 +193,6 @@ const ComponentesP = () => {
   </div>
  
 </section>
-
       
     </>
   );

@@ -31,9 +31,9 @@ export default function CompletePage() {
 <section className="py-8 px-4">
     <div className="flex flex-col w-full pt-8 font-light text-xl">
         <div className="pl-[4rem] ">
-            <h2 className="text-4xl md:text-6xl font-tinos">Funções</h2>
+            <h2 className="text-4xl md:text-6xl font-tinos md:ml-0 ml-[-4rem]">Funções</h2>
             <div className="flex justify-center md:justify-start">
-                <p className="m-0 font-tinos font-bold text-azul ">Descubra as funcionalidades que revelam os detalhes que moldam essa experiência </p>
+                <p className="m-0 font-tinos font-bold text-azul md:ml-0 ml-[-4rem] ">Descubra as funcionalidades que revelam os detalhes que moldam essa experiência </p>
             </div>
         </div>
 
@@ -126,16 +126,16 @@ export default function CompletePage() {
     </div>
 </section>
 
-<section className='mt-10 pb-10 mb-7'>
+<section className='mt-10 pb-10 mb-7 md:ml-0 ml-[-1rem]'>
     <div>
-        <div className='pl-[5rem] pb-9'>
-            <h2 className='font-tinos text-4xl md:text-6xl md:ml-0 ml-[-3rem]'>Principais Telas</h2>
+        <div className='pl-[5rem] pb-9 '>
+            <h2 className='font-tinos text-4xl md:text-6xl md:ml-0 ml-[-4rem]'>Principais Telas</h2>
             <p className='text-azul text-lg md:text-base font-bold w-50% md:ml-0 ml-[-2.8rem]'>Explore as principais telas que guiam sua navegação e experiência no projeto</p>
         </div>
         <div className='flex pl-[5rem] gap-32 max-sm:block max-sm:pl-[2.5rem] '>
             <div className='max-w-80 max-sm:max-w-60.5'>
                 <h3 className='font-tinos text-azul text-xl '>Tela Inicial:</h3>
-                <p className='font-fira text-justify text-sm '>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
+                <p className='font-fira text-justify text-sm'>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
                 <img className='mt-4 mb-15 max-sm:mb-10' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
             </div>
             <div className='max-w-80'>

@@ -1,18 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
 
-import img1 from '../../assets/jumpers.png';
-import img2 from '../../assets/arduino mega.png';
-import img3 from '../../assets/protoboard.png';
-import img4 from '../../assets/bluetooth.png';
-import ima from '../../assets/sensorS.png';
-import img6 from '../../assets/sensorL.png';
-import img5 from '../../assets/Logo.png';
-
-import k from '../../assets/Kau.png'
-import instagram from '../../assets/instagram 3 (1).png'
-import linkedin from '../../assets/linkedin 11 (1).png'
-import em from '../../assets/o-email 11.png'
 
 export default function Home() {
     return (
@@ -26,7 +14,7 @@ export default function Home() {
                     BUDDY
                 </h1>
                 <div className="w-full max-w-full px-4">
-                    <p className="text-gray-400 text-justify font-fira text-sm md:text-base">
+                    <p className="text-gray-400 text-justify font-fira text-sm md:text-base md:ml-[1.5rem] md:mr-[4rem]">
                         Robô que auxilia responsáveis no desenvolvimento da fala, interação social e reconhecimento de emoções de crianças autistas de nível 2 entre 5 e 10 anos de idade. Possui integração com App, o que facilita a devolução de relatórios que analisam a evolução do autista.
                     </p>
                 </div>
@@ -38,9 +26,9 @@ export default function Home() {
 <section className="py-8 container mx-auto px-4 md:px-6 lg:px-8 xl:px-10">
     <div className="flex flex-col w-full pt-8 font-light text-2xl">
         <div className="titulo_da_segunda text-center md:text-left">
-            <h2 className="m-0 font-tinos md:text-6xl w-[70%] text-5xl md:ml-[-4rem] h-full md:ml-0 ml-[0.9rem] font-normal text-justify">Processo de criação</h2>
+            <h2 className="m-0 font-tinos md:text-6xl w-[70%] text-5xl md:ml-[-10rem] h-full ml-[0.9rem] font-normal text-justify">Processo de criação</h2>
         <div className="flex text-justify md:justify-start mt-4">
-            <p className='font-fira text-azul text-1xl md:ml-[-4rem] md:mt-[-1rem] font-bold md:ml-0 ml-[0.9rem] w-[90%]'>
+            <p className='font-fira text-azul text-1xl md:ml-[-10rem] md:mt-[-1rem] font-bold md:ml-0 ml-[0.9rem] w-[90%]'>
             Compreenda os detalhes que moldaram o companheiro da sua criança
             </p>
             </div>
@@ -119,8 +107,8 @@ export default function Home() {
 
 <section className='bg-gray-100 pt-[3rem] h-full md:h-[65%]'>
   <div className='pl-[5rem] pb-9 '>
-    <h2 className='font-tinos text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
-    <p className='font-fira text-azul text-justify md:w-[50rem]  w-[20rem] md:ml-0 ml-[-2.8rem]'>
+    <h2 className='font-tinos text-4xl md:text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
+    <p className='font-fira text-azul font-bold text-justify w-50% md:ml-0 ml-[-2.8rem]'>
       Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar.
     </p>
     <form className='mt-6'>
@@ -129,7 +117,7 @@ export default function Home() {
           Nome
         </label>
         <input
-          className='md:ml-0 ml-[-2.8rem] md:w-[82rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          className='md:ml-0 ml-[-2.8rem] md:w-[95%] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
           id='name'
           type='text'
           placeholder='Seu nome'
@@ -140,7 +128,7 @@ export default function Home() {
           Email
         </label>
         <input
-          className=' md:ml-0 ml-[-2.8rem] md:w-[82rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          className=' md:ml-0 ml-[-2.8rem] md:w-[95%] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
           id='email'
           type='email'
           placeholder='Seu email'
@@ -151,7 +139,7 @@ export default function Home() {
           Mensagem
         </label>
         <textarea
-          className='md:ml-0 ml-[-2.8rem] md:w-[82rem] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          className='md:ml-0 ml-[-2.8rem] md:w-[95%] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
           id='message'
           rows='4'
           placeholder='Sua mensagem'
@@ -168,6 +156,7 @@ export default function Home() {
   </div>
  
 </section>
+
 </section>
 
 
