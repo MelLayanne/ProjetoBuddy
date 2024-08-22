@@ -4,6 +4,8 @@ import instagram from '../../assets/instagram 3 (1).png';
 import linkedin from '../../assets/linkedin 11 (1).png';
 import em from '../../assets/o-email 11.png';
 import corda from '../../assets/corda 1.png'
+import fotomot from '../../assets/fotomot.png'
+
 
 const Sobre = () => { 
   return (
@@ -96,11 +98,11 @@ const Sobre = () => {
                     <div className="flex flex-wrap justify-center items-center pl-[18px]">
                         <div className="pt-[2rem] flex w-full md:w-[700px]">
                             <div className="mb-auto text-justify mt-auto w-[40vh] md:w-full">
-                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-10rem] md:mt-[-8rem] md:mr-[4rem]'>As histórias e insights compartilhados despertaram nossa motivação e foram fundamentais para a decisão de iniciar este projeto. Elas ilustraram desafios e conquistas que ressoaram profundamente conosco, oferecendo uma nova perspectiva e fortalecendo nossa determinação. Essa influência nos impulsionou a buscar soluções inovadoras e a abraçar com entusiasmo as oportunidades à nossa frente.</p><br />
+                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-33rem] md:mt-[-0.8rem] md:mr-[20rem]'>As histórias e insights compartilhados despertaram nossa motivação e foram fundamentais para a decisão de iniciar este projeto. Elas ilustraram desafios e conquistas que ressoaram profundamente conosco, oferecendo uma nova perspectiva e fortalecendo nossa determinação. Essa influência nos impulsionou a buscar soluções inovadoras e a abraçar com entusiasmo as oportunidades à nossa frente.</p><br />
                             </div>
                         </div>
                         <div className="pr-[3%] md:mt-[-2rem]" >
-                            <img src={corda} alt="Corda" className='w-[100%] md:ml-[10rem]'/>
+                            <img src={fotomot} alt="Corda" className='md:w-[30%] w-[100%]  flex  md:ml-[79.7rem] md:mt-[-15rem]'/>
                         </div>
                     </div>
                 </div>
@@ -110,16 +112,16 @@ const Sobre = () => {
       <section className="py-8 ">
                 <div className="flex flex-col md:block w-full md:w-full pt-8 pl-0 font-light text-2xl mt-[18rem]">
                     <div className="titulo_da_segunda text-center md:text-left ml-[100px] ">
-                        <h2 className="m-0 font-tinos text-6xl md:mt-[-20rem] max-md:ml-[-16rem] max-sm:ml-[-4rem">Depoimentos</h2>
+                        <h2 className="m-0 font-tinos text-6xl md:mt-[-20rem] max-md:ml-[-16rem] md:ml-[-2rem] max-sm:ml-[-4rem]">Depoimentos</h2>
                         <div className="flex justify-center md:justify-start ">
-                            <p className="m-0 font-tinos font-bold text-azul pl-0.5justify-content">Saiba mais sobre nós e nossa missão de transformar ideias em experiências únicas</p>
+                            <p className="m-0 font-tinos font-bold text-azul pl-0.5justify-content md:ml-[-2rem]">Saiba mais sobre nós e nossa missão de transformar ideias em experiências únicas</p>
                         </div>
                     </div>
                   </div>
       </section>
 
       <div className='flex flex-col md:flex-row md:flex-wrap md:justify-center md:mt-[-14rem] max-lg:ml-[7rem] mb-[5rem]'>
-    <div className='bg-white p-6  mx-4 mb-6 w-[82%] md:w-[25rem] text-center shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl '>
+    <div className='bg-white p-6  mx-4 mb-6 w-[82%] md:w-[35rem] text-center shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl'>
       <p className='font-fira text-base md:text-lg leading-relaxed text-justify'>
         "O robô ajudou meu filho a entender melhor suas emoções. Ele agora consegue expressar o que sente com mais facilidade."
       </p>
@@ -127,7 +129,7 @@ const Sobre = () => {
         - João, pai de Lucas
       </p>
     </div>
-    <div className='bg-white p-6 mx-4 mb-6 md:w-[25rem] text-center shadow-lg  w-[82%] rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl'>
+    <div className='bg-white p-6 mx-4 mb-6 md:w-[35rem] text-center shadow-lg  w-[82%] rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl'>
       <p className='font-fira text-base md:text-lg leading-relaxed text-justify'>
         "Minha filha adora as atividades interativas do robô. Ela fica super engajada e sempre quer brincar mais."
       </p>
@@ -135,7 +137,7 @@ const Sobre = () => {
         - Maria, mãe de Ana
       </p>
     </div>
-    <div className='bg-white p-6 mx-4 mb-6 w-[82%] md:w-[25rem] text-center shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl '>
+    <div className='bg-white p-6 mx-4 mb-6 w-[82%] md:w-[35rem] text-center shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl '>
       <p className='font-fira text-base md:text-lg leading-relaxed text-justify'>
         "Os relatórios detalhados me ajudam a acompanhar o progresso do meu filho e saber onde ele precisa de mais ajuda."
       </p>

@@ -4,36 +4,36 @@ import imgTemporarea from '../../assets/imgTemporarea.svg';
 
 
 
-export default function CompletePage() {
+export default function CompletePage() { 
     return (
-        <div className="bg-white">
-            {/* Seção 1: Funções */}
-
-            <section className="h-screen w-full">
-    <div className={`h-full bg-[url('https://i.imgur.com/MRvKKUX.png')] bg-no-repeat bg-cover bg-center z-10 w-full`}>
-        <div className="bg-black bg-opacity-60 h-screen flex justify-center items-center text-center w-full">
-            <div className="text-white flex items-center justify-center h-full w-full text-center px-4">
-                <div className="w-4/5 mx-auto pb-16 pt-40 max-w-full text-center md:w-9/10 md:pb-8">
-                    <div className="">
-                        <div className="font-tinos font-normal text-4xl md:text-5xl">
-                            <h1 className='text-4xl pb-7 md:text-7xl'>BUDDY</h1>
-                        </div>
-                        <div className="text-center">
-                            <p className='text-gray-400 text-base md:text-lg font-fira'>Veja todas as funções do nosso TCC aqui no site. Pesquise, interaja e entre em contato conosco.</p>
-                        </div>
-                    </div>
-                </div>
+        <>
+        <section className="h-screen w-full ">
+        <div className=" bg-[url('https://i.imgur.com/MRvKKUX.png')] bg-no-repeat object-cover bg-cover bg-center z-10 h-full w-full">
+   <div className="bg-black bg-opacity-60 h-screen flex justify-center items-center text-center w-full">
+    <div className="text-white flex flex-col items-center justify-center h-full w-full text-center px-4">
+        <div className="w-full max-w-full px-4">
+            <h1 className="font-tinos text-5xl md:text-7xl mb-4 mt-[20vh] md:mt-[30vh]">
+              BUDDY
+            </h1>
+            <div className="w-full max-w-full px-4 md:ml-[35rem]">
+                <p className="text-gray-400  font-fira text-sm md:text-base text-justify text-center">
+                Veja todas as funções do nosso TCC aqui no site. Pesquise, interaja e entre em contato conosco.
+                </p> 
             </div>
         </div>
     </div>
+</div>
+</div>
 </section>
+
+
 
 <section className="py-8 px-4">
     <div className="flex flex-col w-full pt-8 font-light text-xl">
         <div className="pl-[4rem] ">
-            <h2 className="text-4xl md:text-6xl font-tinos md:ml-0 ml-[-4rem]">Funções</h2>
+            <h2 className="text-4xl md:text-6xl font-tinos md:ml-[-1rem] ml-[-4rem]">Funções</h2>
             <div className="flex justify-center md:justify-start">
-                <p className="m-0 font-tinos font-bold text-azul md:ml-0 ml-[-4rem] ">Descubra as funcionalidades que revelam os detalhes que moldam essa experiência </p>
+                <p className="m-0 font-tinos font-bold text-azul md:ml-[-1rem] ml-[-4rem] ">Descubra as funcionalidades que revelam os detalhes que moldam essa experiência </p>
             </div>
         </div>
 
@@ -129,21 +129,30 @@ export default function CompletePage() {
 <section className='mt-10 pb-10 mb-7 md:ml-0 ml-[-1rem]'>
     <div>
         <div className='pl-[5rem] pb-9 '>
-            <h2 className='font-tinos text-4xl md:text-6xl md:ml-0 ml-[-4rem]'>Principais Telas</h2>
+            <h2 className='font-tinos text-4xl md:text-6xl md:ml-0 ml-[-3rem]'>Principais Telas</h2>
             <p className='text-azul text-lg md:text-base font-bold w-50% md:ml-0 ml-[-2.8rem]'>Explore as principais telas que guiam sua navegação e experiência no projeto</p>
         </div>
-        <div className='flex pl-[5rem] gap-32 max-sm:block max-sm:pl-[2.5rem] '>
+        <div className='flex pl-[5rem] gap-32 max-sm:block max-sm:pl-[2.5rem] md:w-[190rem] '>
             <div className='max-w-80 max-sm:max-w-60.5'>
-                <h3 className='font-tinos text-azul text-xl '>Tela Inicial:</h3>
+                <h3 className='font-tinos text-azul text-xl'>Tela Inicial:</h3>
                 <p className='font-fira text-justify text-sm'>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
                 <img className='mt-4 mb-15 max-sm:mb-10' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
             </div>
-            <div className='max-w-80'>
+            
+            <div className='max-w-80 md:ml-[1rem]'>
                 <h3 className='font-tinos text-azul text-xl '>Tela Inicial:</h3>
                 <p className='font-fira text-justify text-sm '>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
                 <img className='mt-4 mb-15' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
             </div>
-            <div className='max-w-80'>
+
+            <div className='max-w-80 md:ml-[1rem]'>
+                <h3 className='font-tinos text-azul text-xl '>Tela Inicial:</h3>
+                <p className='font-fira text-justify text-sm '>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
+                <img className='mt-4 mb-15' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
+            </div>
+
+            
+             <div className='max-w-80 md:ml-[1rem]'>
                 <h3 className='font-tinos text-azul text-xl '>Tela Inicial:</h3>
                 <p className='font-fira text-justify text-sm '>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
                 <img className='mt-4 mb-15' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
@@ -202,9 +211,7 @@ export default function CompletePage() {
       </div>
     </form>
   </div>
- 
-</section>
-
-        </div>
+  </section>
+  </>    
     );
 }
