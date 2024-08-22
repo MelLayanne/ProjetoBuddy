@@ -24,76 +24,75 @@ export default function Home() {
 </div>
 
 <section className="py-8 container mx-auto px-4 md:px-6 lg:px-8 xl:px-10">
-    <div className="flex flex-col w-full pt-8 font-light text-2xl">
-        <div className="titulo_da_segunda text-center md:text-left">
-            <h2 className="m-0 font-tinos md:text-6xl w-[70%] text-5xl md:ml-[-10rem] h-full ml-[0.9rem] font-normal text-justify">Processo de criação</h2>
-        <div className="flex text-justify md:justify-start mt-4">
-            <p className='font-fira text-azul text-1xl md:ml-[-10rem] md:mt-[-1rem] font-bold md:ml-0 ml-[0.9rem] w-[90%]'>
-            Compreenda os detalhes que moldaram o companheiro da sua criança
-            </p>
+    <div className="flex flex-col w-full pt-8 font-light text-2xl ">
+        <div className="pl-0 2xl:ml-[-7rem] ">
+            <h2 className="text-4xl md:text-6xl font-tinos md:ml-0 ml-[-4rem]">Processo de criação</h2>
+            <div className="flex justify-center md:justify-start">
+                <p className="m-0 font-tinos font-bold text-azul md:ml-0 ml-[-4rem] ">Compreenda os detalhes que moldaram o companheiro da sua criança </p>
             </div>
         </div>
 
-        <div className="flex ml-0 flex-col md:flex-row md:space-x-8 space-y-8 md:ml-[8rem] md:space-y-0  mt-8 px-4 md:px-0">
+
+        <div className="flex ml-0 flex-col md:flex-row md:space-x-8 space-y-8 md:ml-[4rem] md:space-y-0 mt-8 px-4 md:px-0 2xl:gap-8">
             <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-0">
                 <h2 className="text-azul font-bold font-tinos text-base text-center md:text-left">Cor Azul</h2>
-                <div className="bg-gray-200 p-7 max-w-xs text-sm flex flex-col items-center md:items-start">
-                    <p className="font-fira text-sm text-justify">É menos estimulante visualmente em comparação a cores mais vibrantes como o vermelho ou o amarelo, o que pode ser benéfico para minimizar a agitação e ajudar a criança a se acalmar.</p>
+                <div className="bg-gray-200 p-7 text-sm flex flex-col items-center ">
+                    <p className="font-fira text-sm text-justify max-w-[90%]">É menos estimulante visualmente em comparação a cores mais vibrantes como o vermelho ou o amarelo, o que pode ser benéfico para minimizar a agitação e ajudar a criança a se acalmar.</p>
                 </div>
             </div>
             <img className="w-full max-w-xs md:ml-0 ml-[0.5rem]" src="https://th.bing.com/th/id/R.7f6ecb4efca234c948d4271b41bf16db?rik=ImU8rVRg9uFVng&pid=ImgRaw&r=0" alt="Cor Azul" />
             <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-0">
                 <h2 className="text-azul font-bold font-tinos text-base text-center md:text-left">Nome Buddy</h2>
-                <div className="bg-gray-200 p-7 w-full max-w-xs text-sm flex flex-col items-center md:items-start">
-                    <p className="font-fira text-sm text-justify">"Buddy" significa "companheiro" ou "amigo" em inglês. É uma palavra que transmite a ideia de alguém que está sempre ao lado, oferecendo apoio e amizade.</p>
+                <div className="bg-gray-200 p-7  text-sm flex flex-col items-center">
+                    <p className="font-fira text-sm text-justify  max-w-[90%]">"Buddy" significa "companheiro" ou "amigo" em inglês. É uma palavra que transmite a ideia de alguém que está sempre ao lado, oferecendo apoio e amizade.</p>
                 </div>
             </div>
             
         </div>
-        <div className="flex ml-0 flex-col md:flex-row md:space-x-8 space-y-8 md:ml-[8rem] md:space-y-0  mt-8 px-4 md:px-0">
+        <div className="flex ml-0 flex-col md:flex-row md:space-x-8 space-y-8 md:ml-[4rem] md:space-y-0  mt-8 px-4 md:px-0 2xl:gap-8">
             <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-0">
-                <h2 className="text-azul font-bold font-tinos text-base text-center md:text-left">Cor Azul</h2>
-                <div className="bg-gray-200 p-7 max-w-xs text-sm flex flex-col items-center md:items-start">
-                    <p className="font-fira text-sm text-justify">É menos estimulante visualmente em comparação a cores mais vibrantes como o vermelho ou o amarelo, o que pode ser benéfico para minimizar a agitação e ajudar a criança a se acalmar.</p>
+                <h2 className="text-azul font-bold font-tinos text-base text-center md:text-left">Logo</h2>
+                <div className="bg-gray-200 p-8 pb-9 px-10 text-sm flex flex-col items-center">
+                    <p className="font-fira text-sm text-justify ">É projetada para refletir características humanas e se assemelhar ao rosto que terá o robõ, dando assim, uma aparencia mais amigável ao nosso projeto.</p>
                 </div>
             </div>
             <img className="w-full max-w-xs md:ml-0 ml-[0.5rem]" src="https://th.bing.com/th/id/R.7f6ecb4efca234c948d4271b41bf16db?rik=ImU8rVRg9uFVng&pid=ImgRaw&r=0" alt="Cor Azul" />
             <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-0">
-                <h2 className="text-azul font-bold font-tinos text-base text-center md:text-left">Nome Buddy</h2>
-                <div className="bg-gray-200 p-7 w-full max-w-xs text-sm flex flex-col items-center md:items-start">
-                    <p className="font-fira text-sm text-justify">"Buddy" significa "companheiro" ou "amigo" em inglês. É uma palavra que transmite a ideia de alguém que está sempre ao lado, oferecendo apoio e amizade.</p>
+                <h2 className="text-azul font-bold font-tinos text-base text-center md:text-left">Atividades</h2>
+                <div className="bg-gray-200 p-7 text-sm flex flex-col items-center 2xl-max-w-[90%] ">
+                    <p className="font-fira text-sm text-justify  max-w-[80%]">"As atividades e habilidades desenvolvidas pelo robô foram selecionados para serem realizadas emsequência, como um processo de evelução que acompanha a criança desde o início.  </p>
                 </div>
             </div>
             
         </div>
-        <div className="flex ml-0 flex-col md:flex-row md:space-x-8 space-y-8 md:ml-[8rem] md:space-y-0  mt-8 px-4 md:px-0">
+        <div className="flex ml-0 flex-col md:flex-row md:space-x-8 space-y-8 md:ml-[4rem] md:space-y-0  mt-8 px-4 md:px-0 2xl:gap-8">
             <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-0">
-                <h2 className="text-azul font-bold font-tinos text-base text-center md:text-left">Cor Azul</h2>
-                <div className="bg-gray-200 p-7 max-w-xs text-sm flex flex-col items-center md:items-start">
-                    <p className="font-fira text-sm text-justify">É menos estimulante visualmente em comparação a cores mais vibrantes como o vermelho ou o amarelo, o que pode ser benéfico para minimizar a agitação e ajudar a criança a se acalmar.</p>
+                <h2 className="text-azul font-bold font-tinos text-base text-center md:text-left">Comunicação</h2>
+                <div className="bg-gray-200 p-7 text-sm flex flex-col items-center ">
+                    <p className="font-fira text-sm text-justify  max-w-[90%]">Criamos uma forma de guardar mensagen para a criança no robõ, pois sabemos o quanto o contato com a pessoa com o qual são mais apegadas é eficiente em uma situção de crise.</p>
                 </div>
             </div>
             <img className="w-full max-w-xs md:ml-0 ml-[0.5rem]" src="https://th.bing.com/th/id/R.7f6ecb4efca234c948d4271b41bf16db?rik=ImU8rVRg9uFVng&pid=ImgRaw&r=0" alt="Cor Azul" />
-            <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-0">
-                <h2 className="text-azul font-bold font-tinos text-base text-center md:text-left">Nome Buddy</h2>
-                <div className="bg-gray-200 p-7 w-full max-w-xs text-sm flex flex-col items-center md:items-start">
-                    <p className="font-fira text-sm text-justify">"Buddy" significa "companheiro" ou "amigo" em inglês. É uma palavra que transmite a ideia de alguém que está sempre ao lado, oferecendo apoio e amizade.</p>
+            <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-0 ">
+                <h2 className="text-azul font-bold font-tinos text-base text-center md:text-left">Questionário</h2>
+                <div className="bg-gray-200 p-7 text-sm flex flex-col items-center ">
+                    <p className="font-fira text-sm text-justify max-w-[90%]">"É fundamental para entender as necessidades individuais e únicas da criança. Ele permite que os cuidadores, obtenham uma visão detalhada sobre as preferências e desafios específicos do autista.</p>
                 </div>
             </div>
             
         </div>
-        <div className="flex ml-0 flex-col md:flex-row md:space-x-8 space-y-8 md:ml-[8rem] md:space-y-0  mt-8 px-4 md:px-0">
+        <div className="flex ml-0 flex-col md:flex-row md:space-x-8 space-y-8 md:ml-[4rem] md:space-y-0  mt-8 md:px-0 2xl:gap-8">
             <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-0">
-                <h2 className="text-azul font-bold font-tinos text-base text-center md:text-left">Cor Azul</h2>
-                <div className="bg-gray-200 p-7 max-w-xs text-sm flex flex-col items-center md:items-start">
-                    <p className="font-fira text-sm text-justify">É menos estimulante visualmente em comparação a cores mais vibrantes como o vermelho ou o amarelo, o que pode ser benéfico para minimizar a agitação e ajudar a criança a se acalmar.</p>
+                <h2 className="text-azul font-bold font-tinos text-base text-center md:text-left">Relátorios</h2>
+                <div className="bg-gray-200 p-7 text-sm flex flex-col items-center ">
+                    <p className="font-fira text-sm text-justify max-w-[90%]">É uma ferramenta essencial  que permite p o acompanhamento do progresso da criança e oferece uma visão detalhada das atividades, conquistas, e desafios enfrentados pela criança.</p>
                 </div>
             </div>
-            <img className="w-full max-w-xs md:ml-0 ml-[0.5rem]" src="https://th.bing.com/th/id/R.7f6ecb4efca234c948d4271b41bf16db?rik=ImU8rVRg9uFVng&pid=ImgRaw&r=0" alt="Cor Azul" />
-            <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-0">
-                <h2 className="text-azul font-bold font-tinos text-base text-center md:text-left">Nome Buddy</h2>
-                <div className="bg-gray-200 p-7 w-full max-w-xs text-sm flex flex-col items-center md:items-start">
-                    <p className="font-fira text-sm text-justify">"Buddy" significa "companheiro" ou "amigo" em inglês. É uma palavra que transmite a ideia de alguém que está sempre ao lado, oferecendo apoio e amizade.</p>
+            <img className="w-full max-w-xs" src="https://th.bing.com/th/id/R.7f6ecb4efca234c948d4271b41bf16db?rik=ImU8rVRg9uFVng&pid=ImgRaw&r=0" alt="Cor Azul" />
+            <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-0 ">
+                <h2 className="text-azul font-bold font-tinos text-base text-center md:text-left">Robô</h2>
+                <div className="bg-gray-200 p-7 text-sm flex flex-col items-center  ">
+                    <p className="font-fira text-sm text-justify max-w-[90%]">"Crianças autistas muitas vezes preferem interagir com robôs por sua falta de emoções, o que torna a comunicação mais previsível e confortável.</p>
                 </div>
             </div>
             
@@ -105,8 +104,8 @@ export default function Home() {
 
            
 
-<section className='bg-gray-100 pt-[3rem] h-full md:h-[65%]'>
-  <div className='pl-[5rem] pb-9 '>
+<section className='bg-gray-100 pt-[3rem] h-full md:h-[65%] 2xl:h-[44%]'>
+  <div className='pl-[5rem]'>
     <h2 className='font-tinos text-4xl md:text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
     <p className='font-fira text-azul font-bold text-justify w-50% md:ml-0 ml-[-2.8rem]'>
       Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar.
