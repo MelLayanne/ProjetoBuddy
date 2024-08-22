@@ -33,9 +33,9 @@ const Sobre = () => {
       <section className="py-8 h-full">
                 <div className="flex flex-col md:block w-full md:w-full pt-8 pl-0 font-light text-2xl ">
                     <div className="titulo_da_segunda text-center md:text-left ml-[100px]">
-                        <h2 className="m-0 font-tinos text-6xl md:ml-[-2.7rem] ml-[6rem] ">Sobre Nós</h2>
-                        <div className="flex justify-center md:justify-start">
-                            <p className="m-0 font-tinos font-bold text-azul pl-0.5 md:ml-[-2.7rem] ml-[6rem]">Saiba mais sobre nós e nossa missão de transformar ideias em experiências únicas</p>
+                        <h2 className="m-0 font-tinos md:text-6xl text-3xl md:ml-[-2.7rem] max-sm:ml-[-14rem]">Sobre Nós</h2>
+                        <div className="flex text-justify md:justify-start">
+                            <p className="m-0 font-tinos font-bold text-azul text-base pl-0.5 md:ml-[-2.7rem] max-sm:ml-[-4rem] max-sm:w-[122%]">Saiba mais sobre nós e nossa missão de transformar ideias em experiências únicas</p>
                         </div>
                     </div> 
                   </div>
@@ -150,10 +150,10 @@ const Sobre = () => {
   </section>
       
 
-  <section className='bg-gray-100 pt-[3rem] h-full md:h-[65%]'>
-  <div className='pl-[5rem] pb-9 '>
-    <h2 className='font-tinos text-4xl md:text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
-    <p className='font-fira text-azul font-bold text-justify w-50% md:ml-0 ml-[-2.8rem]'>
+  <section className='bg-gray-100 pt-[3rem] h-full md:h-[65%] 2xl:h-[57%] max-sm:h-[67%]'>
+  <div className='pl-[5rem]'>
+    <h2 className='font-tinos text-3xl md:text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
+    <p className='font-tinos text-azul font-bold text-base text-justify w-50% md:ml-0 ml-[-2.8rem] max-sm:w-[98%]'>
       Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar.
     </p>
     <form className='mt-6'>
@@ -201,6 +201,8 @@ const Sobre = () => {
   </div>
  
 </section>
+
+
     </>
   );
 };
