@@ -14,17 +14,16 @@ function Navbar() {
             <img src={logo} alt="Logo" className="md:w-50 w-40 md:ml-0 ml-[-3.5rem]" />
             <button
                 className={`md:hidden flex flex-col justify-between w-8 h-8 bg-transparent border-none cursor-pointer z-20 transition-transform duration-300 ease-linear ${isOpen ? 'open' : ''}`}
-                onClick={toggleMenu}
-            >
+                onClick={toggleMenu}>
                 <span className={`block w-8 h-0.5 bg-gray-300 rounded-md transition-transform duration-300 ease-linear ${isOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
                 <span className={`block w-8 h-0.5 bg-gray-300 rounded-md transition-transform duration-300 ease-linear ${isOpen ? 'opacity-0' : ''}`}></span>
                 <span className={`block w-8 h-0.5 bg-gray-300 rounded-md transition-transform duration-300 ease-linear ${isOpen ? 'rotate-[-45deg] -translate-y-2' : ''}`}></span>
             </button>
+
             <nav className={`fixed top-0 right-0 w-[250px] h-[350px] rounded-lg bg-black bg-opacity-85 flex flex-col items-center justify-center transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'} p-8 z-20 md:hidden`}>
                 <button
                     className="absolute top-4 right-4 text-white text-3xl"
-                    onClick={toggleMenu}
-                >
+                    onClick={toggleMenu}>
                     &times;
                 </button>
                 <ul className="flex flex-col items-center space-y-6 mt-16">

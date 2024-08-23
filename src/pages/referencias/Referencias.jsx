@@ -28,7 +28,7 @@ export default function CompletePage() {
             <section className="py-8 h-full">
                 <div className="terceira_section" id='referencias'>
                     <h2 className='font-tinos md:ml-[4rem] ml-[6rem] font-light md:text-6xl max-sm:ml-[2rem] text-3xl md:mt-[2rem] '>Referências</h2>
-                    <div className='flex '><p className='text-azul font-tinos font-bold ml-[6rem] text-base max-sm:ml-[2rem] text-[20px] md:ml-[4rem]'>Confira as bases ciêntificas que fundamentaram o desenvolvimento deste projeto</p>
+                    <div className='flex '><p className='text-azul font-tinos font-bold ml-[6rem] text-base max-sm:ml-[2rem] text-[20px] md:ml-[4rem] max-sm:w-[75%] text-justify'>Confira as bases ciêntificas que fundamentaram o desenvolvimento deste projeto</p>
                     </div>
 
                     <div className="flex flex-wrap justify-center items-center pl-[18px]">
@@ -39,9 +39,9 @@ export default function CompletePage() {
                                 <p className='font-fira-sans font-normal text-base text-justify md:ml-[-10rem] max-sm:ml-[1rem] max-sm:w-[15rem]'>Por consequência, há uma acentuada melhora na coordenação motora, comunicação e interação social. Pode-se comprovar então, que a ciência oferece embasamento teórico e prático para aplicação de robôs no tratamento terapêutico.</p>
                             </div>
                         </div>
-                        <div className="pr-[3%] md:mt-[-2rem]" >
+                        <div className="pr-[3%] md:mt-[-2rem] max-sm:mt-[3rem]" >
                             <img src={corda} alt="Corda" className='w-[100%] md:ml-[10rem] max-sm:w-[16.5rem] max-sm:ml-[-0.6rem]' />
-                            <div className='flex ml-[1rem]'><h3 className='pl-11 md:ml-[10rem] max-sm:ml-[-2.7rem] '>Artigos Trabalhados:</h3>
+                            <div className='flex ml-[1rem]'><h3 className='pl-11 md:ml-[10rem] max-sm:ml-[-2.7rem] text-justify max-sm:w-[91%] '>Artigos Trabalhados:</h3>
                                 <div><a className='text-azul w-[30px] md:pl-11' href="">Tratamento Terapêutico</a><br /> <a className='text-azul w-[30px] md:p-11' href="">Robótica na educação</a></div></div>
                         </div>
                     </div>

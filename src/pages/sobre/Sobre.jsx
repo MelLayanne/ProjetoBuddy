@@ -3,14 +3,14 @@ import k from '../../assets/Kau.png';
 import instagram from '../../assets/instagram 3 (1).png';
 import linkedin from '../../assets/linkedin 11 (1).png';
 import em from '../../assets/o-email 11.png';
-import corda from '../../assets/corda 1.png'
-import fotomot from '../../assets/fotomot.png'
+import fotomot from '../../assets/fotomot.png';
+import fotmot2 from '../../assets/fotmot2.png';
 
 
 const Sobre = () => { 
   return (
     <>
-      <section className="h-screen w-full ">
+      <section className="h-screen w-full">
             <div className=" bg-[url('https://i.imgur.com/xGywgSj.png')] bg-no-repeat object-cover bg-cover bg-center z-10 h-full w-full">
     <div className="bg-black bg-opacity-60 h-screen flex justify-center items-center text-center w-full">
         <div className="text-white flex flex-col items-center justify-center h-full w-full text-center px-4">
@@ -35,7 +35,7 @@ const Sobre = () => {
                     <div className="titulo_da_segunda text-center md:text-left ml-[100px]">
                         <h2 className="m-0 font-tinos md:text-6xl text-3xl md:ml-[-2.7rem] max-sm:ml-[-14rem]">Sobre Nós</h2>
                         <div className="flex text-justify md:justify-start">
-                            <p className="m-0 font-tinos font-bold text-azul text-base pl-0.5 md:ml-[-2.7rem] max-sm:ml-[-4rem] max-sm:w-[122%]">Saiba mais sobre nós e nossa missão de transformar ideias em experiências únicas</p>
+                            <p className="m-0 font-tinos font-bold text-azul text-base pl-0.5 md:ml-[-2.7rem] max-sm:ml-[-4rem] max-sm:w-[115%]">Saiba mais sobre nós e nossa missão de transformar ideias em experiências únicas</p>
                         </div>
                     </div> 
                   </div>
@@ -52,14 +52,14 @@ const Sobre = () => {
   <div className="grid grid-cols-1 md:grid-cols-2">
     <div className="flex flex-col md:ml-[4rem] ml-[6rem] max-sm:ml-[2.7rem] max-sm:w-[80%] items-center bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl mb-6 h-48 md:w-[45rem] w-[72%] sm:w-[90%]">
       <div className="flex justify-center w-full">
-        <img className="h-48 object-cover rounded-lg mr-[15rem] w-1/3  absolute  transform md:translate-x-[-8rem] translate-x-1/5 mobile:left-1/4 mobile:transform-none" src="https://media.licdn.com/dms/image/v2/D4D03AQHr9eKiQT65ZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710469014338?e=1728518400&v=beta&t=_l0PLQwHIctnf52_iguHfKZTXGJI78lFteb4G1wYx5E" alt="Kauhanny" />
+        <img className="h-48 object-cover rounded-lg mr-[15rem] w-1/3  absolute  transform md:translate-x-[-8rem] translate-x-1/5 mobile:left-1/4 mobile:transform-none max-sm:ml-[4rem]" src={k} alt="Kauhanny" />
       </div>
-      <div className="p-4 text-left">
+      <div className="p-4 text-left max-sm:ml-[4rem]">
         <h4 className="font-bold text-lg mb-2">Kauhany Santos</h4>
         <p className="text-gray-600">17 anos</p>
         <p className="text-gray-600">Ensino médio T.I.</p>
         <p className="text-gray-600 mb-4">UNASP-SP</p>
-        <div className="flex justify-center space-x-4">
+        <div className="flex justify-center space-x-4 ml-[-1.5rem]">
           <img className="w-6 h-6" src={instagram} alt="Instagram" />
           <img className="w-6 h-6" src={linkedin} alt="LinkedIn" />
           <img className="w-6 h-6" src={em} alt="Email" />
@@ -70,14 +70,14 @@ const Sobre = () => {
     
     <div className=" flex flex-col sm:w-3/4 ml-[6.3rem] items-center bg-white shadow-lg max-sm:ml-[2.7rem] max-sm:w-[80%] rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl mb-6  h-48 md:w-[45rem] w-[72%]">
       <div className=" relative flex justify-center w-full ">
-        <img className="h-48 object-cover rounded-lg mr-[15rem] w-1/3  absolute  transform md:translate-x-[-8rem] translate-x-1/5 mobile:left-1/4 mobile:transform-none" src="https://media.licdn.com/dms/image/v2/D4D03AQHr9eKiQT65ZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710469014338?e=1728518400&v=beta&t=_l0PLQwHIctnf52_iguHfKZTXGJI78lFteb4G1wYx5E" alt="Kauhanny" />
+        <img className="h-48 object-cover rounded-lg mr-[15rem] w-1/3  absolute  transform md:translate-x-[-8rem] translate-x-1/5 mobile:left-1/4 mobile:transform-none  max-sm:ml-[4rem]" src="https://media.licdn.com/dms/image/v2/D4D03AQHr9eKiQT65ZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710469014338?e=1728518400&v=beta&t=_l0PLQwHIctnf52_iguHfKZTXGJI78lFteb4G1wYx5E" alt="Kauhanny" />
       </div>
-      <div className="p-4 text-left ">
+      <div className="p-4 text-left  max-sm:ml-[4rem] ">
         <h4 className="font-bold text-lg mb-2">Melissa Layanne</h4>
         <p className="text-gray-600">18 anos</p>
         <p className="text-gray-600">Ensino médio T.I.</p>
         <p className="text-gray-600 mb-4">UNASP-SP</p>
-        <div className="flex justify-center space-x-4">
+        <div className="flex justify-center space-x-4 ml-[-1.5rem]">
           <img className="w-6 h-6" src={instagram} alt="Instagram" />
           <img className="w-6 h-6" src={linkedin} alt="LinkedIn" />
           <img className="w-6 h-6" src={em} alt="Email" />
@@ -98,12 +98,22 @@ const Sobre = () => {
                     <div className="flex flex-wrap justify-center items-center pl-[18px]">
                         <div className="pt-[2rem] flex w-full md:w-[700px]">
                             <div className="mb-auto text-justify mt-auto w-[40vh] md:w-full">
-                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-34rem] md:mt-[-0.8rem] md:mr-[32rem] max-sm:ml-[1.2rem] max-sm:mr-[1.7rem] max-sm:w-[15.5rem] max-md:ml-[1rem] max-md:w-[40rem]'>As histórias e insights compartilhados despertaram nossa motivação e foram fundamentais para a decisão de iniciar este projeto. Elas ilustraram desafios e conquistas que ressoaram profundamente conosco, oferecendo uma nova perspectiva e fortalecendo nossa determinação. Essa influência nos impulsionou a buscar soluções inovadoras e a abraçar com entusiasmo as oportunidades à nossa frente.</p><br />
+                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-34rem] md:mt-[-0.8rem] md:mr-[32rem] max-sm:ml-[1.2rem] max-sm:mr-[1.7rem] max-sm:w-[15.5rem] md:ml-[-33rem] max-md:w-[40rem]'>As histórias e insights compartilhados despertaram nossa motivação e foram fundamentais para a decisão de iniciar este projeto. Elas ilustraram desafios e conquistas que ressoaram profundamente conosco, oferecendo uma nova perspectiva e fortalecendo nossa determinação. Essa influência nos impulsionou a buscar soluções inovadoras e a abraçar com entusiasmo as oportunidades à nossa frente.</p><br />
                             </div>
                         </div>
-                        <div className="pr-[3%] md:mt-[-2rem]" >
-                            <img src={fotomot} alt="Corda" className='md:w-[30%] w-[100%] md:ml-[67rem]  md:mt-[-15rem] max-sm:mt-[-3rem] '/>
-                        </div>
+                        <div className="flex flex-col md:flex-row items-center justify-center md:space-x-4 pr-[3%] md:mt-[-20rem]">
+                          <img
+                            src={fotomot}
+                            alt="img"
+                            className="md:w-[30%] w-[100%] md:ml-[48rem] md:mr-[-7rem] md:mt-0 max-sm:mt-[-3rem]"
+                            />
+                           <img
+                          src={fotmot2}
+                          alt="img"
+                          className="md:w-[30%] w-[100%] md:ml-0 md:mt-0 max-sm:mt-[-3rem]"
+                          />
+                          </div>
+
                     </div>
                 </div>
             </section>
@@ -114,14 +124,14 @@ const Sobre = () => {
                     <div className="titulo_da_segunda text-center md:text-left ml-[100px] ">
                         <h2 className="m-0 font-tinos md:text-6xl text-3xl md:mt-[-20rem] max-md:ml-[-16rem] md:ml-[-2rem] max-sm:ml-[-12rem] ">Depoimentos</h2>
                         <div className="flex text-justify md:justify-start ">
-                            <p className="m-0 font-tinos font-bold text-base text-azul pl-0.5justify-content md:ml-[-2rem] max-sm:ml-[-4rem] max-sm:w-[115%] ">Saiba mais sobre nós e nossa missão de transformar ideias em experiências únicas</p>
+                            <p className="m-0 font-tinos font-bold text-base text-azul pl-0.5justify-content md:ml-[-2rem] max-sm:ml-[-4rem] max-sm:w-[113%] ">Saiba mais sobre nós e nossa missão de transformar ideias em experiências únicas</p>
                         </div>
                     </div>
                   </div>
       </section>
 
       <div className='flex flex-col md:flex-row md:flex-wrap md:justify-center md:mt-[-14rem] max-lg:ml-[7rem] mb-[5rem]'>
-    <div className='bg-white p-6  mx-4 mb-6 w-[82%] md:w-[35rem] max-sm:w-[125%] max-sm:ml-[-5rem] text-center shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl'>
+    <div className='bg-white p-6  mx-4 mb-6 w-[82%] md:w-[32.5rem] max-sm:w-[125%] max-sm:ml-[-5rem] text-center shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl'>
       <p className='font-fira text-base md:text-lg leading-relaxed text-justify'>
         "O robô ajudou meu filho a entender melhor suas emoções. Ele agora consegue expressar o que sente com mais facilidade."
       </p>
@@ -150,7 +160,7 @@ const Sobre = () => {
   </section>
       
 
-  <section className='bg-gray-100 pt-[3rem] h-full md:h-[65%] 2xl:h-[57%] max-sm:h-[67%]'>
+  <section className='bg-gray-100 pt-[3rem] h-full md:h-[65%] w-full 2xl:h-[57%] max-sm:h-[67%]'>
   <div className='pl-[5rem] pb-3'>
     <h2 className='font-tinos text-3xl md:text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
     <p className='font-tinos text-azul font-bold text-base text-justify w-50% md:ml-0 ml-[-2.8rem] max-sm:w-[98%]'>

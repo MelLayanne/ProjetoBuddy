@@ -31,9 +31,9 @@ export default function CompletePage() {
 <section className="py-8 px-4">
     <div className="flex flex-col w-full pt-8 font-light text-xl">
         <div className="pl-[4rem] ">
-            <h2 className="text-4xl md:text-6xl font-tinos md:ml-[-1rem] ml-[-4rem]">Funções</h2>
-            <div className="flex justify-center md:justify-start">
-                <p className="m-0 font-tinos font-bold text-azul md:ml-[-1rem] ml-[-4rem] ">Descubra as funcionalidades que revelam os detalhes que moldam essa experiência </p>
+            <h2 className="text-4xl md:text-6xl font-tinos md:ml-[-1rem] ml-[-4rem] ">Funções</h2>
+            <div className="flex text-justify md:justify-start">
+                <p className="m-0 font-tinos text base font-bold text-azul max-sm:w-[116%] md:ml-[-1rem] ml-[-4rem]">Descubra as funcionalidades que revelam os detalhes que moldam essa experiência </p>
             </div>
         </div>
 
@@ -101,7 +101,7 @@ export default function CompletePage() {
     <div className='bg-gray-100 h-full pb-[3rem] pt-9 mx-4 md:mx-[72px]pl-[5rem]'>
         <div className='pl-0 md:pl-[3rem]'>
             <h2 className='font-tinos text-4xl md:text-6xl'>Benefícios</h2>
-            <p className='text-azul text-lg md:text-base text-fira font-bold'>Conheça os benefícios que tornam essa experiência ainda mais significativa</p>
+            <p className='text-azul text-lg md:text-base font-tinos font-bold'>Conheça os benefícios que tornam essa experiência ainda mais significativa</p>
         </div>
         <div className='flex gap-10 ml-12 mt-8 max-sm:block max-sm:ml-1'>
             <div className='bg-white p-5 md:p-9 w-[48%] text-center max-sm:w-[98%] max-sm:mb-7'>
@@ -130,32 +130,32 @@ export default function CompletePage() {
     <div>
         <div className='pl-[5rem] pb-9 '>
             <h2 className='font-tinos text-4xl md:text-6xl md:ml-0 ml-[-3rem]'>Principais Telas</h2>
-            <p className='text-azul text-lg md:text-base font-bold w-50% md:ml-0 ml-[-2.8rem]'>Explore as principais telas que guiam sua navegação e experiência no projeto</p>
+            <p className='text-azul font-tinos text-lg md:text-base font-bold w-50% md:ml-0 ml-[-2.8rem] max-sm:w-[108%] '>Explore as principais telas que guiam sua navegação e experiência no projeto</p>
         </div>
         <div className='flex pl-[5rem] gap-32 max-sm:block max-sm:pl-[2.5rem] md:w-[190rem] '>
             <div className='max-w-80 max-sm:max-w-60.5'>
                 <h3 className='font-tinos text-azul text-xl'>Tela Inicial:</h3>
-                <p className='font-fira text-justify text-sm'>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
-                <img className='mt-4 mb-15 max-sm:mb-10' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
+                <p className='font-fira text-justify text-sm max-sm:w-[90%]'>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
+                <img className='mt-4 mb-15 max-sm:mb-10  max-sm:w-[90%]' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
             </div>
             
-            <div className='max-w-80 md:ml-[1rem]'>
+            <div className='max-w-80 md:ml-[1rem] max-sm:mt-[2rem]'>
                 <h3 className='font-tinos text-azul text-xl '>Tela Home:</h3>
-                <p className='font-fira text-justify text-sm mb-9 '>Tela home conta com abas projetada para ser intuitiva e organizar as informações de forma clara e acessível, permitindo que o usuário navegue facilmente entre as diferentes funções. </p>
-                <img className='mt-4 mb-15' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
+                <p className='font-fira text-justify text-sm mb-9  max-sm:w-[90%]'>Tela home conta com abas projetada para ser intuitiva e organizar as informações de forma clara e acessível, permitindo que o usuário navegue facilmente entre as diferentes funções. </p>
+                <img className='mt-4 mb-15 max-sm:mt-[-1rem] max-sm:w-[90%]' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
             </div>
 
-            <div className='max-w-80 md:ml-[1rem]'>
+            <div className='max-w-80 md:ml-[1rem] max-sm:mt-[2rem]'>
                 <h3 className='font-tinos text-azul text-xl '>Tela Inicial:</h3>
-                <p className='font-fira text-justify text-sm '>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
-                <img className='mt-4 mb-15' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
+                <p className='font-fira text-justify text-sm  max-sm:w-[90%]'>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
+                <img className='mt-4 mb-15  max-sm:w-[90%]' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
             </div>
 
             
-             <div className='max-w-80 md:ml-[1rem]'>
+             <div className='max-w-80 md:ml-[1rem]  max-sm:mt-[2rem]'>
                 <h3 className='font-tinos text-azul text-xl '>Tela Inicial:</h3>
-                <p className='font-fira text-justify text-sm '>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
-                <img className='mt-4 mb-15' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
+                <p className='font-fira text-justify text-sm  max-sm:w-[90%]'>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
+                <img className='mt-4 mb-15  max-sm:w-[90%]' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
             </div>
 
         </div>

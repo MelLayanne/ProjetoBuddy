@@ -51,8 +51,8 @@ const ComponentesP = () => {
       <section className="py-8">
         <div className="flex flex-col md:block w-full md:w-full pt-8 pl-0 font-light text-2xl">
           <div className="titulo_da_segunda text-center md:text-left ml-0 md:ml-[4rem]">
-            <h2 className="m-0 font-tinos text-4xl md:text-6xl">Componentes</h2>
-            <div className="flex justify-center md:justify-start">
+            <h2 className="m-0 font-tinos text-4xl max-sm:ml-[-3rem] md:text-6xl">Componentes</h2>
+            <div className="flex text-justify md:justify-start max-sm:w-[70%] max-sm:ml-[2.5rem]">
               <p className="m-0 font-tinos font-bold text-azul pl-0.5 text-base md:text-lg">
                 Conheça os materiais que tornaram esse projeto possível
               </p>
@@ -62,111 +62,72 @@ const ComponentesP = () => {
         </div>
       </section>
 
-      <div className="bg-white py-12">
-        <section className="py-8 mb-[2rem] mt-[-2rem] ml-[-5rem]" id="componentes">
-          <div className="flex flex-col items-center">
-            <div className="relative w-full max-w-full md:max-w-6xl">
-              <div className="overflow-hidden rounded-lg shadow-lg">
-                <div
-                  className="flex transition-transform duration-700 ease-in-out transform-gpu"
-                  style={{
-                    transform: `translateX(-${(currentIndex / itemsPerSlide) * 100}%)`,
-                  }}
-                >
-                  {images.map((image, index) => (
-                    <div
-                      className="flex-none w-full md:w-1/3 px-2"
-                      key={index}
-                    >
-                      <img
-                        src={image}
-                        alt={`Slide ${index + 1}`}
-                        className="w-full h-auto object-cover rounded-lg"
-                      />
-                    </div>
-                  ))}
-                </div>
-              </div>
-              <button
-                onClick={prevSlide}
-                className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-white text-azul px-3 py-1 rounded-full shadow-md hover:bg-blue-100 transition duration-300 md:px-4 md:py-2"
-              >
-                ❮
-              </button>
-              <button
-                onClick={nextSlide}
-                className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-white text-azul px-3 py-1 rounded-full shadow-md hover:bg-blue-100 transition duration-300 md:px-4 md:py-2"
-              >
-                ❯
-              </button>
-            </div>
-          </div>
-        </section>
-      </div>
+  
 
-      <div className="bg-white py-12">
-        <section className="py-8 mb-[2rem] mt-[-2rem] ml-[-5rem]" id="componentes">
-          <div className="flex flex-col items-center">
-            <div className="relative w-full max-w-full md:max-w-6xl">
-              <div className="overflow-hidden rounded-lg shadow-lg">
-                <div
-                  className="flex transition-transform duration-700 ease-in-out transform-gpu"
-                  style={{
-                    transform: `translateX(-${(currentIndex / itemsPerSlide) * 100}%)`,
-                  }}
-                >
-                  {images.map((image, index) => (
-                    <div
-                      className="flex-none w-full md:w-1/3 px-2"
-                      key={index}
-                    >
-                      <img
-                        src={image}
-                        alt={`Slide ${index + 1}`}
-                        className="w-full h-auto object-cover rounded-lg"
-                      />
-                    </div>
-                  ))}
-                </div>
-              </div>
-              <button
-                onClick={prevSlide}
-                className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-white text-azul px-3 py-1 rounded-full shadow-md hover:bg-blue-100 transition duration-300 md:px-4 md:py-2"
-              >
-                ❮
-              </button>
-              <button
-                onClick={nextSlide}
-                className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-white text-azul px-3 py-1 rounded-full shadow-md hover:bg-blue-100 transition duration-300 md:px-4 md:py-2">❯
-              </button>
-            </div>
-          </div>
-        </section>
+      <section className="relative  overflow-hidden w-[80%] max-sm:ml-[2rem] ml-[12rem] max-sm:h-[70vh] md:mt-[3rem]">
+  <div id="carousel" className="flex transition-transform duration-500 ease-in-out">
+    <div className="bg-gray-100 p-6 rounded-lg shadow-lg w-full sm:w-1/2 md:w-[30%] flex-shrink-0 md:mr-[3rem]">
+      <img src={sensorS} alt="Sensor de Luminosidade" className="rounded-t-lg" />
+      <div className="p-4">
+        <h3 className="text-xl font-bold mb-2">Sensor de Luminosidade - R$16,90</h3>
+        <p className="text-gray-700">O Sensor de luminosidade foi utilizado para se fixar na carcaça do robô, podendo então captar a luz do ambiente.</p>
       </div>
+    </div>
+    <div className="bg-gray-100 p-6 rounded-lg shadow-lg w-full sm:w-1/2 md:w-[30%] flex-shrink-0 md:mr-[3rem]">
+      <img src={sensorS} alt="Sensor de Luminosidade" className="rounded-t-lg" />
+      <div className="p-4">
+        <h3 className="text-xl font-bold mb-2">Sensor de Luminosidade - R$16,90</h3>
+        <p className="text-gray-700">O Sensor de luminosidade foi utilizado para se fixar na carcaça do robô, podendo então captar a luz do ambiente.</p>
+      </div>
+    </div>
+    <div className="bg-gray-100 p-6 rounded-lg shadow-lg w-full sm:w-1/2 md:w-[30%] flex-shrink-0 md:mr-[3rem]">
+      <img src={sensorS} alt="Sensor de Luminosidade" className="rounded-t-lg" />
+      <div className="p-4">
+        <h3 className="text-xl font-bold mb-2">Sensor de Luminosidade - R$16,90</h3>
+        <p className="text-gray-700">O Sensor de luminosidade foi utilizado para se fixar na carcaça do robô, podendo então captar a luz do ambiente.</p>
+      </div>
+    </div>
+  </div>
+  <button id="prevBtn" className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full">
+    &#10094;
+  </button>
+  <button id="nextBtn" className="  absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full">
+    &#10095;
+  </button>
+</section>
 
-      <section className="flex gap-8 ml-20 items-center mb-16">
-        <div className="bg-gray-100 p-6 rounded-lg shadow-lg max-w-sm">
-          <img src={sensorS} alt="Sensor de Luminosidade" className="rounded-t-lg" />
-          <div className="p-4">
-            <h3 className="text-xl font-bold mb-2">Sensor de Luminosidade - R$16,90</h3>
-            <p className="text-gray-700">O Sensor de luminosidade foi utilizado para se fixar na carcaça do robô, podendo então captar a luz do ambiente.</p>
-          </div>
-        </div>
-        <div className="bg-gray-100 p-6 rounded-lg shadow-lg max-w-sm">
-          <img src={sensorS} alt="Sensor de Luminosidade" className="rounded-t-lg" />
-          <div className="p-4">
-            <h3 className="text-xl font-bold mb-2">Sensor de Luminosidade - R$16,90</h3>
-            <p className="text-gray-700">O Sensor de luminosidade foi utilizado para se fixar na carcaça do robô, podendo então captar a luz do ambiente.</p>
-          </div>
-        </div>
-        <div className="bg-gray-100 p-6 rounded-lg shadow-lg max-w-sm">
-          <img src={sensorS} alt="Sensor de Luminosidade" className="rounded-t-lg" />
-          <div className="p-4">
-            <h3 className="text-xl font-bold mb-2">Sensor de Luminosidade - R$16,90</h3>
-            <p className="text-gray-700">O Sensor de luminosidade foi utilizado para se fixar na carcaça do robô, podendo então captar a luz do ambiente.</p>
-          </div>
-        </div>
-      </section>
+<section className="relative overflow-hidden w-[80%] max-sm:ml-[2rem] ml-[12rem] max-sm:h-[70vh] md:mt-[4rem] md:mb-[4rem]">
+  <div id="carousel" className="flex transition-transform duration-500 ease-in-out">
+    <div className="bg-gray-100 p-6 rounded-lg shadow-lg w-full sm:w-1/2 md:w-[30%] flex-shrink-0 md:mr-[3rem]">
+      <img src={sensorS} alt="Sensor de Luminosidade" className="rounded-t-lg" />
+      <div className="p-4">
+        <h3 className="text-xl font-bold mb-2">Sensor de Luminosidade - R$16,90</h3>
+        <p className="text-gray-700">O Sensor de luminosidade foi utilizado para se fixar na carcaça do robô, podendo então captar a luz do ambiente.</p>
+      </div>
+    </div>
+    <div className="bg-gray-100 p-6 rounded-lg shadow-lg w-full sm:w-1/2 md:w-[30%] flex-shrink-0 md:mr-[3rem]">
+      <img src={sensorS} alt="Sensor de Luminosidade" className="rounded-t-lg" />
+      <div className="p-4">
+        <h3 className="text-xl font-bold mb-2">Sensor de Luminosidade - R$16,90</h3>
+        <p className="text-gray-700">O Sensor de luminosidade foi utilizado para se fixar na carcaça do robô, podendo então captar a luz do ambiente.</p>
+      </div>
+    </div>
+    <div className="bg-gray-100 p-6 rounded-lg shadow-lg w-full sm:w-1/2 md:w-[30%] flex-shrink-0 md:mr-[3rem]">
+      <img src={sensorS} alt="Sensor de Luminosidade" className="rounded-t-lg" />
+      <div className="p-4">
+        <h3 className="text-xl font-bold mb-2">Sensor de Luminosidade - R$16,90</h3>
+        <p className="text-gray-700">O Sensor de luminosidade foi utilizado para se fixar na carcaça do robô, podendo então captar a luz do ambiente.</p>
+      </div>
+    </div>
+  </div>
+
+  <button id="prevBtn" className="absolute left-[0rem] top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full">
+    &#10094;
+  </button>
+  <button id="nextBtn" className="absolute right-[0rem] top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full">
+    &#10095;
+  </button>
+</section>
 
 
       <section className='bg-gray-100 pt-[3rem] h-full md:h-[65%] 2xl:h-[57%] max-sm:h-[67%]'>

@@ -26,9 +26,9 @@ export default function Home() {
 <section className="py-8 container mx-auto px-4 md:px-6 lg:px-8 xl:px-10">
     <div className="flex flex-col w-full pt-8 font-light text-2xl ">
         <div className="pl-0 2xl:ml-[-7rem] ">
-            <h2 className="text-3xl md:text-6xl font-tinos md:ml-0 ml-[-4rem] max-sm:ml-[0.7rem]">Processo de criação</h2>
-            <div className="flex justify-center md:justify-start">
-                <p className="m-0 font-tinos font-bold text-azul md:ml-0 ml-[-4rem] max-sm:ml-[0.7rem] text-base ">Compreenda os detalhes que moldaram o companheiro da sua criança </p>
+            <h2 className="text-3xl md:text-6xl font-tinos md:ml-0 ml-[-4rem] max-sm:ml-[1rem]">Processo de criação</h2>
+            <div className="flex text-justify md:justify-start">
+                <p className="m-0 font-tinos font-bold text-azul md:ml-0 ml-[-4rem] max-sm:ml-[1.2rem] text-base max-sm:w-[85%]">Compreenda os detalhes que moldaram o companheiro da sua criança </p>
             </div>
         </div>
 
