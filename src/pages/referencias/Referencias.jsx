@@ -16,7 +16,7 @@ export default function CompletePage() {
                 </h1>
                 <div className="w-full max-w-full px-4">
                     <p className="text-gray-400 text-justify font-fira text-sm md:text-base md:ml-[1.5rem] md:mr-[4rem]">
-                        Robô que auxilia responsáveis no desenvolvimento da fala, interação social e reconhecimento de emoções de crianças autistas de nível 2 entre 5 e 10 anos de idade. Possui integração com App, o que facilita a devolução de relatórios que analisam a evolução do autista.
+                        Robô que auxilia responsáveis no desenvolvimento da fala, interação social e reconhecimento de emoções de crianças autistas de nível 2 entre 5 e 10 anos de idade. Possui integração com App, o que facilita a devolução de relatórios que analisam a evolução do autista
                     </p>
                 </div>
             </div>
@@ -42,7 +42,7 @@ export default function CompletePage() {
                         <div className="pr-[3%] md:mt-[-2rem] max-sm:mt-[3rem]" >
                             <img src={corda} alt="Corda" className='w-[100%] md:ml-[10rem] max-sm:w-[16.5rem] max-sm:ml-[-0.6rem] md:mt-[-2rem]' />
                             <div className='flex ml-[1rem]'><h3 className='pl-11 md:ml-[10rem] max-sm:ml-[-2.7rem] text-justify max-sm:w-[91%] '>Artigos Trabalhados:</h3>
-                                <div><a className='text-azul w-[30px] md:pl-11' href="">Tratamento Terapêutico</a><br /> <a className='text-azul w-[30px] md:p-11' href="">Robótica na educação</a></div></div>
+                                <div><a className='text-azul w-[30px] md:pl-11  font-fira ' href="">Tratamento Terapêutico</a><br /> <a className='text-azul w-[30px] font-fira md:p-11 md:ml-[0.2rem]' href="">Robótica na educação</a></div></div>
                         </div>
                     </div>
                 </div>

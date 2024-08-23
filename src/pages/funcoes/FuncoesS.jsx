@@ -17,7 +17,7 @@ export default function CompletePage() {
             </h1>
             <div className="w-full max-w-full px-4 md:ml-[35rem]">
                 <p className="text-gray-400  font-fira text-sm md:text-base text-justify text-center ">
-                Veja todas as funções do nosso TCC aqui no site. Pesquise, interaja e entre em contato conosco.
+                Veja todas as funções do nosso TCC aqui no site. Pesquise, interaja e entre em contato conosco
                 </p> 
             </div>
         </div>

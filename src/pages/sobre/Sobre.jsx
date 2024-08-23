@@ -20,7 +20,7 @@ const Sobre = () => {
                 </h1>
                 <div className="w-full max-w-full px-4 md:ml-[35rem]">
                     <p className="text-gray-400  font-fira text-sm md:text-base text-justify text-center">
-                        Saiba sobre nossos objetivos e motivações. Explore, conheça nossa equipe e conecte-se conosco.
+                        Saiba sobre nossos objetivos e motivações. Explore, conheça nossa equipe e conecte-se conosco
                     </p> 
                 </div>
             </div>
