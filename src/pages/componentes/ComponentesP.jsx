@@ -56,7 +56,7 @@ const ComponentesP = () => {
       <section className="py-8">
         <div className="flex flex-col md:block w-full md:w-full pt-8 pl-0 font-light text-2xl">
           <div className="titulo_da_segunda text-center md:text-left ml-0 md:ml-[4rem]">
-            <h2 className="m-0 font-tinos text-4xl max-sm:ml-[-3rem] md:text-6xl">Componentes</h2>
+            <h2 className="m-0 font-tinos text-3xl max-sm:ml-[-4.9rem] md:text-6xl">Componentes</h2>
             <div className="flex text-justify md:justify-start max-sm:w-[70%] max-sm:ml-[2.5rem]">
               <p className="m-0 font-tinos font-bold text-azul pl-0.5 text-base md:text-lg">
                 Conheça os materiais que tornaram esse projeto possível
