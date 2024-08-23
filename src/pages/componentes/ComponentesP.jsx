@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import sensorS from '../../assets/sensorS.svg';
+
 
 const ComponentesP = () => {
   const images = [
@@ -141,6 +143,31 @@ const ComponentesP = () => {
           </div>
         </section>
       </div>
+
+      <section className="flex gap-8 ml-20 items-center mb-16">
+        <div className="bg-gray-100 p-6 rounded-lg shadow-lg max-w-sm">
+          <img src={sensorS} alt="Sensor de Luminosidade" className="rounded-t-lg" />
+          <div className="p-4">
+            <h3 className="text-xl font-bold mb-2">Sensor de Luminosidade - R$16,90</h3>
+            <p className="text-gray-700">O Sensor de luminosidade foi utilizado para se fixar na carcaça do robô, podendo então captar a luz do ambiente.</p>
+          </div>
+        </div>
+        <div className="bg-gray-100 p-6 rounded-lg shadow-lg max-w-sm">
+          <img src={sensorS} alt="Sensor de Luminosidade" className="rounded-t-lg" />
+          <div className="p-4">
+            <h3 className="text-xl font-bold mb-2">Sensor de Luminosidade - R$16,90</h3>
+            <p className="text-gray-700">O Sensor de luminosidade foi utilizado para se fixar na carcaça do robô, podendo então captar a luz do ambiente.</p>
+          </div>
+        </div>
+        <div className="bg-gray-100 p-6 rounded-lg shadow-lg max-w-sm">
+          <img src={sensorS} alt="Sensor de Luminosidade" className="rounded-t-lg" />
+          <div className="p-4">
+            <h3 className="text-xl font-bold mb-2">Sensor de Luminosidade - R$16,90</h3>
+            <p className="text-gray-700">O Sensor de luminosidade foi utilizado para se fixar na carcaça do robô, podendo então captar a luz do ambiente.</p>
+          </div>
+        </div>
+      </section>
+
 
       <section className='bg-gray-100 pt-[3rem] h-full md:h-[65%] 2xl:h-[57%] max-sm:h-[67%]'>
   <div className='pl-[5rem]'>

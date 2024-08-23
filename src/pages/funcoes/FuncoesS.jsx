@@ -140,8 +140,8 @@ export default function CompletePage() {
             </div>
             
             <div className='max-w-80 md:ml-[1rem]'>
-                <h3 className='font-tinos text-azul text-xl '>Tela Inicial:</h3>
-                <p className='font-fira text-justify text-sm '>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
+                <h3 className='font-tinos text-azul text-xl '>Tela Home:</h3>
+                <p className='font-fira text-justify text-sm mb-9 '>Tela home conta com abas projetada para ser intuitiva e organizar as informações de forma clara e acessível, permitindo que o usuário navegue facilmente entre as diferentes funções. </p>
                 <img className='mt-4 mb-15' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
             </div>
 
@@ -162,8 +162,8 @@ export default function CompletePage() {
     </div>
 </section>
 
-<section className='bg-gray-100 pt-[3rem] h-full md:h-[65%] 2xl:h-[57%] max-sm:h-[67%]'>
-  <div className='pl-[5rem]'>
+<section className='bg-gray-100 pt-[3rem] h-full md:h-[75%] 2xl:h-[67%] max-sm:h-[67%]'>
+  <div className='pl-[5rem] pb-[3rem]'>
     <h2 className='font-tinos text-3xl md:text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
     <p className='font-tinos text-azul font-bold text-base text-justify w-50% md:ml-0 ml-[-2.8rem] max-sm:w-[98%]'>
       Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar.

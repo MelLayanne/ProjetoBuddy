@@ -92,17 +92,17 @@ const Sobre = () => {
       <section className="py-8 h-full">
                 <div className="terceira_section" id='referencias'>
                     <h2 className='font-tinos md:ml-[4rem] ml-[6rem] font-light md:text-6xl  text-3xl  md:mt-[2rem] max-sm:ml-[2.3rem]'>O que nos motiva</h2>
-                    <div className='flex '><p className='text-azul font-tinos font-bold text-base ml-[6rem] text-[20px] max-sm:ml-[2.3rem] md:ml-[4rem] max-sm:mr-[1rem]'>Descubra o que nos motiva a criar soluções que fazem a diferença.</p>
+                    <div className='flex '><p className='text-azul font-tinos font-bold text-base ml-[6rem] text-[20px] max-sm:ml-[2.3rem] md:ml-[4rem] max-sm:mr-[1rem] '>Descubra o que nos motiva a criar soluções que fazem a diferença.</p>
                     </div>
 
                     <div className="flex flex-wrap justify-center items-center pl-[18px]">
                         <div className="pt-[2rem] flex w-full md:w-[700px]">
                             <div className="mb-auto text-justify mt-auto w-[40vh] md:w-full">
-                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-34rem] md:mt-[-0.8rem] md:mr-[32rem] max-sm:ml-[1.2rem] max-sm:mr-[1.7rem]'>As histórias e insights compartilhados despertaram nossa motivação e foram fundamentais para a decisão de iniciar este projeto. Elas ilustraram desafios e conquistas que ressoaram profundamente conosco, oferecendo uma nova perspectiva e fortalecendo nossa determinação. Essa influência nos impulsionou a buscar soluções inovadoras e a abraçar com entusiasmo as oportunidades à nossa frente.</p><br />
+                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-34rem] md:mt-[-0.8rem] md:mr-[32rem] max-sm:ml-[1.2rem] max-sm:mr-[1.7rem] max-sm:w-[15.5rem] max-md:ml-[1rem] max-md:w-[40rem]'>As histórias e insights compartilhados despertaram nossa motivação e foram fundamentais para a decisão de iniciar este projeto. Elas ilustraram desafios e conquistas que ressoaram profundamente conosco, oferecendo uma nova perspectiva e fortalecendo nossa determinação. Essa influência nos impulsionou a buscar soluções inovadoras e a abraçar com entusiasmo as oportunidades à nossa frente.</p><br />
                             </div>
                         </div>
                         <div className="pr-[3%] md:mt-[-2rem]" >
-                            <img src={fotomot} alt="Corda" className='md:w-[30%] w-[100%]  flex  md:ml-[79.7rem] md:mt-[-15rem] max-sm:mt-[-3rem]'/>
+                            <img src={fotomot} alt="Corda" className='md:w-[30%] w-[100%] md:ml-[67rem]  md:mt-[-15rem] max-sm:mt-[-3rem] '/>
                         </div>
                     </div>
                 </div>
@@ -151,7 +151,7 @@ const Sobre = () => {
       
 
   <section className='bg-gray-100 pt-[3rem] h-full md:h-[65%] 2xl:h-[57%] max-sm:h-[67%]'>
-  <div className='pl-[5rem]'>
+  <div className='pl-[5rem] pb-3'>
     <h2 className='font-tinos text-3xl md:text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
     <p className='font-tinos text-azul font-bold text-base text-justify w-50% md:ml-0 ml-[-2.8rem] max-sm:w-[98%]'>
       Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar.

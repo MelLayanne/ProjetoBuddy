@@ -27,21 +27,21 @@ export default function CompletePage() {
             </section>
             <section className="py-8 h-full">
                 <div className="terceira_section" id='referencias'>
-                    <h2 className='font-tinos md:ml-[4rem] ml-[6rem] font-light text-6xl md:mt-[2rem] '>Referências</h2>
-                    <div className='flex '><p className='text-azul font-tinos font-bold ml-[6rem] text-[20px] md:ml-[4rem]'>Confira as bases ciêntificas que fundamentaram o desenvolvimento deste projeto</p>
+                    <h2 className='font-tinos md:ml-[4rem] ml-[6rem] font-light md:text-6xl max-sm:ml-[2rem] text-3xl md:mt-[2rem] '>Referências</h2>
+                    <div className='flex '><p className='text-azul font-tinos font-bold ml-[6rem] text-base max-sm:ml-[2rem] text-[20px] md:ml-[4rem]'>Confira as bases ciêntificas que fundamentaram o desenvolvimento deste projeto</p>
                     </div>
 
                     <div className="flex flex-wrap justify-center items-center pl-[18px]">
                         <div className="pt-[2rem] flex w-full md:w-[700px]">
                             <div className="mb-auto text-justify mt-auto w-[40vh] md:w-full">
-                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-10rem] md:mt-[-8rem]'>A ciência comprova a importância do desenvolvimento de robôs personalizados que auxiliam na terapia e na educação de crianças entre 5 e 10 anos e que se encaixam no nível 1 e 2 do Transtorno do Espectro Autista (TEA).</p><br />
-                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-10rem]'>Nesse sentido, pontuam-se maneiras de estimular a atenção, habilidades de comunicação, interação e aprendizado das crianças autistas através de animações que simulavam expressões humanas de forma simplificada na tela dos robôs, já que a falta de emoções nesses dispositivos facilitavam o interesse ao interagir com eles.</p><br />
-                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-10rem]'>Por consequência, há uma acentuada melhora na coordenação motora, comunicação e interação social. Pode-se comprovar então, que a ciência oferece embasamento teórico e prático para aplicação de robôs no tratamento terapêutico.</p>
+                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-10rem] md:mt-[-8rem] max-sm:ml-[1rem] max-sm:w-[15rem]'>A ciência comprova a importância do desenvolvimento de robôs personalizados que auxiliam na terapia e na educação de crianças entre 5 e 10 anos e que se encaixam no nível 1 e 2 do Transtorno do Espectro Autista (TEA).</p><br />
+                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-10rem] max-sm:ml-[1rem] max-sm:w-[15rem]'>Nesse sentido, pontuam-se maneiras de estimular a atenção, habilidades de comunicação, interação e aprendizado das crianças autistas através de animações que simulavam expressões humanas de forma simplificada na tela dos robôs, já que a falta de emoções nesses dispositivos facilitavam o interesse ao interagir com eles.</p><br />
+                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-10rem] max-sm:ml-[1rem] max-sm:w-[15rem]'>Por consequência, há uma acentuada melhora na coordenação motora, comunicação e interação social. Pode-se comprovar então, que a ciência oferece embasamento teórico e prático para aplicação de robôs no tratamento terapêutico.</p>
                             </div>
                         </div>
                         <div className="pr-[3%] md:mt-[-2rem]" >
-                            <img src={corda} alt="Corda" className='w-[100%] md:ml-[10rem]' />
-                            <div className='flex ml-[1rem]'><h3 className='pl-11 md:ml-[10rem]'>Artigos Trabalhados:</h3>
+                            <img src={corda} alt="Corda" className='w-[100%] md:ml-[10rem] max-sm:w-[16.5rem] max-sm:ml-[-0.6rem]' />
+                            <div className='flex ml-[1rem]'><h3 className='pl-11 md:ml-[10rem] max-sm:ml-[-2.7rem] '>Artigos Trabalhados:</h3>
                                 <div><a className='text-azul w-[30px] md:pl-11' href="">Tratamento Terapêutico</a><br /> <a className='text-azul w-[30px] md:p-11' href="">Robótica na educação</a></div></div>
                         </div>
                     </div>
