@@ -126,13 +126,13 @@ export default function CompletePage() {
     </div>
 </section>
 
-<section className='mt-10 pb-10 mb-7 md:ml-0 ml-[-1rem]'>
+<section className='mt-10 pb-10 mb-7 md:ml-0 ml-[-1rem] '>
     <div>
-        <div className='pl-[5rem] pb-9 '>
+        <div className='pl-[5rem] pb-9'>
             <h2 className='font-tinos text-3xl md:text-6xl md:ml-0 ml-[-3rem]'>Principais Telas</h2>
             <p className='text-azul font-tinos text-lg md:text-base font-bold w-50% md:ml-0 ml-[-2.8rem] max-sm:w-[108%] '>Explore as principais telas que guiam sua navegação e experiência no projeto</p>
         </div>
-        <div className='flex pl-[5rem] gap-32 max-sm:block max-sm:pl-[2.5rem] md:w-[190rem] max-2xl:gap-11 '>
+        <div className='flex pl-[5rem] gap-36 max-sm:block max-sm:pl-[2.5rem] md:w-[190rem] max-2xl:gap-11 '>
             <div className='max-w-80 max-sm:max-w-60.5  max-2xl:max-w-64  max-sm:max-w-80'>
                 <h3 className='font-tinos text-azul text-xl'>Tela Inicial:</h3>
                 <p className='font-fira text-justify text-sm max-sm:w-[90%]'>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
@@ -166,7 +166,7 @@ export default function CompletePage() {
   <div className='pl-[5rem] pb-[3rem]'>
     <h2 className='font-tinos text-3xl md:text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
     <p className='font-tinos text-azul font-bold text-base text-justify w-50% md:ml-0 ml-[-2.8rem] max-sm:w-[98%]'>
-      Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar.
+      Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar
     </p>
     <form className='mt-6'>
       <div className='mb-4'>

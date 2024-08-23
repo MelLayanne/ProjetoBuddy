@@ -34,9 +34,9 @@ export default function CompletePage() {
                     <div className="flex flex-wrap justify-center items-center pl-[18px]">
                         <div className="pt-[2rem] flex w-full md:w-[700px]">
                             <div className="mb-auto text-justify mt-auto w-[40vh] md:w-full">
-                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-10rem] md:mt-[-8rem] max-sm:ml-[1rem] max-sm:w-[15rem]'>A ciência comprova a importância do desenvolvimento de robôs personalizados que auxiliam na terapia e na educação de crianças entre 5 e 10 anos e que se encaixam no nível 1 e 2 do Transtorno do Espectro Autista (TEA).</p><br />
-                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-10rem] max-sm:ml-[1rem] max-sm:w-[15rem]'>Nesse sentido, pontuam-se maneiras de estimular a atenção, habilidades de comunicação, interação e aprendizado das crianças autistas através de animações que simulavam expressões humanas de forma simplificada na tela dos robôs, já que a falta de emoções nesses dispositivos facilitavam o interesse ao interagir com eles.</p><br />
-                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-10rem] max-sm:ml-[1rem] max-sm:w-[15rem]'>Por consequência, há uma acentuada melhora na coordenação motora, comunicação e interação social. Pode-se comprovar então, que a ciência oferece embasamento teórico e prático para aplicação de robôs no tratamento terapêutico.</p>
+                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-11rem] md:mt-[-8rem] max-sm:ml-[1rem] max-sm:w-[15rem]'>A ciência comprova a importância do desenvolvimento de robôs personalizados que auxiliam na terapia e na educação de crianças entre 5 e 10 anos e que se encaixam no nível 1 e 2 do Transtorno do Espectro Autista (TEA).</p><br />
+                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-11rem] max-sm:ml-[1rem] max-sm:w-[15rem]'>Nesse sentido, pontuam-se maneiras de estimular a atenção, habilidades de comunicação, interação e aprendizado das crianças autistas através de animações que simulavam expressões humanas de forma simplificada na tela dos robôs, já que a falta de emoções nesses dispositivos facilitavam o interesse ao interagir com eles.</p><br />
+                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-11rem] max-sm:ml-[1rem] max-sm:w-[15rem]'>Por consequência, há uma acentuada melhora na coordenação motora, comunicação e interação social. Pode-se comprovar então, que a ciência oferece embasamento teórico e prático para aplicação de robôs no tratamento terapêutico.</p>
                             </div>
                         </div>
                         <div className="pr-[3%] md:mt-[-2rem] max-sm:mt-[3rem]" >
@@ -52,7 +52,7 @@ export default function CompletePage() {
   <div className='pl-[5rem] pb-8'>
     <h2 className='font-tinos text-3xl md:text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
     <p className='font-tinos text-azul font-bold text-base text-justify w-50% md:ml-0 ml-[-2.8rem] max-sm:w-[98%]'>
-      Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar.
+      Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar
     </p>
     <form className='mt-6'>
       <div className='mb-4'>
