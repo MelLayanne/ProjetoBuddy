@@ -98,19 +98,19 @@ const Sobre = () => {
                     <div className="flex flex-wrap justify-center items-center pl-[18px]">
                         <div className="pt-[2rem] flex w-full md:w-[700px]">
                             <div className="mb-auto text-justify mt-auto w-[40vh] md:w-full">
-                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-34rem] md:mt-[-0.8rem] md:mr-[32rem] max-sm:ml-[1.2rem] max-sm:mr-[1.7rem] max-sm:w-[15.5rem] md:ml-[-33rem] max-md:w-[40rem]'>As histórias e insights compartilhados despertaram nossa motivação e foram fundamentais para a decisão de iniciar este projeto. Elas ilustraram desafios e conquistas que ressoaram profundamente conosco, oferecendo uma nova perspectiva e fortalecendo nossa determinação. Essa influência nos impulsionou a buscar soluções inovadoras e a abraçar com entusiasmo as oportunidades à nossa frente.</p><br />
+                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-32.5rem] md:mt-[-0.8rem] md:mr-[32rem] max-sm:ml-[1.2rem] max-sm:mr-[1.7rem] max-sm:w-[15.5rem] md:ml-[-33rem] max-md:w-[40rem]'>As histórias e insights compartilhados despertaram nossa motivação e foram fundamentais para a decisão de iniciar este projeto. Elas ilustraram desafios e conquistas que ressoaram profundamente conosco, oferecendo uma nova perspectiva e fortalecendo nossa determinação. Essa influência nos impulsionou a buscar soluções inovadoras e a abraçar com entusiasmo as oportunidades à nossa frente.</p><br />
                             </div>
                         </div>
-                        <div className="flex flex-col md:flex-row items-center justify-center md:space-x-4 pr-[3%] md:mt-[-20rem]">
+                        <div className="flex flex-col md:flex-row items-center justify-center md:space-x-4 pr-[3%] md:mt-[-20rem] gap-14 ">
                           <img
                             src={fotomot}
                             alt="img"
-                            className="md:w-[30%] w-[100%] md:ml-[48rem] md:mr-[-7rem] md:mt-0 max-sm:mt-[-3rem]"
+                            className="md:w-[20%] w-[100%] md:ml-[65rem] md:mr-[-7rem] md:mt-0 max-sm:mt-[-3rem]"
                             />
                            <img
                           src={fotmot2}
                           alt="img"
-                          className="md:w-[30%] w-[100%] md:ml-0 md:mt-0 max-sm:mt-[-3rem]"
+                          className="md:w-[20%] w-[100%] md:ml-0 md:mt-0 max-sm:mt-[-3rem]"
                           />
                           </div>
 
@@ -147,7 +147,7 @@ const Sobre = () => {
         - Maria, mãe de Ana
       </p>
     </div>
-    <div className='bg-white p-6 mx-4 mb-6 w-[82%] md:w-[35rem] text-center max-sm:w-[125%] max-sm:ml-[-5rem] shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl '>
+    <div className='bg-white p-6 mx-4 mb-6 w-[82%] md:w-[32rem] text-center max-sm:w-[125%] max-sm:ml-[-5rem] shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl '>
       <p className='font-fira text-base md:text-lg leading-relaxed text-justify'>
         "Os relatórios detalhados me ajudam a acompanhar o progresso do meu filho e saber onde ele precisa de mais ajuda."
       </p>

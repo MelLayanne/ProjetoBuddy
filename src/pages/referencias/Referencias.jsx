@@ -40,7 +40,7 @@ export default function CompletePage() {
                             </div>
                         </div>
                         <div className="pr-[3%] md:mt-[-2rem] max-sm:mt-[3rem]" >
-                            <img src={corda} alt="Corda" className='w-[100%] md:ml-[10rem] max-sm:w-[16.5rem] max-sm:ml-[-0.6rem]' />
+                            <img src={corda} alt="Corda" className='w-[100%] md:ml-[10rem] max-sm:w-[16.5rem] max-sm:ml-[-0.6rem] md:mt-[-2rem]' />
                             <div className='flex ml-[1rem]'><h3 className='pl-11 md:ml-[10rem] max-sm:ml-[-2.7rem] text-justify max-sm:w-[91%] '>Artigos Trabalhados:</h3>
                                 <div><a className='text-azul w-[30px] md:pl-11' href="">Tratamento Terapêutico</a><br /> <a className='text-azul w-[30px] md:p-11' href="">Robótica na educação</a></div></div>
                         </div>
@@ -49,7 +49,7 @@ export default function CompletePage() {
             </section>
 
             <section className='bg-gray-100 pt-[3rem] h-full md:h-[65%] 2xl:h-[57%] max-sm:h-[67%]'>
-  <div className='pl-[5rem]'>
+  <div className='pl-[5rem] pb-8'>
     <h2 className='font-tinos text-3xl md:text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
     <p className='font-tinos text-azul font-bold text-base text-justify w-50% md:ml-0 ml-[-2.8rem] max-sm:w-[98%]'>
       Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar.
