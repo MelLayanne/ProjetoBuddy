@@ -52,7 +52,7 @@ const Sobre = () => {
   <div className="grid grid-cols-1 md:grid-cols-2">
     <div className="flex flex-col md:ml-[4rem] ml-[6rem] max-sm:ml-[2.7rem] max-sm:w-[80%] items-center bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl mb-6 h-48 md:w-[45rem] w-[72%] sm:w-[90%]">
       <div className="flex justify-center w-full">
-        <img className="h-48 object-cover rounded-lg mr-[15rem] w-1/3  absolute  transform md:translate-x-[-8rem] translate-x-1/5 mobile:left-1/4 mobile:transform-none max-sm:ml-[4rem]" src={k} alt="Kauhanny" />
+        <img className="h-48 object-cover rounded-lg mr-[15rem] w-1/3  absolute  transform md:translate-x-[-8rem] translate-x-1/5 mobile:left-1/4 mobile:transform-none max-sm:ml-[4rem] " src={k} alt="Kauhany" />
       </div>
       <div className="p-4 text-left max-sm:ml-[4rem]">
         <h4 className="font-bold text-lg mb-2">Kauhany Santos</h4>

@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
-import sensorS from '../../assets/sensorS.svg';
+import sensorL from '../../assets/sensorL.svg';
+import protoboard from '../../assets/protoboard.svg'
+import jumpers from '../../assets/jumpers.svg'
+import sensorS from '../../assets/sensorS.svg'
+import arduino from '../../assets/arduino.svg'
+import moduloB from '../../assets/moduloB.svg'
 
 
 const ComponentesP = () => {
@@ -39,7 +44,7 @@ const ComponentesP = () => {
                 </h1>
                 <div className="w-full max-w-full px-4">
                   <p className="text-gray-400 text-justify font-fira text-sm md:text-base md:ml-[1.5rem] md:mr-[4rem]">
-                    Robô que auxilia responsáveis no desenvolvimento da fala, interação social e reconhecimento de emoções de crianças autistas de nível 2 entre 5 e 10 anos de idade. Possui integração com App, o que facilita a devolução de relatórios que analisam a evolução do autista.
+                  Descubra todos os componentes usados no nosso projeto e veja como cada peça foi fundamental para realização desse trabalho
                   </p>
                 </div>
               </div>
@@ -64,27 +69,27 @@ const ComponentesP = () => {
 
   
 
-      <section className="relative  overflow-hidden w-[80%] max-sm:ml-[2rem] ml-[12rem] max-sm:h-[70vh] md:mt-[3rem]">
-  <div id="carousel" className="flex transition-transform duration-500 ease-in-out">
-    <div className="bg-gray-100 p-6 rounded-lg shadow-lg w-full sm:w-1/2 md:w-[30%] flex-shrink-0 md:mr-[3rem]">
-      <img src={sensorS} alt="Sensor de Luminosidade" className="rounded-t-lg" />
+      <section className="relative  overflow-hidden w-[80%] max-sm:ml-[2rem] ml-[12rem] max-sm:h-[70vh] md:mt-[3rem] max-sm:mb-16">
+  <div id="carousel" className="flex transition-transform duration-500 ease-in-out ">
+    <div className="bg-gray-100 p-6 rounded-lg shadow-lg w-full sm:w-1/2 md:w-[30%] flex-shrink-0 md:mr-[3rem] pb-10 ">
+      <img src={sensorL} alt="Sensor de Luminosidade" className="rounded-t-lg" />
       <div className="p-4">
         <h3 className="text-xl font-bold mb-2">Sensor de Luminosidade - R$16,90</h3>
-        <p className="text-gray-700">O Sensor de luminosidade foi utilizado para se fixar na carcaça do robô, podendo então captar a luz do ambiente.</p>
+        <p className="text-gray-700 text-justify max-w-80%">O Sensor de luminosidade foi utilizado para se fixar na carcaça do robô, podendo então captar a luz do ambiente.</p>
+      </div>
+    </div>
+    <div className="bg-gray-100 p-6 rounded-lg shadow-lg w-full sm:w-1/2 md:w-[30%] flex-shrink-0 md:mr-[3rem]">
+      <img src={protoboard} alt="Sensor de Luminosidade" className="rounded-t-lg" />
+      <div className="p-4">
+        <h3 className="text-xl font-bold mb-2 mt-8">Protoboard - R$9,40</h3>
+        <p className="text-gray-700 text-justify">A protoboard foi utilizada para montar e testar o circuito eletrônico do robô, possibilitando a conexão dos componentes de forma prática.</p>
       </div>
     </div>
     <div className="bg-gray-100 p-6 rounded-lg shadow-lg w-full sm:w-1/2 md:w-[30%] flex-shrink-0 md:mr-[3rem]">
       <img src={sensorS} alt="Sensor de Luminosidade" className="rounded-t-lg" />
       <div className="p-4">
-        <h3 className="text-xl font-bold mb-2">Sensor de Luminosidade - R$16,90</h3>
-        <p className="text-gray-700">O Sensor de luminosidade foi utilizado para se fixar na carcaça do robô, podendo então captar a luz do ambiente.</p>
-      </div>
-    </div>
-    <div className="bg-gray-100 p-6 rounded-lg shadow-lg w-full sm:w-1/2 md:w-[30%] flex-shrink-0 md:mr-[3rem]">
-      <img src={sensorS} alt="Sensor de Luminosidade" className="rounded-t-lg" />
-      <div className="p-4">
-        <h3 className="text-xl font-bold mb-2">Sensor de Luminosidade - R$16,90</h3>
-        <p className="text-gray-700">O Sensor de luminosidade foi utilizado para se fixar na carcaça do robô, podendo então captar a luz do ambiente.</p>
+        <h3 className="text-xl font-bold mb-2 mt-2">Sensor de Som - R$8,90</h3>
+        <p className="text-gray-700 text-justify">O sensor de som foi integrado ao robô, permitindo captar variações acústicas no ambiente e reagir a diferentes níveis de ruído.</p>
       </div>
     </div>
   </div>
@@ -96,27 +101,27 @@ const ComponentesP = () => {
   </button>
 </section>
 
-<section className="relative overflow-hidden w-[80%] max-sm:ml-[2rem] ml-[12rem] max-sm:h-[70vh] md:mt-[4rem] md:mb-[4rem]">
+<section className="relative overflow-hidden w-[80%] max-sm:ml-[2rem] ml-[12rem] max-sm:h-[70vh] md:mt-[4rem] md:mb-[4rem] max-sm:mb-16">
   <div id="carousel" className="flex transition-transform duration-500 ease-in-out">
-    <div className="bg-gray-100 p-6 rounded-lg shadow-lg w-full sm:w-1/2 md:w-[30%] flex-shrink-0 md:mr-[3rem]">
-      <img src={sensorS} alt="Sensor de Luminosidade" className="rounded-t-lg" />
+    <div className="bg-gray-100 p-6 rounded-lg shadow-lg w-full sm:w-1/2 md:w-[30%] flex-shrink-0 md:mr-[3rem] pb-18">
+      <img src={jumpers} alt="Sensor de Luminosidade" className="rounded-t-lg" />
       <div className="p-4">
-        <h3 className="text-xl font-bold mb-2">Sensor de Luminosidade - R$16,90</h3>
-        <p className="text-gray-700">O Sensor de luminosidade foi utilizado para se fixar na carcaça do robô, podendo então captar a luz do ambiente.</p>
+        <h3 className="text-xl font-bold mb-2 mt-16">Jumpers - R$16,90</h3>
+        <p className="text-gray-700 text-justify">Os jumpers foram utilizados para estabelecer conexões temporárias entre os componentes na protoboard.</p>
       </div>
     </div>
     <div className="bg-gray-100 p-6 rounded-lg shadow-lg w-full sm:w-1/2 md:w-[30%] flex-shrink-0 md:mr-[3rem]">
-      <img src={sensorS} alt="Sensor de Luminosidade" className="rounded-t-lg" />
+      <img src={arduino} alt="Sensor de Luminosidade" className="rounded-t-lg mt-20 ml-2 w-60" />
       <div className="p-4">
-        <h3 className="text-xl font-bold mb-2">Sensor de Luminosidade - R$16,90</h3>
-        <p className="text-gray-700">O Sensor de luminosidade foi utilizado para se fixar na carcaça do robô, podendo então captar a luz do ambiente.</p>
+        <h3 className="text-xl font-bold mb-2 mt-14">Arduíno Mega - R$219,20</h3>
+        <p className="text-gray-700 text-justify">O Arduino Mega foi utilizado como a base do controle do robô, oferecendo uma ampla capacidade de processamento e múltiplas portas de entrada e saída.</p>
       </div>
     </div>
     <div className="bg-gray-100 p-6 rounded-lg shadow-lg w-full sm:w-1/2 md:w-[30%] flex-shrink-0 md:mr-[3rem]">
-      <img src={sensorS} alt="Sensor de Luminosidade" className="rounded-t-lg" />
+      <img src={moduloB} alt="modulo bluetooth" className="rounded-t-lg mt-10 ml-4" />
       <div className="p-4">
-        <h3 className="text-xl font-bold mb-2">Sensor de Luminosidade - R$16,90</h3>
-        <p className="text-gray-700">O Sensor de luminosidade foi utilizado para se fixar na carcaça do robô, podendo então captar a luz do ambiente.</p>
+        <h3 className="text-xl font-bold mb-2 mt-14">Módulo Bluetooth - R$39,90</h3>
+        <p className="text-gray-700 text-justify">O módulo Bluetooth foi acoplado ao robô, permitindo a comunicação sem fio com o aplicativo, permitindo a troca de dados em tempo real.</p>
       </div>
     </div>
   </div>
@@ -131,7 +136,7 @@ const ComponentesP = () => {
 
 
       <section className='bg-gray-100 pt-[3rem] h-full md:h-[65%] 2xl:h-[57%] max-sm:h-[67%]'>
-  <div className='pl-[5rem]'>
+  <div className='pl-[5rem] max-sm:pb-5'>
     <h2 className='font-tinos text-3xl md:text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
     <p className='font-tinos text-azul font-bold text-base text-justify w-50% md:ml-0 ml-[-2.8rem] max-sm:w-[98%]'>
       Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar.

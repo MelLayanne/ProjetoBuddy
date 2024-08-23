@@ -16,7 +16,7 @@ export default function CompletePage() {
               BUDDY
             </h1>
             <div className="w-full max-w-full px-4 md:ml-[35rem]">
-                <p className="text-gray-400  font-fira text-sm md:text-base text-justify text-center">
+                <p className="text-gray-400  font-fira text-sm md:text-base text-justify text-center ">
                 Veja todas as funções do nosso TCC aqui no site. Pesquise, interaja e entre em contato conosco.
                 </p> 
             </div>
@@ -132,29 +132,29 @@ export default function CompletePage() {
             <h2 className='font-tinos text-4xl md:text-6xl md:ml-0 ml-[-3rem]'>Principais Telas</h2>
             <p className='text-azul font-tinos text-lg md:text-base font-bold w-50% md:ml-0 ml-[-2.8rem] max-sm:w-[108%] '>Explore as principais telas que guiam sua navegação e experiência no projeto</p>
         </div>
-        <div className='flex pl-[5rem] gap-32 max-sm:block max-sm:pl-[2.5rem] md:w-[190rem] '>
-            <div className='max-w-80 max-sm:max-w-60.5'>
+        <div className='flex pl-[5rem] gap-32 max-sm:block max-sm:pl-[2.5rem] md:w-[190rem] max-2xl:gap-11 '>
+            <div className='max-w-80 max-sm:max-w-60.5  max-2xl:max-w-64  max-sm:max-w-80'>
                 <h3 className='font-tinos text-azul text-xl'>Tela Inicial:</h3>
                 <p className='font-fira text-justify text-sm max-sm:w-[90%]'>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
                 <img className='mt-4 mb-15 max-sm:mb-10  max-sm:w-[90%]' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
             </div>
             
-            <div className='max-w-80 md:ml-[1rem] max-sm:mt-[2rem]'>
+            <div className='max-w-80 md:ml-[1rem] max-sm:mt-[2rem] max-2xl:max-w-64  max-sm:max-w-80'>
                 <h3 className='font-tinos text-azul text-xl '>Tela Home:</h3>
-                <p className='font-fira text-justify text-sm mb-9  max-sm:w-[90%]'>Tela home conta com abas projetada para ser intuitiva e organizar as informações de forma clara e acessível, permitindo que o usuário navegue facilmente entre as diferentes funções. </p>
+                <p className='font-fira text-justify text-sm mb-9 max-sm:mb-8  max-sm:w-[90%]'>Tela home conta com abas projetada para ser intuitiva e organizar as informações de forma clara e acessível, permitindo que o usuário navegue facilmente entre as diferentes funções. </p>
                 <img className='mt-4 mb-15 max-sm:mt-[-1rem] max-sm:w-[90%]' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
             </div>
 
-            <div className='max-w-80 md:ml-[1rem] max-sm:mt-[2rem]'>
-                <h3 className='font-tinos text-azul text-xl '>Tela Inicial:</h3>
-                <p className='font-fira text-justify text-sm  max-sm:w-[90%]'>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
+            <div className='max-w-80 md:ml-[1rem] max-sm:mt-[2rem] max-2xl:max-w-64 max-sm:max-w-80'>
+                <h3 className='font-tinos text-azul text-xl '>Tela Emoções:</h3>
+                <p className='font-fira text-justify text-sm  mb-9 max-sm:mb-4 max-sm:w-[90%]'>A tela de reconhecimento de emoções foi desenhada para ser intuitiva, oferecendo uma interface simples que facilita a identificação e a análise das emoções.</p>
                 <img className='mt-4 mb-15  max-sm:w-[90%]' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
             </div>
 
             
-             <div className='max-w-80 md:ml-[1rem]  max-sm:mt-[2rem]'>
-                <h3 className='font-tinos text-azul text-xl '>Tela Inicial:</h3>
-                <p className='font-fira text-justify text-sm  max-sm:w-[90%]'>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
+             <div className='max-w-80 md:ml-[1rem]  max-sm:mt-[2rem]  max-2xl:max-w-64  max-sm:max-w-80'>
+                <h3 className='font-tinos text-azul text-xl '>Tela Configurações:</h3>
+                <p className='font-fira text-justify text-sm max-sm:mb-4  mb-14 max-sm:w-[90%]'>A tela de configuração foi projetada para ser intuitiva, permitindo que o usuário personalize facilmente as preferências e ajustes do sistema.</p>
                 <img className='mt-4 mb-15  max-sm:w-[90%]' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
             </div>
 
