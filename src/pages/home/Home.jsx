@@ -60,7 +60,7 @@ export default function Home() {
             <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-0">
                 <h2 className="text-azul font-bold font-tinos text-lg text-center md:text-left">Atividades</h2>
                 <div className="bg-gray-200 p-7 text-sm flex flex-col items-center 2xl-max-w-[90%] ">
-                    <p className="font-fira text-sm text-justify  max-w-[80%]">"As atividades e habilidades desenvolvidas pelo robô foram selecionados para serem realizadas emsequência, como um processo de evelução que acompanha a criança desde o início.  </p>
+                    <p className="font-fira text-sm text-justify  max-w-[80%]">As atividades e habilidades desenvolvidas pelo robô foram selecionados para serem realizadas emsequência, como um processo de evelução que acompanha a criança desde o início.  </p>
                 </div>
             </div>
             
@@ -76,7 +76,7 @@ export default function Home() {
             <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-0 ">
                 <h2 className="text-azul font-bold font-tinos text-lg text-center md:text-left">Questionário</h2>
                 <div className="bg-gray-200 p-7 text-sm flex flex-col items-center ">
-                    <p className="font-fira text-sm text-justify max-w-[90%]">"É fundamental para entender as necessidades individuais e únicas da criança. Ele permite que os cuidadores, obtenham uma visão detalhada sobre as preferências e desafios específicos do autista.</p>
+                    <p className="font-fira text-sm text-justify max-w-[90%]">É fundamental para entender as necessidades individuais e únicas da criança. Ele permite que os cuidadores, obtenham uma visão detalhada sobre as preferências e desafios específicos do autista.</p>
                 </div>
             </div>
             
@@ -92,7 +92,7 @@ export default function Home() {
             <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-0 max-sm:w-[93%] max-sm:ml-[0.9rem]">
                 <h2 className="text-azul font-bold font-tinos text-lg text-center md:text-left">Robô</h2>
                 <div className="bg-gray-200 p-7 text-sm flex flex-col items-center ">
-                    <p className="font-fira text-sm text-justify ">"Crianças autistas muitas vezes preferem interagir com robôs por sua falta de emoções, o que torna a comunicação mais previsível e confortável.</p>
+                    <p className="font-fira text-sm text-justify ">Crianças autistas muitas vezes preferem interagir com robôs por sua falta de emoções, o que torna a comunicação mais previsível e confortável.</p>
                 </div>
             </div>
             
