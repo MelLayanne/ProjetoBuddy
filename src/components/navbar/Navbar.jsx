@@ -1,16 +1,22 @@
-import { Link } from "react-router-dom";
-import { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { useState, useEffect } from "react";
 import logo from "../../assets/Logo.png";
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
+    const location = useLocation();
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
 
+    // Fecha o menu quando a localização muda
+    useEffect(() => {
+        setIsOpen(false);
+    }, [location]);
+
     return (
-        <header className="flex items-center justify-between absolute w-full px-12 z-10 h-auto mt-[-1.5rem]">
+        <header className="flex items-center transition-all delay-500 justify-between absolute w-full px-12 z-10 h-auto mt-[-1.5rem]">
             <img src={logo} alt="Logo" className="md:w-50 w-40 md:ml-0 ml-[-3.5rem]" />
             <button
                 className={`md:hidden flex flex-col justify-between w-8 h-8 bg-transparent border-none cursor-pointer z-20 transition-transform duration-300 ease-linear ${isOpen ? 'open' : ''}`}
@@ -28,12 +34,15 @@ function Navbar() {
                 </button>
                 <ul className="flex flex-col items-center space-y-6 mt-16">
                     <li><Link to='/' className="text-white text-2xl">Home</Link></li>
-                    <li><Link to='funcoes' className="text-white text-2xl">Funções</Link></li>
+                    <li><Link to='/funcoes' className="text-white text-2xl">Funções</Link></li>
                     <li><Link to='/referencias' className="text-white text-2xl">Referências</Link></li>
                     <li><Link to='/componentes' className="text-white text-2xl">Componentes</Link></li>
                     <li><Link to='/sobre' className="text-white text-2xl">Sobre nós</Link></li>
                 </ul>
             </nav>
+        
+
+
             {/* Versão Desktop */}
             <nav className="hidden md:flex md:flex-row md:items-center md:justify-between md:w-auto md:bg-transparent md:static md:h-auto">
                 <ul className="flex flex-row md:space-x-8">
