@@ -34,15 +34,15 @@ export default function CompletePage() {
                     <div className="flex flex-wrap justify-center items-center pl-[18px]">
                         <div className="pt-[2rem] flex w-full md:w-[700px]">
                             <div className="mb-auto text-justify mt-auto w-[40vh] md:w-full">
-                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-11rem] md:mt-[-8rem] max-sm:ml-[1rem] max-sm:w-[15rem]'>A ciência comprova a importância do desenvolvimento de robôs personalizados que auxiliam na terapia e na educação de crianças entre 5 e 10 anos e que se encaixam no nível 1 e 2 do Transtorno do Espectro Autista (TEA).</p><br />
-                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-11rem] max-sm:ml-[1rem] max-sm:w-[15rem]'>Nesse sentido, pontuam-se maneiras de estimular a atenção, habilidades de comunicação, interação e aprendizado das crianças autistas através de animações que simulavam expressões humanas de forma simplificada na tela dos robôs, já que a falta de emoções nesses dispositivos facilitavam o interesse ao interagir com eles.</p><br />
-                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-11rem] max-sm:ml-[1rem] max-sm:w-[15rem]'>Por consequência, há uma acentuada melhora na coordenação motora, comunicação e interação social. Pode-se comprovar então, que a ciência oferece embasamento teórico e prático para aplicação de robôs no tratamento terapêutico.</p>
+                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-11rem] md:mt-[-8rem] max-sm:ml-[1rem] max-sm:w-[19rem]'>A ciência comprova a importância do desenvolvimento de robôs personalizados que auxiliam na terapia e na educação de crianças entre 5 e 10 anos e que se encaixam no nível 1 e 2 do Transtorno do Espectro Autista (TEA).</p><br />
+                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-11rem] max-sm:ml-[1rem] max-sm:w-[19rem]'>Nesse sentido, pontuam-se maneiras de estimular a atenção, habilidades de comunicação, interação e aprendizado das crianças autistas através de animações que simulavam expressões humanas de forma simplificada na tela dos robôs, já que a falta de emoções nesses dispositivos facilitavam o interesse ao interagir com eles.</p><br />
+                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-11rem] max-sm:ml-[1rem] max-sm:w-[19rem]'>Por consequência, há uma acentuada melhora na coordenação motora, comunicação e interação social. Pode-se comprovar então, que a ciência oferece embasamento teórico e prático para aplicação de robôs no tratamento terapêutico.</p>
                             </div>
                         </div>
                         <div className="pr-[3%] md:mt-[-2rem] max-sm:mt-[3rem]" >
-                            <img src={corda} alt="Corda" className='w-[100%] md:ml-[10rem] max-sm:w-[16.5rem] max-sm:ml-[-0.6rem] md:mt-[-2rem]' />
-                            <div className='flex ml-[1rem]'><h3 className='pl-11 md:ml-[10rem] max-sm:ml-[-2.7rem] text-justify max-sm:w-[91%] '>Artigos Trabalhados:</h3>
-                                <div><a className='text-azul w-[30px] md:pl-11  font-fira ' href="">Tratamento Terapêutico</a><br /> <a className='text-azul w-[30px] font-fira md:p-11 md:ml-[0.2rem]' href="">Robótica na educação</a></div></div>
+                            <img src={corda} alt="Corda" className='w-[100%] md:ml-[10rem] max-sm:w-[22rem] max-sm:ml-[-1.5rem] md:mt-[-2rem]' />
+                            <div className='flex ml-[1rem]'><h3 className='pl-11 md:ml-[10rem] max-sm:ml-[-3.3rem] text-justify max-sm:w-[91%] max-sm:text-sm'>Artigos Trabalhados:</h3>
+                                <div><a className='text-azul w-[30px] md:pl-11  font-fira max-sm:text-sm  max-sm:w-[50] max-sm:ml-[-6rem]' href="">Tratamento Terapêutico</a><br /> <a className=' max-sm:text-sm text-azul w-[30px] font-fira md:p-11 md:ml-[0.2rem] max-sm:ml-[-6rem]' href="">Robótica na educação</a></div></div>
                         </div>
                     </div>
                 </div>
