@@ -37,6 +37,8 @@ const ComponentesP = () => {
     );
   };
 
+  
+
   useEffect(() => {
     const handleResize = () => {
       const items = window.innerWidth < 768 ? 1 : 3;
@@ -83,43 +85,47 @@ const ComponentesP = () => {
         </div>
       </section>
 
-
       <section className="py-8 w-full flex flex-col items-center">
-        <div className="relative w-[80%] max-w-full overflow-hidden">
-          <div
-            id="carousel"
-            className="flex transition-transform duration-500 ease-in-out"
-            style={{ transform: `translateX(-${currentIndex * (100 / itemsPerSlide)}%)` }}
-          >
-            {components.map((component, index) => (
-              <div key={index} className="bg-gray-100 p-6 rounded-lg shadow-lg w-full sm:w-1/2 md:w-[31%] flex-shrink-0 flex flex-col items-center justify-between md:mr-[3rem] h-[450px]">
-                <img src={component.img} alt={component.title} className="rounded-t-lg mx-auto max-h-[150px] object-contain" />
-                <div className="p-4 flex-grow flex flex-col justify-between">
-                  <h3 className="text-xl font-bold mt-16 font-tinos">{component.title} - {component.price}</h3>
-                  <p className="text-gray-700 text-justify font-tinos ">{component.description}</p>
-                </div>
-              </div>
-            ))}
+  <div className="relative w-[80%] max-w-full overflow-hidden">
+    <div
+      id="carousel"
+      className="flex transition-transform duration-500 ease-in-out"
+      style={{ transform: `translateX(-${currentIndex * (100 / 3)}%)` }} // Ajuste para 3 cards
+    >
+      {components.map((component, index) => (
+        <div key={index} className="bg-gray-100 p-6 rounded-lg shadow-lg w-full sm:w-[30%] flex-shrink-0 flex flex-col justify-between h-[450px] mr-4 last:mr-0"> {/* Ajuste na largura */}
+          <img src={component.img} alt={component.title} className="rounded-t-lg mx-auto max-h-[150px] object-contain" />
+          <div className="flex-grow flex flex-col">
+            <h3 className="text-xl font-bold mt-4 font-tinos">{component.title} - {component.price}</h3>
+            <p className="text-gray-700 text-justify font-tinos mb-4 flex-grow">{component.description}</p>
           </div>
-
-          {currentIndex > 0 && (
-            <button
-              onClick={prevSlide}
-              className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full"
-            >
-              &#10094;
-            </button>
-          )}
-          {currentIndex + itemsPerSlide < components.length && (
-            <button
-              onClick={nextSlide}
-              className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full"
-            >
-              &#10095;
-            </button>
-          )}
         </div>
-      </section>
+      ))}
+    </div>
+
+    
+
+    {currentIndex > 0 && (
+      <button
+        onClick={prevSlide}
+        className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full"
+      >
+        &#10094;
+      </button>
+    )}
+    {currentIndex + 3 < components.length && (
+      <button
+        onClick={nextSlide}
+        className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full"
+      >
+        &#10095;
+      </button>
+    )}
+  </div>
+</section>
+
+
+
       <section className='bg-gray-100 pt-[3rem] h-full md:h-[65%] 2xl:h-[57%] max-sm:h-[67%]'>
   <div className='pl-[5rem] pb-5'>
     <h2 className='font-tinos text-3xl md:text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
