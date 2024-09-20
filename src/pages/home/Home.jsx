@@ -124,7 +124,7 @@ export default function Home() {
 
            
 
-<section className='bg-gray-100 pt-[3rem] h-full md:h-[90%] 2xl:h-[57%] max-sm:h-[99%] max-sm:pb-[2rem]'>
+<section className='bg-gray-100 pt-[3rem] h-full md:h-[90%] 2xl:h-[57%] max-sm:h-[68%] max-sm:pb-[2rem]'>
   <div className='pl-[5rem]'>
     <h2 className='font-tinos text-3xl md:text-6xl md:ml-[-1rem] ml-[-3rem]'>Contate-nos</h2>
     <p className='font-tinos text-azul font-bold text-base text-justify w-50% md:ml-[-1rem] ml-[-2.8rem] max-sm:w-[98%]'>

@@ -97,10 +97,10 @@ export default function CompletePage() {
 </section>
 
 
-<section className='pb-[3rem] bg-gray-100 pt-[3rem] h-full '>
+<section className='pb-[1rem] bg-gray-100 pt-[1rem] h-full '>
     <div className='bg-gray-100 h-full pb-[3rem] pt-9 mx-4 md:mx-[72px]pl-[5rem]'>
         <div className='pl-0 md:pl-[3rem]'>
-            <h2 className='text-3xl md:text-6xl font-tinos md:ml-[-1rem] ml-3 '>Benefícios</h2>
+            <h2 className='text-3xl md:text-6xl font-tinos md:ml-[1rem] ml-3 '>Benefícios</h2>
             <p className='text-azul text-lg md:text-base font-tinos font-bold ml-3'>Conheça os benefícios que tornam essa experiência ainda mais significativa</p>
         </div>
         <div className='flex gap-10 ml-12 mt-8 max-sm:block max-sm:ml-1'>

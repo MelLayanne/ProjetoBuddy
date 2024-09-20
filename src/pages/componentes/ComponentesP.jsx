@@ -12,14 +12,14 @@ import servo from '../../assets/servo.svg';
 const ComponentesP = () => {
   const components = [
     { img: sensorL, title: 'Sensor de Luminosidade', price: 'R$16,90', description: 'O Sensor de luminosidade foi utilizado para se fixar na carcaça do robô, podendo então captar a luz do ambiente.' },
-    { img: protoboard, title: 'Protoboard', price: 'R$9,40', description: 'A protoboard foi utilizada para montar e testar o circuito eletrônico do robô, possibilitando a conexão dos componentes de forma prática.' },
-    { img: sensorS, title: 'Sensor de Som', price: 'R$8,90', description: 'O sensor de som foi integrado ao robô, permitindo captar variações acústicas no ambiente e reagir a diferentes níveis de ruído.' },
-    { img: lcd, title: 'Display LCD', price: 'R$21,90', description: 'O Display LCD é responsável por mostrar as horas e indicar a temperatura exterior.' },
-    { img: moduloS, title: 'Módulo Gravador de Som', price: 'R$30,90', description: 'O Módulo gravador de voz foi utilizado para tornar possível a comunicação do responsável através do robô.' },
-    { img: jumpers, title: 'Jumpers', price: 'R$16,90', description: 'Os jumpers foram utilizados para estabelecer conexões temporárias entre os componentes na protoboard.' },
-    { img: arduino, title: 'Arduíno Mega', price: 'R$219,20', description: 'O Arduino Mega foi utilizado como a base do controle do robô, oferecendo uma ampla capacidade de processamento e múltiplas portas de entrada e saída.' },
-    { img: moduloB, title: 'Módulo Bluetooth', price: 'R$39,90', description: 'O módulo Bluetooth foi acoplado ao robô, permitindo a comunicação sem fio com o aplicativo, possibilitando troca de dados em tempo real.' },
-    { img: servo, title: 'Servo Motor', price: 'R$28,02', description: 'O Servo motor trouxe mobilidade aos braços e à base, tornando o robô mais dinâmico.' }
+    { img: sensorL, title: 'Protoboard', price: 'R$9,40', description: 'A protoboard foi utilizada para montar e testar o circuito eletrônico do robô, possibilitando a conexão dos componentes de forma prática.' },
+    { img: sensorL, title: 'Sensor de Som', price: 'R$8,90', description: 'O sensor de som foi integrado ao robô, permitindo captar variações acústicas no ambiente e reagir a diferentes níveis de ruído.' },
+    { img: sensorL, title: 'Display LCD', price: 'R$21,90', description: 'O Display LCD é responsável por mostrar as horas e indicar a temperatura exterior.' },
+    { img: sensorL, title: 'Módulo Gravador de Som', price: 'R$30,90', description: 'O Módulo gravador de voz foi utilizado para tornar possível a comunicação do responsável através do robô.' },
+    { img: sensorL, title: 'Jumpers', price: 'R$16,90', description: 'Os jumpers foram utilizados para estabelecer conexões temporárias entre os componentes na protoboard.' },
+    { img: sensorL, title: 'Arduíno Mega', price: 'R$219,20', description: 'O Arduino Mega foi utilizado como a base do controle do robô, oferecendo uma ampla capacidade de processamento e múltiplas portas de entrada e saída.' },
+    { img: sensorL, title: 'Módulo Bluetooth', price: 'R$39,90', description: 'O módulo Bluetooth foi acoplado ao robô, permitindo a comunicação sem fio com o aplicativo, possibilitando troca de dados em tempo real.' },
+    { img: sensorL, title: 'Servo Motor', price: 'R$28,02', description: 'O Servo motor trouxe mobilidade aos braços e à base, tornando o robô mais dinâmico.' }
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -94,8 +94,8 @@ const ComponentesP = () => {
     >
       {components.map((component, index) => (
         <div key={index} className="bg-gray-100 p-6 rounded-lg shadow-lg w-full sm:w-[30%] flex-shrink-0 flex flex-col justify-between h-[450px] mr-4 last:mr-0"> {/* Ajuste na largura */}
-          <img src={component.img} alt={component.title} className="rounded-t-lg mx-auto max-h-[150px] object-contain" />
-          <div className="flex-grow flex flex-col">
+          <img src={component.img} alt={component.title} className="rounded-t-lg mx-auto max-h-[150px] object-contain md:w-64" />
+          <div className="flex-grow flex flex-col mt-10">
             <h3 className="text-xl font-bold mt-4 font-tinos">{component.title} - {component.price}</h3>
             <p className="text-gray-700 text-justify font-tinos mb-4 flex-grow">{component.description}</p>
           </div>
