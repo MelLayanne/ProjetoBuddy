@@ -33,9 +33,9 @@ const Sobre = () => {
       <section className="py-8 h-full">
                 <div className="flex flex-col md:block w-full md:w-full pt-8 pl-0 font-light text-2xl ">
                     <div className="titulo_da_segunda text-center md:text-left ml-[100px]">
-                        <h2 className="m-0 font-tinos md:text-6xl text-3xl md:ml-[-2.7rem] max-sm:ml-[-14rem]">Sobre Nós</h2>
+                        <h2 className="m-0 font-tinos md:text-6xl text-3xl md:ml-[-2.7rem] max-sm:ml-[-17rem]">Sobre Nós</h2>
                         <div className="flex text-justify md:justify-start">
-                            <p className="m-0 font-tinos font-bold text-azul text-base pl-0.5 md:ml-[-2.7rem] max-sm:ml-[-4rem] max-sm:w-[115%]">Saiba mais sobre nós e nossa missão de transformar ideias em experiências únicas</p>
+                            <p className="m-0 font-tinos font-bold text-azul text-base pl-0.5 md:ml-[-2.7rem] max-sm:ml-[-4rem] max-sm:w-[99%]">Saiba mais sobre nós e nossa missão de transformar ideias em experiências únicas</p>
                         </div>
                     </div> 
                   </div>
@@ -43,7 +43,7 @@ const Sobre = () => {
 
       <section>
         <div>
-            <p className='font-fira-sans font-normal text-base text-justify text-[20px] mt[4rem]	xl:max-w-7xl md:ml-[4rem] ml-[6rem] max-sm:ml-[2.28rem]  max-sm:mr-[1.4rem]'>Trabalhando juntas para o sucesso do projeto Buddy, unindo habilidades e conhecimentos diversos para trazer soluções criativas
+            <p className='font-fira-sans font-normal text-base text-justify text-[20px] mt[4rem]	xl:max-w-7xl md:ml-[4rem] ml-[6rem] max-sm:ml-[2.28rem]  max-sm:mr-[1.4rem] max-sm:w-[80%]'>Trabalhando juntas para o sucesso do projeto Buddy, unindo habilidades e conhecimentos diversos para trazer soluções criativas
             e eficientes, e com muito comprometimento, fornecer a melhor experiência  para os usuários.</p><br />
             
           </div>
@@ -52,7 +52,7 @@ const Sobre = () => {
   <div className="grid grid-cols-1 md:grid-cols-2">
     <div className="flex flex-col md:ml-[4rem] ml-[6rem] max-sm:ml-[2.7rem] max-sm:w-[80%] items-center bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl mb-6 h-48 md:w-[45rem] w-[72%] sm:w-[90%]">
       <div className="flex justify-center w-full">
-        <img className="h-48 object-cover rounded-lg mr-[15rem] w-1/3  absolute  transform md:translate-x-[-8rem] translate-x-1/5 mobile:left-1/4 mobile:transform-none max-sm:ml-[4rem] " src={k} alt="Kauhany" />
+        <img className="h-48 object-cover rounded-lg mr-[15rem] w-1/3  absolute  transform md:translate-x-[-8rem] translate-x-1/5 mobile:left-1/4 mobile:transform-none max-sm:ml-[0rem] max-sm:w-[50%]" src={k} alt="Kauhany" />
       </div>
       <div className="p-4 text-left max-sm:ml-[4rem]">
         <h4 className="font-bold text-lg mb-2">Kauhany Santos</h4>
@@ -70,7 +70,7 @@ const Sobre = () => {
     
     <div className=" flex flex-col sm:w-3/4 ml-[6.3rem] items-center bg-white shadow-lg max-sm:ml-[2.7rem] max-sm:w-[80%] rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl mb-6  h-48 md:w-[45rem] w-[72%]">
       <div className=" relative flex justify-center w-full ">
-        <img className="h-48 object-cover rounded-lg mr-[15rem] w-1/3  absolute  transform md:translate-x-[-8rem] translate-x-1/5 mobile:left-1/4 mobile:transform-none  max-sm:ml-[4rem]" src="https://media.licdn.com/dms/image/v2/D4D03AQHr9eKiQT65ZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710469014338?e=1728518400&v=beta&t=_l0PLQwHIctnf52_iguHfKZTXGJI78lFteb4G1wYx5E" alt="Kauhanny" />
+        <img className="h-48 object-cover rounded-lg mr-[15rem] w-1/3  absolute  transform md:translate-x-[-8rem] translate-x-1/5 mobile:left-1/4 mobile:transform-none  max-sm:ml-[0rem] max-sm:w-[50%]" src="https://media.licdn.com/dms/image/v2/D4D03AQHr9eKiQT65ZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710469014338?e=1728518400&v=beta&t=_l0PLQwHIctnf52_iguHfKZTXGJI78lFteb4G1wYx5E" alt="Kauhanny" />
       </div>
       <div className="p-4 text-left  max-sm:ml-[4rem] ">
         <h4 className="font-bold text-lg mb-2">Melissa Layanne</h4>
@@ -98,7 +98,7 @@ const Sobre = () => {
                     <div className="flex flex-wrap justify-center items-center pl-[18px]">
                         <div className="pt-[2rem] flex w-full md:w-[700px]">
                             <div className="mb-auto text-justify mt-auto w-[40vh] md:w-full">
-                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-32.5rem] md:mt-[-0.8rem] md:mr-[32rem] max-sm:ml-[1.2rem] max-sm:mr-[1.7rem] max-sm:w-[15.5rem] md:ml-[-34rem] max-md:w-[40rem]'>As histórias e insights compartilhados despertaram nossa motivação e foram fundamentais para a decisão de iniciar este projeto. Elas ilustraram desafios e conquistas que ressoaram profundamente conosco, oferecendo uma nova perspectiva e fortalecendo nossa determinação. Essa influência nos impulsionou a buscar soluções inovadoras e a abraçar com entusiasmo as oportunidades à nossa frente.</p><br />
+                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-32.5rem] md:mt-[-0.8rem] md:mr-[32rem] max-sm:ml-[1.2rem] max-sm:mr-[1.7rem] max-sm:w-[19rem] md:ml-[-34rem] max-md:w-[40rem]'>As histórias e insights compartilhados despertaram nossa motivação e foram fundamentais para a decisão de iniciar este projeto. Elas ilustraram desafios e conquistas que ressoaram profundamente conosco, oferecendo uma nova perspectiva e fortalecendo nossa determinação. Essa influência nos impulsionou a buscar soluções inovadoras e a abraçar com entusiasmo as oportunidades à nossa frente.</p><br />
                             </div>
                         </div>
                         <div className="flex flex-col md:flex-row items-center justify-center md:space-x-4 pr-[3%] md:mt-[-20rem] md:gap-14 max-sm:ml-[-1rem] ">
@@ -122,7 +122,7 @@ const Sobre = () => {
       <section className="py-8 ">
                 <div className="flex flex-col md:block w-full md:w-full pt-8 pl-0 font-light text-2xl mt-[18rem] max-sm:mt-[-4rem]">
                     <div className="titulo_da_segunda text-center md:text-left ml-[100px] ">
-                        <h2 className="m-0 font-tinos md:text-6xl text-3xl md:mt-[-20rem] max-md:ml-[-16rem] md:ml-[-2rem] max-sm:ml-[-12rem] ">Depoimentos</h2>
+                        <h2 className="m-0 font-tinos md:text-6xl text-3xl md:mt-[-20rem] max-md:ml-[-16rem] md:ml-[-2rem] max-sm:ml-[-16rem] ">Depoimentos</h2>
                         <div className="flex text-justify md:justify-start ">
                             <p className="m-0 font-tinos font-bold text-base text-azul pl-0.5justify-content md:ml-[-2rem] max-sm:ml-[-4rem] max-sm:w-[113%] ">Saiba mais sobre nós e nossa missão de transformar ideias em experiências únicas</p>
                         </div>
@@ -162,7 +162,7 @@ const Sobre = () => {
 
   <section className='bg-gray-100 pt-[3rem] h-full md:h-[65%] w-full 2xl:h-[57%] max-sm:h-[67%]'>
   <div className='pl-[5rem] pb-3'>
-    <h2 className='font-tinos text-3xl md:text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
+    <h2 className='font-tinos text-3xl md:text-6xl md:ml-0 ml-[-3rem] '>Contate-nos</h2>
     <p className='font-tinos text-azul font-bold text-base text-justify w-50% md:ml-0 ml-[-2.8rem] max-sm:w-[98%]'>
       Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar
     </p>
