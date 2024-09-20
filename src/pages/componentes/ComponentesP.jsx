@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import sensorL from '../../assets/sensorL.svg';
 import protoboard from '../../assets/protoboard.svg';
 import jumpers from '../../assets/jumpers.svg';
@@ -10,66 +10,46 @@ import moduloS from '../../assets/moduloS.svg';
 import servo from '../../assets/servo.svg';
 
 const ComponentesP = () => {
-  const carousel1Items = [
+  const components = [
     { img: sensorL, title: 'Sensor de Luminosidade', price: 'R$16,90', description: 'O Sensor de luminosidade foi utilizado para se fixar na carcaça do robô, podendo então captar a luz do ambiente.' },
     { img: protoboard, title: 'Protoboard', price: 'R$9,40', description: 'A protoboard foi utilizada para montar e testar o circuito eletrônico do robô, possibilitando a conexão dos componentes de forma prática.' },
     { img: sensorS, title: 'Sensor de Som', price: 'R$8,90', description: 'O sensor de som foi integrado ao robô, permitindo captar variações acústicas no ambiente e reagir a diferentes níveis de ruído.' },
     { img: lcd, title: 'Display LCD', price: 'R$21,90', description: 'O Display LCD é responsável por mostrar as horas e indicar a temperatura exterior.' },
-    { img: moduloS, title: 'Módulo gravador de som', price: 'R$30,90', description: 'O Módulo gravador de voz foi utilizado para trazer a comunicação do responsável através do robô.' }
-  ];
-
-  const carousel2Items = [
+    { img: moduloS, title: 'Módulo Gravador de Som', price: 'R$30,90', description: 'O Módulo gravador de voz foi utilizado para tornar possível a comunicação do responsável através do robô.' },
     { img: jumpers, title: 'Jumpers', price: 'R$16,90', description: 'Os jumpers foram utilizados para estabelecer conexões temporárias entre os componentes na protoboard.' },
-    { img: arduino, title: 'Arduino Mega', price: 'R$219,20', description: 'O Arduino Mega foi utilizado como a base do controle do robô, oferecendo uma ampla capacidade de processamento.' },
-    { img: moduloB, title: 'Módulo Bluetooth', price: 'R$39,90', description: 'O módulo Bluetooth foi acoplado ao robô, permitindo a comunicação sem fio com o aplicativo, em tempo real.' },
+    { img: arduino, title: 'Arduíno Mega', price: 'R$219,20', description: 'O Arduino Mega foi utilizado como a base do controle do robô, oferecendo uma ampla capacidade de processamento e múltiplas portas de entrada e saída.' },
+    { img: moduloB, title: 'Módulo Bluetooth', price: 'R$39,90', description: 'O módulo Bluetooth foi acoplado ao robô, permitindo a comunicação sem fio com o aplicativo, possibilitando troca de dados em tempo real.' },
     { img: servo, title: 'Servo Motor', price: 'R$28,02', description: 'O Servo motor trouxe mobilidade aos braços e à base, tornando o robô mais dinâmico.' }
   ];
 
-  const [currentIndex1, setCurrentIndex1] = useState(0);
-  const [currentIndex2, setCurrentIndex2] = useState(0);
-  const itemsPerSlide = window.innerWidth >= 768 ? 3 : 1;
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const itemsPerSlide = window.innerWidth < 768 ? 1 : 3;
 
-  const prevSlide = (carousel) => {
-    if (carousel === 1) {
-      setCurrentIndex1((prevIndex) =>
-        prevIndex === 0 ? Math.floor(carousel1Items.length / itemsPerSlide) * itemsPerSlide : prevIndex - itemsPerSlide
-      );
-    } else {
-      setCurrentIndex2((prevIndex) =>
-        prevIndex === 0 ? Math.floor(carousel2Items.length / itemsPerSlide) * itemsPerSlide : prevIndex - itemsPerSlide
-      );
-    }
+  const prevSlide = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? components.length - itemsPerSlide : prevIndex - itemsPerSlide
+    );
   };
 
-  const nextSlide = (carousel) => {
-    if (carousel === 1) {
-      setCurrentIndex1((prevIndex) =>
-        prevIndex + itemsPerSlide >= carousel1Items.length ? 0 : prevIndex + itemsPerSlide
-      );
-    } else {
-      setCurrentIndex2((prevIndex) =>
-        prevIndex + itemsPerSlide >= carousel2Items.length ? 0 : prevIndex + itemsPerSlide
-      );
-    }
+  const nextSlide = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex + itemsPerSlide >= components.length ? 0 : prevIndex + itemsPerSlide
+    );
   };
 
-  const renderCarouselItems = (items, currentIndex) => {
-    return items
-      .slice(currentIndex, currentIndex + itemsPerSlide)
-      .map((item, index) => (
-        <div key={index} className="bg-gray-100 p-6 rounded-lg shadow-lg w-full sm:w-1/2 md:w-[30%] flex-shrink-0 md:mr-[3rem]">
-          <img src={item.img} alt={item.title} className="rounded-t-lg md:ml-[3rem]" />
-          <div className="p-4">
-            <h3 className="text-xl font-bold mb-2 font-tinos">{item.title} - {item.price}</h3>
-            <p className="text-gray-700 text-justify font-tinos">{item.description}</p>
-          </div>
-        </div>
-      ));
-  };
+  useEffect(() => {
+    const handleResize = () => {
+      const items = window.innerWidth < 768 ? 1 : 3;
+      setCurrentIndex(0);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   return (
     <>
-      
       <section className="h-screen w-full">
         <div className="h-full bg-[url('https://i.imgur.com/t6vSe9p.png')] bg-no-repeat bg-cover bg-center z-10 w-full">
           <div className="bg-black bg-opacity-60 h-screen flex justify-center items-center text-center w-full">
@@ -104,31 +84,42 @@ const ComponentesP = () => {
       </section>
 
 
-      <section className="relative overflow-hidden w-[80%] max-sm:ml-[2rem] ml-[16rem] max-sm:h-[70vh] md:mt-[3rem] max-sm:mb-16 md:ml-[8rem]	">
-        <div id="carousel1" className="flex transition-transform duration-500 ease-in-out">
-          {renderCarouselItems(carousel1Items, currentIndex1)}
+      <section className="py-8 w-full flex flex-col items-center">
+        <div className="relative w-[80%] max-w-full overflow-hidden">
+          <div
+            id="carousel"
+            className="flex transition-transform duration-500 ease-in-out"
+            style={{ transform: `translateX(-${currentIndex * (100 / itemsPerSlide)}%)` }}
+          >
+            {components.map((component, index) => (
+              <div key={index} className="bg-gray-100 p-6 rounded-lg shadow-lg w-full sm:w-1/2 md:w-[31%] flex-shrink-0 flex flex-col items-center justify-between md:mr-[3rem] h-[450px]">
+                <img src={component.img} alt={component.title} className="rounded-t-lg mx-auto max-h-[150px] object-contain" />
+                <div className="p-4 flex-grow flex flex-col justify-between">
+                  <h3 className="text-xl font-bold mt-16 font-tinos">{component.title} - {component.price}</h3>
+                  <p className="text-gray-700 text-justify font-tinos ">{component.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {currentIndex > 0 && (
+            <button
+              onClick={prevSlide}
+              className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full"
+            >
+              &#10094;
+            </button>
+          )}
+          {currentIndex + itemsPerSlide < components.length && (
+            <button
+              onClick={nextSlide}
+              className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full"
+            >
+              &#10095;
+            </button>
+          )}
         </div>
-        <button onClick={() => prevSlide(1)} className="absolute left-[0rem] top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full">
-          &#10094;
-        </button>
-        <button onClick={() => nextSlide(1)} className="absolute right-[0rem] top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full">
-          &#10095;
-        </button>
       </section>
-
-
-      <section className="relative overflow-hidden w-[80%] max-sm:ml-[2rem] ml-[16rem] max-sm:h-[70vh] md:mt-[4rem] md:mb-[4rem] max-sm:mb-16  md:ml-[8rem]	">
-        <div id="carousel2" className="flex transition-transform duration-500 ease-in-out">
-          {renderCarouselItems(carousel2Items, currentIndex2)}
-        </div>
-        <button onClick={() => prevSlide(2)} className="absolute left-[0rem] top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full">
-          &#10094;
-        </button>
-        <button onClick={() => nextSlide(2)} className="absolute right-[0rem] top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full">
-          &#10095;
-        </button>
-      </section>
-
       <section className='bg-gray-100 pt-[3rem] h-full md:h-[65%] 2xl:h-[57%] max-sm:h-[67%]'>
   <div className='pl-[5rem] pb-5'>
     <h2 className='font-tinos text-3xl md:text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
