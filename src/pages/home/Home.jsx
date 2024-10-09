@@ -14,7 +14,7 @@ export default function Home() {
                     BUDDY
                 </h1>
                 <div className="w-full max-w-full px-4">
-                    <p className="text-gray-400 text-justify font-fira text-sm md:text-base md:ml-[1.5rem] md:mr-[4rem]">
+                    <p className="text-gray-400 font-fira text-sm md:text-base text-center">
                         Robô que auxilia responsáveis no desenvolvimento da fala, interação social e reconhecimento de emoções de crianças autistas de nível 2 entre 5 e 10 anos de idade. Possui integração com App, o que facilita a devolução de relatórios que analisam a evolução do autista
                     </p>
                 </div>
@@ -23,12 +23,12 @@ export default function Home() {
     </div>
 </div>
 
-<section className="py-8 container mx-auto px-4 md:px-6 lg:px-8 xl:px-10">
+<section className="py-8 container mx-auto px-4 md:px-6 lg:px-8 xl:px-10 mb-8">
     <div className="flex flex-col w-full pt-8 font-light text-2xl">
-        <div className="pl-0 2xl:ml-[-7rem]">
-            <h2 className="text-3xl md:text-6xl font-tinos md:ml-[-1rem] ml-[-4rem] max-sm:ml-[1rem]">Processo de criação</h2>
-            <div className="flex text-justify md:justify-start">
-                <p className="m-0 font-tinos font-bold text-azul md:ml-[-1rem] ml-[-4rem] max-sm:ml-[1.2rem] text-base max-sm:w-[85%]">
+        <div className="pl-0">
+            <h2 className="text-3xl md:text-6xl font-tinos text-center">Processo de criação</h2>
+            <div className="text-justify md:justify-start">
+                <p className="m-0 font-tinos font-bold text-azul text-base max-sm:w-[90%] text-center mb-8 max-sm:ml-[1rem]">
                     Compreenda os detalhes que moldaram o companheiro da sua criança
                 </p>
             </div>
@@ -124,13 +124,13 @@ export default function Home() {
 
            
 
-<section className='bg-gray-100 pt-[3rem] h-full md:h-[90%] 2xl:h-[57%] max-sm:h-[68%] max-sm:pb-[2rem]'>
-  <div className='pl-[5rem]'>
-    <h2 className='font-tinos text-3xl md:text-6xl md:ml-[-1rem] ml-[-3rem]'>Contate-nos</h2>
-    <p className='font-tinos text-azul font-bold text-base text-justify w-50% md:ml-[-1rem] ml-[-2.8rem] max-sm:w-[98%]'>
+<section className='bg-gray-100 pt-[3rem] h-full md:h-[90%] 2xl:h-[57%] max-sm:h-[83%] max-sm:pb-[2rem]'>
+  <div className=''>
+    <h2 className='font-tinos text-3xl md:text-6xl text-center'>Contate-nos</h2>
+    <p className='font-tinos text-azul font-bold text-base text-center mb-10 w-50% max-sm:w-[80%] max-sm:ml-8 '>
       Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar
     </p>
-    <form className='mt-6'>
+    <form className='mt-6 pl-[5rem]'>
       <div className='mb-4'>
         <label className='block text-azul text-sm font-bold mb-2 md:ml-[-1rem] ml-[-2.8rem]' htmlFor='name'>
           Nome

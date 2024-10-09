@@ -15,8 +15,8 @@ export default function CompletePage() {
             <h1 className="font-tinos text-5xl md:text-7xl mb-4 mt-[20vh] md:mt-[30vh]">
               BUDDY
             </h1>
-            <div className="w-full max-w-full px-4 md:ml-[35rem]">
-                <p className="text-gray-400  font-fira text-sm md:text-base text-justify text-center ">
+            <div className="w-full max-w-full px-4">
+                <p className="text-gray-400 font-fira text-sm md:text-base text-center ">
                 Veja todas as funções do nosso TCC aqui no site. Pesquise, interaja e entre em contato conosco
                 </p> 
             </div>
@@ -30,10 +30,10 @@ export default function CompletePage() {
 
 <section className="py-8 px-4">
     <div className="flex flex-col w-full pt-8 font-light text-xl">
-        <div className="pl-[4rem] ">
-            <h2 className="text-3xl md:text-6xl font-tinos md:ml-[-1rem] ml-[-4rem] max-sm:ml-[-3rem] ">Funções</h2>
-            <div className="flex text-justify md:justify-start">
-                <p className="m-0 font-tinos font-bold text-azul md:ml-[-1rem] ml-[-4rem] max-sm:ml-[-3rem] text-base max-sm:w-[99%]">Descubra as funcionalidades que revelam os detalhes que moldam essa experiência </p>
+        <div className="mb-10">
+            <h2 className="text-3xl md:text-6xl font-tinos text-center">Funções</h2>
+            <div className="text-justify md:justify-start">
+                <p className="m-0 font-tinos font-bold text-azul text-base text-center">Descubra as funcionalidades que revelam os detalhes que moldam essa experiência </p>
             </div>
         </div>
 
@@ -98,27 +98,27 @@ export default function CompletePage() {
 
 
 <section className='pb-[1rem] bg-gray-100 pt-[1rem] h-full '>
-    <div className='bg-gray-100 h-full pb-[3rem] pt-9 mx-4 md:mx-[72px]pl-[5rem]'>
-        <div className='pl-0 md:pl-[3rem]'>
-            <h2 className='text-3xl md:text-6xl font-tinos md:ml-[1rem] ml-3 '>Benefícios</h2>
-            <p className='text-azul text-lg md:text-base font-tinos font-bold ml-3'>Conheça os benefícios que tornam essa experiência ainda mais significativa</p>
+    <div className='bg-gray-100 h-full pb-[3rem] pt-9 mx-4 md:mx-[72px]'>
+        <div className=''>
+            <h2 className='text-3xl md:text-6xl font-tinos text-center  '>Benefícios</h2>
+            <p className='text-azul text-lg md:text-base font-tinos font-bold text-center'>Conheça os benefícios que tornam essa experiência ainda mais significativa</p>
         </div>
         <div className='flex gap-10 ml-12 mt-8 max-sm:block max-sm:ml-1'>
-            <div className='bg-white p-5 md:p-9 w-[48%] text-center max-sm:w-[96%] max-sm:mb-7 max-sm:ml-2'>
+            <div className='bg-white p-5 md:p-9 w-[48%] text-center max-sm:w-[96%] max-sm:mb-7 itemns-center'>
                 <h3 className='font-tinos text-azul font-bold text-lg md:text-xl'>Educação Personalizada</h3>
                 <p className='font-fira text-justify text-sm md:text-base'>Cada criança aprende em seu próprio ritmo. Nosso robô adapta as atividades de acordo com as necessidades individuais de cada uma.</p>
             </div>
-            <div className='bg-white p-5 md:p-9 w-[48%] text-center max-sm:w-[96%] max-sm:mb-7 max-sm:ml-2'>
+            <div className='bg-white p-5 md:p-9 w-[48%] text-center max-sm:w-[96%] max-sm:mb-7  itemns-center'>
                 <h3 className='font-tinos text-azul font-bold text-lg md:text-xl'>Segurança e Conforto</h3>
                 <p className='font-fira text-justify text-sm md:text-base'>Nossa tecnologia garante que as interações sejam seguras e adequadas para todas as idades, promovendo um ambiente de conforto para as crianças.</p>
             </div>
         </div>
         <div className='flex gap-10 mt-10 ml-12 max-sm:block max-sm:ml-1'>
-            <div className='bg-white p-5 md:p-9 w-[48%] text-center max-sm:w-[96%] max-sm:mb-7 max-sm:ml-2'>
+            <div className='bg-white p-5 md:p-9 w-[48%] text-center max-sm:w-[96%] max-sm:mb-7 itemns-center'>
                 <h3 className='font-tinos text-azul font-bold text-lg md:text-xl'>Interatividade Avançada</h3>
                 <p className='font-fira text-justify text-sm md:text-base'>Através de jogos e atividades, o robô melhora a comunicação, a criatividade e as habilidades cognitivas das crianças.</p>
             </div>
-            <div className='bg-white p-5 md:p-9 w-[48%] text-center max-sm:w-[96%] max-sm:mb-7 max-sm:ml-2'>
+            <div className='bg-white p-5 md:p-9 w-[48%] text-center max-sm:w-[96%] max-sm:mb-7  itemns-center'>
                 <h3 className='font-tinos text-azul font-bold text-lg md:text-xl'>Relatórios Detalhados</h3>
                 <p className='font-fira text-justify text-sm md:text-base'>Obtenha insights valiosos sobre o desenvolvimento do seu filho com relatórios que detalham o progresso e as áreas que necessitam de mais atenção.</p>
             </div>
@@ -126,36 +126,39 @@ export default function CompletePage() {
     </div>
 </section>
 
-<section className='mt-10 pb-10 mb-7 md:ml-0 ml-[-1rem] '>
+<section className='mt-10 pb-10 mb-7'>
     <div>
-        <div className='pl-[5rem] pb-9'>
-            <h2 className='font-tinos text-3xl md:text-6xl md:ml-0 ml-[-3rem] max-sm:ml-[-2.5rem]'>Principais Telas</h2>
-            <p className='text-azul font-tinos text-lg md:text-base font-bold w-50% md:ml-0 ml-[-2.8rem] max-sm:w-[108%]  max-sm:ml-[-2.5rem] '>Explore as principais telas que guiam sua navegação e experiência no projeto</p>
+        <div className=' pb-9'>
+            <h2 className='font-tinos text-3xl md:text-6xl text-center'>Principais Telas</h2>
+            <p className='text-azul font-tinos text-lg md:text-base font-bold w-50% max-sm:w-[88%] max-sm:ml-[2rem] text-center'>Explore as principais telas que guiam sua navegação e experiência no projeto</p>
         </div>
-        <div className='flex pl-[5rem] gap-36 max-sm:block max-sm:pl-[2.5rem] md:w-[190rem] max-2xl:gap-11'>
-            <div className='max-w-80 max-sm:max-w-96  max-2xl:max-w-64  max-sm:max-w-80'>
-                <h3 className='font-tinos text-azul text-xl'>Tela Inicial:</h3>
-                <p className='font-fira text-justify text-sm max-sm:w-[90%]'>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
-                <img className='mt-4 mb-15 max-sm:mb-10  max-sm:w-[90%]' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
+        <div className='flex gap-10 max-lg:block justify-center items-center max-2xl:gap-11 max-sm:ml-[12%] md:items-center'>
+            <div className='flex max-lg:flex gap-10 justify-center items-center max-sm:block'>
+                <div className='max-w-80  max-sm:max-w-96  max-2xl:max-w-64 items-center  '>
+                    <h3 className='font-tinos text-azul text-xl'>Tela Inicial:</h3>
+                    <p className='font-fira text-justify text-sm max-sm:w-[90%]'>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
+                    <img className='mt-4 mb-15 max-sm:mb-10  max-sm:w-[90%]' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
+                </div>
+                
+                <div className='max-w-80 max-sm:mt-[2rem] max-2xl:max-w-64  max-sm:max-w-96'>
+                    <h3 className='font-tinos text-azul text-xl '>Tela Home:</h3>
+                    <p className='font-fira text-justify text-sm mb-9 max-sm:mb-8  max-sm:w-[90%]'>Tela home conta com abas projetada para ser intuitiva e organizar as informações de forma clara e acessível, permitindo que o usuário navegue facilmente entre as diferentes funções. </p>
+                    <img className='mt-4 mb-15 max-sm:mt-[-1rem] max-sm:w-[90%]' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
+                </div>
             </div>
-            
-            <div className='max-w-80 md:ml-[1rem] max-sm:mt-[2rem] max-2xl:max-w-64  max-sm:max-w-96'>
-                <h3 className='font-tinos text-azul text-xl '>Tela Home:</h3>
-                <p className='font-fira text-justify text-sm mb-9 max-sm:mb-8  max-sm:w-[90%]'>Tela home conta com abas projetada para ser intuitiva e organizar as informações de forma clara e acessível, permitindo que o usuário navegue facilmente entre as diferentes funções. </p>
-                <img className='mt-4 mb-15 max-sm:mt-[-1rem] max-sm:w-[90%]' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
-            </div>
+            <div className='flex max-lg:flex gap-10 justify-center items-center max-md:mt-12 max-sm:block'>
+                <div className='max-w-80 max-sm:mt-[2rem] max-2xl:max-w-64 max-sm:max-w-96'>
+                    <h3 className='font-tinos text-azul text-xl '>Tela Emoções:</h3>
+                    <p className='font-fira text-justify text-sm  mb-9 max-sm:mb-4 max-sm:w-[90%]'>A tela de reconhecimento de emoções foi desenhada para ser intuitiva, oferecendo uma interface simples que facilita a identificação e a análise das emoções.</p>
+                    <img className='mt-2 mb-15  max-sm:w-[90%]' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
+                </div>
 
-            <div className='max-w-80 md:ml-[1rem] max-sm:mt-[2rem] max-2xl:max-w-64 max-sm:max-w-96'>
-                <h3 className='font-tinos text-azul text-xl '>Tela Emoções:</h3>
-                <p className='font-fira text-justify text-sm  mb-9 max-sm:mb-4 max-sm:w-[90%]'>A tela de reconhecimento de emoções foi desenhada para ser intuitiva, oferecendo uma interface simples que facilita a identificação e a análise das emoções.</p>
-                <img className='mt-4 mb-15  max-sm:w-[90%]' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
-            </div>
-
-            
-             <div className='max-w-80 md:ml-[1rem]  max-sm:mt-[2rem]  max-2xl:max-w-64  max-sm:max-w-96'>
-                <h3 className='font-tinos text-azul text-xl '>Tela Configurações:</h3>
-                <p className='font-fira text-justify text-sm max-sm:mb-4  mb-14 max-sm:w-[90%]'>A tela de configuração foi projetada para ser intuitiva, permitindo que o usuário personalize facilmente as preferências e ajustes do sistema.</p>
-                <img className='mt-4 mb-15  max-sm:w-[90%]' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
+                
+                <div className='max-w-80 max-sm:mt-[2rem]  max-2xl:max-w-64  max-sm:max-w-96'>
+                    <h3 className='font-tinos text-azul text-xl '>Tela Configurações:</h3>
+                    <p className='font-fira text-justify text-sm max-sm:mb-4  mb-14 max-sm:w-[90%]'>A tela de configuração foi projetada para ser intuitiva, permitindo que o usuário personalize facilmente as preferências e ajustes do sistema.</p>
+                    <img className='mt-2 mb-15  max-sm:w-[90%]' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
+                </div>
             </div>
 
         </div>

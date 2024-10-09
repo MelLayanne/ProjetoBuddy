@@ -18,8 +18,8 @@ const Sobre = () => {
                 <h1 className="font-tinos text-5xl md:text-7xl mb-4 mt-[20vh] md:mt-[30vh]">
                   BUDDY
                 </h1>
-                <div className="w-full max-w-full px-4 md:ml-[35rem]">
-                    <p className="text-gray-400  font-fira text-sm md:text-base text-justify text-center">
+                <div className="w-full max-w-full px-4">
+                    <p className="text-gray-400 font-fira text-sm md:text-base text-center ">
                         Saiba sobre nossos objetivos e motivações. Explore, conheça nossa equipe e conecte-se conosco
                     </p> 
                 </div>
@@ -31,30 +31,30 @@ const Sobre = () => {
             </section>
 
       <section className="py-8 h-full">
-                <div className="flex flex-col md:block w-full md:w-full pt-8 pl-0 font-light text-2xl ">
-                    <div className="titulo_da_segunda text-center md:text-left ml-[100px]">
-                        <h2 className="m-0 font-tinos md:text-6xl text-3xl md:ml-[-2.7rem] max-sm:ml-[-17rem]">Sobre Nós</h2>
-                        <div className="flex text-justify md:justify-start">
-                            <p className="m-0 font-tinos font-bold text-azul text-base pl-0.5 md:ml-[-2.7rem] max-sm:ml-[-4rem] max-sm:w-[99%]">Saiba mais sobre nós e nossa missão de transformar ideias em experiências únicas</p>
+                <div className="flex flex-col md:block w-full md:w-full pt-8 font-light text-2xl ">
+                    <div className="titulo_da_segunda text-center">
+                        <h2 className="text-3xl md:text-6xl font-tinos text-center">Sobre Nós</h2>
+                        <div className="text-justify md:justify-start">
+                            <p className=" max-sm:ml-[2rem] font-tinos font-bold text-azul text-base max-sm:w-3/4 text-center">Saiba mais sobre nós e nossa missão de transformar ideias em experiências únicas</p>
                         </div>
                     </div> 
                   </div>
       </section>
 
       <section>
-        <div>
-            <p className='font-fira-sans font-normal text-base text-justify text-[20px] mt[4rem]	xl:max-w-7xl md:ml-[4rem] ml-[6rem] max-sm:ml-[2.28rem]  max-sm:mr-[1.4rem] max-sm:w-[80%]'>Trabalhando juntas para o sucesso do projeto Buddy, unindo habilidades e conhecimentos diversos para trazer soluções criativas
+        <div className='flex justify-center text-center items-center mb-5'>
+            <p className='font-fira-sans font-normal text-base text-justify text-[20px] mt[4rem]	xl:max-w-7xl max-sm:mr-[1.4rem] max-sm:w-3/4'>Trabalhando juntas para o sucesso do projeto Buddy, unindo habilidades e conhecimentos diversos para trazer soluções criativas
             e eficientes, e com muito comprometimento, fornecer a melhor experiência  para os usuários.</p><br />
             
           </div>
 
   <section>
-  <div className="grid grid-cols-1 md:grid-cols-2">
-    <div className="flex flex-col md:ml-[4rem] ml-[6rem] max-sm:ml-[2.7rem] max-sm:w-[80%] items-center bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl mb-6 h-48 md:w-[45rem] w-[72%] sm:w-[90%]">
+  <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center ">
+    <div className="flex flex-col justify-center items-center max-sm:w-[80%] lg:w-[60%] bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl mb-6 h-48 md:w-[45rem] w-[72%] sm:w-[90%]">
       <div className="flex justify-center w-full">
         <img className="h-48 object-cover rounded-lg mr-[15rem] w-1/3  absolute  transform md:translate-x-[-8rem] translate-x-1/5 mobile:left-1/4 mobile:transform-none max-sm:ml-[0rem] max-sm:w-[50%]" src={k} alt="Kauhany" />
       </div>
-      <div className="p-4 text-left max-sm:ml-[4rem]">
+      <div className="p-4 text-left max-sm:ml-[30%]">
         <h4 className="font-bold text-lg mb-2">Kauhany Santos</h4>
         <p className="text-gray-600">17 anos</p>
         <p className="text-gray-600">Ensino médio T.I.</p>
@@ -68,11 +68,11 @@ const Sobre = () => {
     </div>
 
     
-    <div className=" flex flex-col sm:w-3/4 ml-[6.3rem] items-center bg-white shadow-lg max-sm:ml-[2.7rem] max-sm:w-[80%] rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl mb-6  h-48 md:w-[45rem] w-[72%]">
+    <div className=" flex flex-col sm:w-3/4 items-center bg-white shadow-lg max-sm:ml-[2.7rem] max-sm:w-[80%] lg:w-[60%] rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl mb-6  h-48 md:w-[45rem] w-[72%]">
       <div className=" relative flex justify-center w-full ">
         <img className="h-48 object-cover rounded-lg mr-[15rem] w-1/3  absolute  transform md:translate-x-[-8rem] translate-x-1/5 mobile:left-1/4 mobile:transform-none  max-sm:ml-[0rem] max-sm:w-[50%]" src="https://media.licdn.com/dms/image/v2/D4D03AQHr9eKiQT65ZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710469014338?e=1728518400&v=beta&t=_l0PLQwHIctnf52_iguHfKZTXGJI78lFteb4G1wYx5E" alt="Kauhanny" />
       </div>
-      <div className="p-4 text-left  max-sm:ml-[4rem] ">
+      <div className="p-4 text-left  max-sm:ml-[30%] ">
         <h4 className="font-bold text-lg mb-2">Melissa Layanne</h4>
         <p className="text-gray-600">18 anos</p>
         <p className="text-gray-600">Ensino médio T.I.</p>
@@ -91,17 +91,20 @@ const Sobre = () => {
 
       <section className="py-8 h-full">
                 <div className="terceira_section" id='referencias'>
-                    <h2 className='font-tinos md:ml-[4rem] ml-[6rem] font-light md:text-6xl  text-3xl  md:mt-[2rem] max-sm:ml-[2.3rem]'>O que nos motiva</h2>
-                    <div className='flex '><p className='text-azul font-tinos font-bold text-base ml-[6rem] text-[20px] max-sm:ml-[2.3rem] md:ml-[4rem] max-sm:mr-[1rem] '>Descubra o que nos motiva a criar soluções que fazem a diferença.</p>
+                    <h2 className='font-tinos font-light md:text-6xl  text-3xl  md:mt-[2rem] text-center'>O que nos motiva</h2>
+                    <div className='flex '><p className='text-azul font-tinos font-bold text-base text-[20px] max-sm:w-3/4 max-sm:ml-10 text-center max-sm:mr-[1rem] '>Descubra o que nos motiva a criar soluções que fazem a diferença.</p>
                     </div>
 
-                    <div className="flex flex-wrap justify-center items-center pl-[18px]">
+                    <div className="flex flex-wrap justify-center items-center ">
                         <div className="pt-[2rem] flex w-full md:w-[700px]">
-                            <div className="mb-auto text-justify mt-auto w-[40vh] md:w-full">
-                                <p className='font-fira-sans font-normal text-base text-justify md:ml-[-32.5rem] md:mt-[-0.8rem] md:mr-[32rem] max-sm:ml-[1.2rem] max-sm:mr-[1.7rem] max-sm:w-[19rem] md:ml-[-34rem] max-md:w-[40rem]'>As histórias e insights compartilhados despertaram nossa motivação e foram fundamentais para a decisão de iniciar este projeto. Elas ilustraram desafios e conquistas que ressoaram profundamente conosco, oferecendo uma nova perspectiva e fortalecendo nossa determinação. Essa influência nos impulsionou a buscar soluções inovadoras e a abraçar com entusiasmo as oportunidades à nossa frente.</p><br />
-                            </div>
+                        <div className="flex justify-center items-center mb-auto mt-auto w-full">
+                          <p className='font-fira-sans font-normal text-base text-justify md:mr-[32rem]  max-sm:w-[80%] text-center'>
+                            As histórias e insights compartilhados despertaram nossa motivação e foram fundamentais para a decisão de iniciar este projeto. Elas ilustraram desafios e conquistas que ressoaram profundamente conosco, oferecendo uma nova perspectiva e fortalecendo nossa determinação. Essa influência nos impulsionou a buscar soluções inovadoras e a abraçar com entusiasmo as oportunidades à nossa frente.
+                          </p>
                         </div>
-                        <div className="flex flex-col md:flex-row items-center justify-center md:space-x-4 pr-[3%] md:mt-[-20rem] md:gap-14 max-sm:ml-[-1rem] ">
+
+                        </div>
+                        <div className="flex flex-col md:flex-row items-center justify-center md:space-x-4 pr-[3%] md:mt-[-20rem] md:gap-14 ">
                           <img
                             src={fotomot}
                             alt="img"
@@ -121,17 +124,17 @@ const Sobre = () => {
       <section className=''>
       <section className="py-8 ">
                 <div className="flex flex-col md:block w-full md:w-full pt-8 pl-0 font-light text-2xl mt-[18rem] max-sm:mt-[-4rem]">
-                    <div className="titulo_da_segunda text-center md:text-left ml-[100px] ">
-                        <h2 className="m-0 font-tinos md:text-6xl text-3xl md:mt-[-20rem] max-md:ml-[-16rem] md:ml-[-2rem] max-sm:ml-[-16rem] ">Depoimentos</h2>
-                        <div className="flex text-justify md:justify-start ">
-                            <p className="m-0 font-tinos font-bold text-base text-azul pl-0.5justify-content md:ml-[-2rem] max-sm:ml-[-4rem] max-sm:w-[113%] ">Saiba mais sobre nós e nossa missão de transformar ideias em experiências únicas</p>
+                    <div className="titulo_da_segunda text-center md:text-left ">
+                        <h2 className="m-0 font-tinos md:text-6xl text-3xl md:mt-[-20rem] text-center ">Depoimentos</h2>
+                        <div className=" text-justify md:justify-start ">
+                            <p className="m-0 font-tinos font-bold text-base text-azul pl-0.5 justify-content text-center max-sm:w-[80%] max-sm:ml-8 ">Saiba mais sobre nós e nossa missão de transformar ideias em experiências únicas</p>
                         </div>
                     </div>
                   </div>
       </section>
 
       <div className='flex flex-col md:flex-row md:flex-wrap md:justify-center md:mt-[-14rem] max-lg:ml-[7rem] mb-[5rem]'>
-    <div className='bg-white p-6  mx-4 mb-6 w-[82%] md:w-[32.5rem] max-sm:w-[125%] max-sm:ml-[-5rem] text-center shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl'>
+    <div className='bg-white p-6  mx-4 mb-6 w-[82%] md:w-[32.5rem] max-sm:w-[115%] max-sm:ml-[-5.5rem] text-center shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl'>
       <p className='font-fira text-base md:text-lg leading-relaxed text-justify'>
         "O robô ajudou meu filho a entender melhor suas emoções. Ele agora consegue expressar o que sente com mais facilidade."
       </p>
@@ -139,7 +142,7 @@ const Sobre = () => {
         - João, pai de Lucas
       </p>
     </div>
-    <div className='bg-white p-6 mx-4 mb-6 md:w-[35rem] text-center shadow-lg max-sm:w-[125%] max-sm:ml-[-5rem] w-[82%] rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl'>
+    <div className='bg-white p-6 mx-4 mb-6 md:w-[35rem] text-center shadow-lg max-sm:w-[115%] max-sm:ml-[-5.5rem] w-[82%] rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl'>
       <p className='font-fira text-base md:text-lg leading-relaxed text-justify'>
         "Minha filha adora as atividades interativas do robô. Ela fica super engajada e sempre quer brincar mais."
       </p>
@@ -147,7 +150,7 @@ const Sobre = () => {
         - Maria, mãe de Ana
       </p>
     </div>
-    <div className='bg-white p-6 mx-4 mb-6 w-[82%] md:w-[32rem] text-center max-sm:w-[125%] max-sm:ml-[-5rem] shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl '>
+    <div className='bg-white p-6 mx-4 mb-6 w-[82%] md:w-[32rem] text-center max-sm:w-[115%] max-sm:ml-[-5.5rem] shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl '>
       <p className='font-fira text-base md:text-lg leading-relaxed text-justify'>
         "Os relatórios detalhados me ajudam a acompanhar o progresso do meu filho e saber onde ele precisa de mais ajuda."
       </p>
