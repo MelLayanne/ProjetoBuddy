@@ -50,7 +50,7 @@ const ComponentesP = () => {
           <div className="bg-black bg-opacity-60 h-screen flex justify-center items-center text-center w-full">
             <div className="text-white flex flex-col items-center justify-center h-full w-full text-center px-4">
               <h1 className="font-tinos text-5xl md:text-7xl mb-4 mt-[20vh] md:mt-[30vh]">BUDDY</h1>
-              <p className="text-gray-400 text-justify font-fira text-sm md:text-base md:text-center md:mr-[4rem]">
+              <p className="text-gray-400 font-fira text-sm md:text-base md:text-center md:mr-[4rem]">
                 Descubra todos os componentes usados no nosso projeto e veja como cada peça foi fundamental para realização desse trabalho
               </p>
             </div>
@@ -71,7 +71,7 @@ const ComponentesP = () => {
         </div>
       </section>
 
-      <section className="">
+      <section className=" mb-10">
         <div className="relative flex items-center justify-center">
           {currentIndex > 0 && (
             <button
@@ -107,37 +107,57 @@ const ComponentesP = () => {
         </div>
       </section>
 
-      <section className='bg-gray-100 pt-[3rem] h-full md:h-[65%] 2xl:h-[57%] max-sm:h-[67%] mt-20'>
-        <div className='pb-5'>
-          <h2 className='font-tinos text-3xl md:text-6xl text-center'>Contate-nos</h2>
-          <p className='font-tinos text-azul font-bold text-base text-center mb-16 w-[90%] max-sm:ml-[1rem]'>
-            Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar
-          </p>
-          <form className='mt-6 pl-[5rem]'>
-            <div className='mb-4'>
-              <label className='block text-gray-700 text-sm font-bold mb-2' htmlFor='name'>
-                Nome
-              </label>
-              <input className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline' id='name' type='text' placeholder='Seu Nome' />
-            </div>
-            <div className='mb-4'>
-              <label className='block text-gray-700 text-sm font-bold mb-2' htmlFor='email'>
-                Email
-              </label>
-              <input className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline' id='email' type='email' placeholder='Seu Email' />
-            </div>
-            <div className='mb-4'>
-              <label className='block text-gray-700 text-sm font-bold mb-2' htmlFor='message'>
-                Mensagem
-              </label>
-              <textarea className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline' id='message' rows='4' placeholder='Sua Mensagem' />
-            </div>
-            <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded' type='button'>
-              Enviar
-            </button>
-          </form>
-        </div>
-      </section>
+      <section className='bg-gray-100 pt-[3rem] h-full md:h-[65%] w-full 2xl:h-[57%] max-sm:h-[67%]'>
+  <div className='pb-3'>
+    <h2 className='font-tinos text-3xl md:text-6xl text-center '>Contate-nos</h2>
+    <p className='font-tinos text-azul font-bold text-base text-center w-50% max-sm:w-[80%] max-sm:ml-[2.5rem] '>
+      Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar
+    </p>
+    <form className='mt-6 pl-[5rem]'>
+      <div className='mb-4'>
+        <label className='block text-azul text-sm font-bold mb-2 md:ml-0 ml-[-2.8rem]' htmlFor='name'>
+          Nome
+        </label>
+        <input
+          className='md:ml-0 ml-[-2.8rem] md:w-[95%] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          id='name'
+          type='text'
+          placeholder='Seu nome'
+        />
+      </div>
+      <div className='mb-4'>
+        <label className='block text-azul text-sm font-bold mb-2 md:ml-0 ml-[-2.8rem]' htmlFor='email'>
+          Email
+        </label>
+        <input
+          className=' md:ml-0 ml-[-2.8rem] md:w-[95%] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          id='email'
+          type='email'
+          placeholder='Seu email'
+        />
+      </div>
+      <div className='mb-4'>
+        <label className='block text-azul text-sm font-bold mb-2 md:ml-0 ml-[-2.8rem]' htmlFor='message'>
+          Mensagem
+        </label>
+        <textarea
+          className='md:ml-0 ml-[-2.8rem] md:w-[95%] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          id='message'
+          rows='4'
+          placeholder='Sua mensagem'
+></textarea>
+      </div>
+      <div className='mb-4'>
+        <button
+          className='md:ml-0 ml-[-2.8rem] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
+          type='submit'>
+          Enviar
+        </button>
+      </div>
+    </form>
+  </div>
+ 
+</section>
     </>
   );
 };
