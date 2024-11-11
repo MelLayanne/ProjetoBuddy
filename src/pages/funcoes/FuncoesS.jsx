@@ -184,7 +184,7 @@ export default function CompletePage() {
                 allowFullScreen>
         </iframe>
         <iframe width="400" height="215" 
-                src="https://youtu.be/f4aw4F2vyvc?si=1zSLtvDB5nISZtGx" 
+                src="https://www.youtube.com/embed/ZrqC5YXO1ME" 
                 title="YouTube video player" 
                 frameBorder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
