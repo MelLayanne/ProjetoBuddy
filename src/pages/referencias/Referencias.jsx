@@ -48,7 +48,7 @@ export default function CompletePage() {
                               <img src={corda} alt="Corda" className='max-w-[22rem] w-full max-sm:ml-[-1.7rem]' />
                             </div>
                             <div className='flex'><h3 className=' md:ml-[10rem] text-justify max-sm:text-sm'>Artigos Trabalhados:</h3>
-                                <div><a className='text-azul w-[30px] md:pl-11  font-fira max-sm:text-sm  max-sm:w-[50] max-sm:ml-[1rem]' href="">Tratamento Terapêutico</a><br /> <a className=' max-sm:text-sm text-azul w-[30px] font-fira md:p-11 md:ml-[0.2rem] max-sm:ml-[1rem]' href="">Robótica na educação</a></div></div>
+                                <div><a className='text-azul w-[30px] md:pl-11  font-fira max-sm:text-sm  max-sm:w-[50] max-sm:ml-[1rem]' href="https://sol.sbc.org.br/index.php/wics/article/view/24841/24662">Tratamento Terapêutico</a><br /> <a className=' max-sm:text-sm text-azul w-[30px] font-fira md:p-11 md:ml-[0.2rem] max-sm:ml-[1rem]' href="https://web.archive.org/web/20180430004928id_/http://www.revista.universo.edu.br/index.php?journal=1JUIZDEFORA2&page=article&op=viewFile&path%5B%5D=5051&path%5B%5D=2887">Robótica na educação</a></div></div>
                         </div>
                     </div>
                 </div>

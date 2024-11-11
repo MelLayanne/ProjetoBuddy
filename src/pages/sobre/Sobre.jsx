@@ -5,6 +5,7 @@ import linkedin from '../../assets/linkedin 11 (1).png';
 import em from '../../assets/o-email 11.png';
 import fotomot from '../../assets/fotomot.png';
 import fotmot2 from '../../assets/fotmot2.png';
+import mel from '../../assets/mel.jpeg';
 
 
 const Sobre = () => { 
@@ -42,50 +43,50 @@ const Sobre = () => {
       </section>
 
       <section>
-        <div className='flex justify-center text-center items-center mb-5'>
-            <p className='font-fira-sans font-normal text-base text-justify text-[20px] mt[4rem]	xl:max-w-7xl max-sm:mr-[1.4rem] max-sm:w-3/4'>Trabalhando juntas para o sucesso do projeto Buddy, unindo habilidades e conhecimentos diversos para trazer soluções criativas
+        <div className='flex justify-center text-center items-center mb-5 '>
+            <p className='font-fira-sans font-normal text-base text-justify text-[20px] mt[4rem]	xl:max-w-7xl max-sm:mr-[1.4rem] max-sm:w-3/4 lg:w-3/4'>Trabalhando juntas para o sucesso do projeto Buddy, unindo habilidades e conhecimentos diversos para trazer soluções criativas
             e eficientes, e com muito comprometimento, fornecer a melhor experiência  para os usuários.</p><br />
             
           </div>
 
-  <section>
-  <div className="grid grid-cols-1 md:grid-cols-2  xl:flex justify-center items-center ">
-    <div className="flex flex-col justify-center items-center max-md:ml-[10%] bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl mb-6 h-48 max-w-[40%] max-sm:max-w-[80%]">
-      <div className="flex justify-center w-full">
-        <img className="h-48 xl:ml-[-7rem] object-cover rounded-lg  xl:mr-0  mr-[15rem] w-1/3  absolute  transform md:translate-x-[-8rem] translate-x-1/5 mobile:left-1/4 mobile:transform-none max-sm:w-[50%]" src={k} alt="Kauhany" />
-      </div>
-      <div className="p-4 text-left max-sm:ml-[30%] ">
+          <section>
+  <div className="flex flex-col md:flex-row justify-center items-center md:space-x-12">
+    
+    {/* Card Kauhany */}
+    <div className="flex flex-col items-center bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl mb-6 w-80">
+      <img className="h-80 w-full object-cover" src={k} alt="Kauhany" />
+      <div className="p-4 text-center">
         <h4 className="font-bold text-lg mb-2">Kauhany Santos</h4>
-        <p className="text-gray-600">17 anos</p>
-        <p className="text-gray-600">Ensino médio T.I.</p>
+        <p className="text-gray-600">18 anos</p>
+        <p className="text-gray-600">Ensino Médio T.I.</p>
         <p className="text-gray-600 mb-4">UNASP-SP</p>
-        <div className="flex justify-center space-x-4 ml-[-1.5rem]">
+        <div className="flex justify-center space-x-4">
+          <a href="https://www.instagram.com/kauhany_y/"><img className="w-6 h-6" src={instagram} alt="Instagram" /></a>
+          <a href="https://www.linkedin.com/in/kauhany-santos-89b1762a0/"><img className="w-6 h-6" src={linkedin} alt="LinkedIn" /></a>
+          <a href="kauhanyoliveira52@gmail.com"><img className="w-6 h-6" src={em} alt="Email" /></a>
+        </div>
+      </div>
+    </div>
+
+    {/* Card Melissa */}
+    <div className="flex flex-col items-center bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl mb-6 w-80">
+      <img className="h-80 w-full object-cover" src={mel} alt="Melissa" />
+      <div className="p-4 text-center">
+        <h4 className="font-bold text-lg mb-2">Melissa Reis</h4>
+        <p className="text-gray-600">18 anos</p>
+        <p className="text-gray-600">Ensino Médio T.I.</p>
+        <p className="text-gray-600 mb-4">UNASP-SP</p>
+        <div className="flex justify-center space-x-4">
           <img className="w-6 h-6" src={instagram} alt="Instagram" />
-          <img className="w-6 h-6" src={linkedin} alt="LinkedIn" />
+          <a href="https://www.linkedin.com/in/melissa-reis-1798a52b9/"><img className="w-6 h-6" src={linkedin} alt="LinkedIn" /></a>
           <img className="w-6 h-6" src={em} alt="Email" />
         </div>
       </div>
     </div>
 
-    
-    <div className=" flex flex-col sm:w-3/4 items-center bg-white shadow-lg max-sm:ml-[10%] max-sm:max-w-[80%] lg:w-[60%] rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl mb-6  h-48 max-w-[40%]">
-      <div className=" relative flex justify-center w-full ">
-        <img className="h-48 object-cover rounded-lg mr-[15rem] w-1/3  absolute  transform md:translate-x-[-8rem] translate-x-1/5 mobile:left-1/4 mobile:transform-none  max-sm:ml-[0rem] max-sm:w-[50%]" src="https://media.licdn.com/dms/image/v2/D4D03AQHr9eKiQT65ZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710469014338?e=1728518400&v=beta&t=_l0PLQwHIctnf52_iguHfKZTXGJI78lFteb4G1wYx5E" alt="Kauhanny" />
-      </div>
-      <div className="p-4 text-left  max-sm:ml-[30%] ">
-        <h4 className="font-bold text-lg mb-2">Melissa Layanne</h4>
-        <p className="text-gray-600">18 anos</p>
-        <p className="text-gray-600">Ensino médio T.I.</p>
-        <p className="text-gray-600 mb-4">UNASP-SP</p>
-        <div className="flex justify-center space-x-4 ml-[-1.5rem]">
-          <img className="w-6 h-6" src={instagram} alt="Instagram" />
-          <img className="w-6 h-6" src={linkedin} alt="LinkedIn" />
-          <img className="w-6 h-6" src={em} alt="Email" />
-          </div>
-         </div>
-       </div>
-      </div>
-     </section>
+  </div>
+</section>
+
         
       </section>
 
@@ -95,29 +96,21 @@ const Sobre = () => {
                     <div className=''><p className='text-azul font-tinos font-bold text-base text-[20px] max-sm:w-3/4 max-sm:ml-10 text-center max-sm:mr-[1rem] '>Descubra o que nos motiva a criar soluções que fazem a diferença.</p>
                     </div>
 
-                    <div className="max-md:flex flex-wrap justify-center items-center ">
-                        <div className="pt-[2rem] flex w-full md:w-[700px]">
-                        <div className="max-md:flex justify-center items-center mb-auto mt-auto w-full">
-                          <p className='font-fira-sans font-normal text-base text-justify max-sm:w-[80%] xl:ml-[20%]'>
-                            As histórias e insights compartilhados despertaram nossa motivação e foram fundamentais para a decisão de iniciar este projeto. Elas ilustraram desafios e conquistas que ressoaram profundamente conosco, oferecendo uma nova perspectiva e fortalecendo nossa determinação. Essa influência nos impulsionou a buscar soluções inovadoras e a abraçar com entusiasmo as oportunidades à nossa frente.
-                          </p>
-                        </div>
-
-                        </div>
-                        <div className="flex flex-col md:flex-row items-center justify-center md:space-x-4 pr-[3%] md:mt-[-12rem] md:gap-14 ">
-                          <img
-                            src={fotomot}
-                            alt="img"
-                            className="md:w-[20%] w-[100%] md:ml-[50%] md:mr-[-7rem] md:mt-0 max-sm:mt-[-3rem]"
-                            />
-                           <img
-                          src={fotmot2}
-                          alt="img"
-                          className="md:w-[20%] w-[100%] md:ml-0 md:mt-0 max-sm:mt-[-3rem]"
-                          />
-                          </div>
-
+                    <div className="lg:flex block items-center justify-center">
+                      <div className="flex justify-center lg:w-6/12 w-full">
+                        <p className="font-fira-sans font-normal text-base text-justify w-10/12">
+                          As histórias e insights compartilhados despertaram nossa motivação e foram fundamentais para a decisão de iniciar este projeto. Elas ilustraram desafios e conquistas que ressoaram profundamente conosco, oferecendo uma nova perspectiva e fortalecendo nossa determinação. Essa influência nos impulsionou a buscar soluções inovadoras e a abraçar com entusiasmo as oportunidades à nossa frente.
+                        </p>
+                      </div>
+                      
+                      <div className="flex flex-col lg:flex-row items-center justify-center lg:w-6/12 w-full ">
+                        <img className="w-full lg:w-[45%] object-contain  " src={fotomot} alt="img" />
+                        <img className="w-full lg:w-[45%] object-contain" src={fotmot2} alt="img" />
+                      </div>
                     </div>
+
+
+
                 </div>
             </section>
 

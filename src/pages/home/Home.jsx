@@ -1,4 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import buddy from '../../assets/budd.jpg';
+import carcaca from '../../assets/carcaca.jpeg';
+import logoB from '../../assets/budddyy.png';
+import lacoA from '../../assets/laco.jpg';
+import atividade from '../../assets/atividd.jpg';
+import estrutura from '../../assets/estrutura.jpg';
+
+
 
 
 
@@ -45,7 +53,7 @@ export default function Home() {
             </div>
 
             {/* Imagem ao lado */}
-            <img className="w-full max-w-xs md:ml-0 ml-[0.5rem] max-sm:ml-[-0.1rem]" src="https://th.bing.com/th/id/R.7f6ecb4efca234c948d4271b41bf16db?rik=ImU8rVRg9uFVng&pid=ImgRaw&r=0" alt="Cor Azul" />
+            <img className="w-full max-w-xs md:ml-0 ml-[0.5rem] max-sm:ml-[-0.1rem]" src={lacoA}alt="Cor Azul" />
 
             {/* Segunda coluna */}
             <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-0">
@@ -62,12 +70,12 @@ export default function Home() {
             <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-0">
                 <h2 className="text-azul font-bold font-tinos text-lg text-center md:text-left">Logo</h2>
                 <div className="bg-gray-200 p-8 pb-9 px-10 text-sm flex flex-col items-center max-w-[350px]">
-                    <p className="font-fira text-sm text-justify">É projetada para refletir características humanas e se assemelhar ao rosto que terá o robô, dando assim uma aparência mais amigável ao nosso projeto.</p>
+                    <p className="font-fira text-sm text-justify">É projetada para refletir características humanas e dar uma aparência mais amigável ao nosso projeto.</p>
                 </div>
             </div>
 
             {/* Imagem ao lado */}
-            <img className="w-full max-w-xs md:ml-0 ml-[0.5rem] max-sm:ml-[-0.1rem]" src="https://th.bing.com/th/id/R.7f6ecb4efca234c948d4271b41bf16db?rik=ImU8rVRg9uFVng&pid=ImgRaw&r=0" alt="Logo" />
+            <img className="w-full max-w-xs md:ml-0 ml-[0.5rem] max-sm:ml-[-0.1rem] border" src={logoB} alt="Logo" />
 
             {/* Segunda coluna */}
             <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-0">
@@ -89,13 +97,13 @@ export default function Home() {
             </div>
 
             {/* Imagem ao lado */}
-            <img className="w-full max-w-xs md:ml-0 ml-[0.5rem] max-sm:ml-[-0.1rem]" src="https://th.bing.com/th/id/R.7f6ecb4efca234c948d4271b41bf16db?rik=ImU8rVRg9uFVng&pid=ImgRaw&r=0" alt="Comunicação" />
+            <img className="w-full max-w-xs md:ml-0 ml-[0.5rem] max-sm:ml-[-0.1rem] border" src={atividade} alt="Comunicação" />
 
             {/* Segunda coluna */}
             <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-0">
-                <h2 className="text-azul font-bold font-tinos text-lg text-center md:text-left">Questionário</h2>
+                <h2 className="text-azul font-bold font-tinos text-lg text-center md:text-left">Sensores de som e luz:</h2>
                 <div className="bg-gray-200 p-7 text-sm flex flex-col items-center max-w-[350px]">
-                    <p className="font-fira text-sm text-justify">É fundamental para entender as necessidades individuais e únicas da criança. Ele permite que os cuidadores obtenham uma visão detalhada sobre as preferências e desafios específicos do autista.</p>
+                    <p className="font-fira text-sm text-justify">Os sensores de som e luz são projetados para captar estímulos do ambiente, possibilitando ajustar o local para o conforto da criança.</p>
                 </div>
             </div>
         </div>
@@ -109,12 +117,12 @@ export default function Home() {
                 </div>
             </div>
 
-            <img className="w-full max-w-xs md:ml-0 ml-[0.5rem] max-sm:ml-[-0.1rem]" src="https://th.bing.com/th/id/R.7f6ecb4efca234c948d4271b41bf16db?rik=ImU8rVRg9uFVng&pid=ImgRaw&r=0" alt="Relatórios" />
+            <img className="w-full max-w-xs md:ml-0 ml-[0.5rem] max-sm:ml-[-0.1rem]" src={estrutura} alt="Relatórios" />
 
             <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-0">
-                <h2 className="text-azul font-bold font-tinos text-lg text-center md:text-left">Desempenho</h2>
+                <h2 className="text-azul font-bold font-tinos text-lg text-center md:text-left">Estrutura</h2>
                 <div className="bg-gray-200 p-7 text-sm flex flex-col items-center max-w-[350px]">
-                    <p className="font-fira text-sm text-justify">O robô pode ajustar as atividades de acordo com o desempenho da criança, oferecendo desafios adequados para incentivar a aprendizagem e o desenvolvimento contínuos.</p>
+                    <p className="font-fira text-sm text-justify">A estrutura do robô foi escolhida pensando na informação, de que crianças autista se sentem mais confortáveis ao interagir com um robô.</p>
                 </div>
             </div>
         </div>

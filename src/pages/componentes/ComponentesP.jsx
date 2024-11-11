@@ -8,6 +8,11 @@ import moduloB from '../../assets/moduloB.svg';
 import lcd from '../../assets/lcd.svg';
 import moduloS from '../../assets/moduloS.svg';
 import servo from '../../assets/servo.svg';
+import tela from '../../assets/tela.webp';
+import gravador  from '../../assets/gravador.webp';
+import presenca  from '../../assets/presença.png';
+import pulso  from '../../assets/pulso.png';
+import rtc  from '../../assets/rtc.jpg';
 
 // Função que define o componente
 const ComponentesP = () => {
@@ -15,15 +20,15 @@ const ComponentesP = () => {
     { id: 1, img: sensorL, title: "Sensor de Luminosidade", price: "R$16,90", desc: "O Sensor de luminosidade foi utilizado para se fixar na carcaça do robô, podendo então, capitar a luz do ambiente." },
     { id: 2, img: protoboard, title: "Protoboard", price: "R$20,00", desc: "A protoboard foi utilizada para montar e testar o circuito eletrônico do robô, possibilitando a conexão dos componentes de forma prática." },
     { id: 3, img: jumpers, title: "Jumpers", price: "R$5,00", desc: "Os jumpers foram integrados ao robô, permitindo a conexão eficiente entre diferentes componentes eletrônicos e garantindo a comunicação entre os circuitos." },
-    { id: 4, img: sensorS, title: "Arduino Mega", price: "R$219,00", desc: "O Arduino Mega foi integrado ao robô, proporcionando maior capacidade de processamento e expandindo o número de pinos disponíveis para conectar diversos sensores e módulos." },
+    { id: 4, img: arduino, title: "Arduino Mega", price: "R$219,00", desc: "O Arduino Mega foi integrado ao robô, proporcionando maior capacidade de processamento e expandindo o número de pinos disponíveis para conectar diversos sensores e módulos." },
     { id: 5, img: lcd, title: "Display LCD", price: "R$21,90", desc: "O Display LCD é responsável por mostrar as horas, a data e indicar a temperatura exterior, bem como as medidas de batimento cardíaco e temperatura corporal." },
     { id: 6, img: moduloB, title: "Módulo Bluetooth", price: "R$42,90", desc: "O módulo Bluetooth foi integrado ao robô, permitindo a comunicação sem fio com o aplicativo, facilitando a troca de informações." },
     { id: 7, img: sensorS, title: "Sensor de Som", price: "R$8,90", desc: "O sensor de som foi integrado ao robô, permitindo captar variações acústicas no ambiente e reagir a diferentes níveis de ruído." },
-    { id: 8, img: arduino, title: "Módulo Gravador de Voz", price: "R$30,90", desc: "O Módulo gravador de voz foi utilizado para tornar possível trazer a comunicação do responsável através do robô." },
-    { id: 9, img: moduloB, title: "Servo Motor", price: "R$28,00", desc: "O Servo motor trouxe mobilidade aos braços e a base, tornando o robô mais dinâmico." },
-    { id: 10, img: moduloB, title: "Sensor de Movimento Presença", price: "R$12,90", desc: "O módulo sensor de movimento foi integrado ao robô, permitindo detectar a presença de objetos ou pessoas no ambiente e reagir automaticamente a mudanças de movimento." },
-    { id: 11, img: moduloB, title: "Sensor Monitor de Pulso", price: "R$30,00", desc: "O sensor de batimento cardíaco foi integrado ao robô, permitindo monitorar a frequência cardíaca em tempo real." },
-    { id: 12, img: moduloB, title: "Real Time Clock", price: "R$28,00", desc: "O módulo RTC permite fornecer o tempo e a temperatura atualizados em tempo real." },
+    { id: 8, img: gravador, title: "Módulo Gravador de Voz", price: "R$30,90", desc: "O Módulo gravador de voz foi utilizado para tornar possível trazer a comunicação do responsável através do robô." },
+    { id: 9, img: tela, title: "Tela Nextion 5 polegadas", price: "R$825,00", desc: "A tela é a parte principal do projeto e comporta em seu software as atividades que serão resposáveis pela desenvolvimento da criança." },
+    { id: 10, img: presenca, title: "Sensor de Movimento Presença", price: "R$12,90", desc: "O módulo sensor de movimento foi integrado ao robô, permitindo detectar a presença de objetos ou pessoas no ambiente e reagir automaticamente a mudanças de movimento." },
+    { id: 11, img: pulso, title: "Sensor Monitor de Pulso", price: "R$30,00", desc: "O sensor de batimento cardíaco foi integrado ao robô, permitindo monitorar a frequência cardíaca em tempo real." },
+    { id: 12, img: rtc, title: "Real Time Clock", price: "R$28,00", desc: "O módulo RTC permite fornecer o tempo e a temperatura atualizados em tempo real." },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -58,7 +63,7 @@ const ComponentesP = () => {
         </div>
       </section>
 
-      <section className="py-8">
+      <section className="py-8 mb-10">
         <div className="flex flex-col md:block w-full md:w-full pt-8 font-light text-2xl">
           <div className="titulo_da_segunda text-center md:text-left">
             <h2 className="m-0 font-tinos text-3xl md:text-6xl text-center">Componentes</h2>
@@ -84,15 +89,18 @@ const ComponentesP = () => {
 
           <div className="flex flex-wrap justify-center">
             {visibleCards.map((card) => (
-              <div key={card.id} className="bg-white p-6 shadow-lg rounded-2xl w-72 h-auto m-2">
+              <div key={card.id} className="bg-white p-6 shadow-lg rounded-2xl w-72 h-auto m-2 items-center justify-center">
+              <div className="flex items-center justify-center">
                 <img src={card.img} alt={card.title} className="w-32 h-32 object-contain mb-4" />
-                <h4 className="text-center text-lg font-semibold mb-2 font-tinos">
-                  {card.title} - {card.price}
-                </h4>
-                <p className="text-sm text-gray-600 text-center mb-4 text-justify font-tinos">
-                  {card.desc}
-                </p>
               </div>
+              <h4 className="text-center text-lg font-semibold mb-2 font-tinos">
+                {card.title} - {card.price}
+              </h4>
+              <p className="text-sm text-gray-600 text-center mb-4 text-justify font-tinos">
+                {card.desc}
+              </p>
+            </div>
+            
             ))}
           </div>
 

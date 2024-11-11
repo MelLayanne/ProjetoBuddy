@@ -1,5 +1,9 @@
 import React from 'react';
 import imgTemporarea from '../../assets/imgTemporarea.svg';
+import Historias from '../../assets/Sílabas.png';
+import home from '../../assets/TelaHome.png';
+import emocoes from '../../assets/TelaEmocoes.png';
+import numeros from '../../assets/numeros.png';
 
 
 
@@ -135,29 +139,29 @@ export default function CompletePage() {
         <div className='flex gap-10 max-lg:block justify-center items-center max-2xl:gap-11 max-sm:ml-[12%] md:items-center'>
             <div className='flex max-lg:flex gap-10 justify-center items-center max-sm:block'>
                 <div className='max-w-80  max-sm:max-w-96  max-2xl:max-w-64 items-center  '>
-                    <h3 className='font-tinos text-azul text-xl'>Tela Inicial:</h3>
-                    <p className='font-fira text-justify text-sm max-sm:w-[90%]'>O design do rosto é pensado para promover a interação de maneira gradual e compreensível, ajudando as crianças a se sentirem confortáveis e conectadas, facilitando a comunicação e o aprendizado.</p>
-                    <img className='mt-4 mb-15 max-sm:mb-10  max-sm:w-[90%]' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
+                    <h3 className='font-tinos text-azul text-xl'>Tela Histórias:</h3>
+                    <p className='font-fira text-justify text-sm max-sm:w-[90%]'>A tela oferece acesso a duas histórias envolventes e cuidadosamente desenvolvidas para ajudar crianças autistas a se conectarem e explorarem o mundo de forma divertida e acolhedora.</p>
+                    <img className='mt-4 mb-15 max-sm:mb-10  max-sm:w-[90%]' src={Historias} alt="imagem cinza com simbulo de imagem" />
                 </div>
                 
                 <div className='max-w-80 max-sm:mt-[2rem] max-2xl:max-w-64  max-sm:max-w-96'>
                     <h3 className='font-tinos text-azul text-xl '>Tela Home:</h3>
                     <p className='font-fira text-justify text-sm mb-9 max-sm:mb-8  max-sm:w-[90%]'>Tela home conta com abas projetada para ser intuitiva e organizar as informações de forma clara e acessível, permitindo que o usuário navegue facilmente entre as diferentes funções. </p>
-                    <img className='mt-4 mb-15 max-sm:mt-[-1rem] max-sm:w-[90%]' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
+                    <img className='mt-4 mb-15 max-sm:mt-[-1rem] max-sm:w-[90%]' src={home} alt="imagem cinza com simbulo de imagem" />
                 </div>
             </div>
             <div className='flex max-lg:flex gap-10 justify-center items-center max-md:mt-12 max-sm:block'>
                 <div className='max-w-80 max-sm:mt-[2rem] max-2xl:max-w-64 max-sm:max-w-96'>
                     <h3 className='font-tinos text-azul text-xl '>Tela Emoções:</h3>
                     <p className='font-fira text-justify text-sm  mb-9 max-sm:mb-4 max-sm:w-[90%]'>A tela de reconhecimento de emoções foi desenhada para ser intuitiva, oferecendo uma interface simples que facilita a identificação e a análise das emoções.</p>
-                    <img className='mt-2 mb-15  max-sm:w-[90%]' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
+                    <img className='mt-2 mb-15  max-sm:w-[90%]' src={emocoes} alt="imagem cinza com simbulo de imagem" />
                 </div>
 
                 
                 <div className='max-w-80 max-sm:mt-[2rem]  max-2xl:max-w-64  max-sm:max-w-96'>
-                    <h3 className='font-tinos text-azul text-xl '>Tela Configurações:</h3>
-                    <p className='font-fira text-justify text-sm max-sm:mb-4  mb-14 max-sm:w-[90%]'>A tela de configuração foi projetada para ser intuitiva, permitindo que o usuário personalize facilmente as preferências e ajustes do sistema.</p>
-                    <img className='mt-2 mb-15  max-sm:w-[90%]' src={imgTemporarea} alt="imagem cinza com simbulo de imagem" />
+                    <h3 className='font-tinos text-azul text-xl '>Tela de números:</h3>
+                    <p className='font-fira text-justify text-sm max-sm:mb-4  mb-14 max-sm:w-[90%]'>A tela foi projetada para guiar o usuário a uma atividade interativa que ensina a pronúncia dos números de forma simples e envolvente.</p>
+                    <img className='mt-2 mb-15  max-sm:w-[90%]' src={numeros} alt="imagem cinza com simbulo de imagem" />
                 </div>
             </div>
 
@@ -165,49 +169,68 @@ export default function CompletePage() {
     </div>
 </section>
 
-<section className='bg-gray-100 pt-[3rem] h-full md:h-[75%] 2xl:h-[67%] max-sm:h-[67%]'>
-  <div className='pl-[5rem] pb-[3rem]'>
-    <h2 className='font-tinos text-3xl md:text-6xl md:ml-0 ml-[-3rem]'>Contate-nos</h2>
-    <p className='font-tinos text-azul font-bold text-base text-justify w-50% md:ml-0 ml-[-2.8rem] max-sm:w-[98%]'>
+<section className='mb-16'>
+<div className="flex flex-col items-center justify-center min-h-screen">
+    <h2 className="font-tinos text-3xl md:text-6xl text-center">Compreenda nosso projeto</h2>
+    <p className="font-tinos text-azul font-bold text-base text-center mb-10 w-[50%] max-sm:w-[80%] max-sm:ml-8">
+    Assista aos vídeos abaixo para entender melhor o nosso projeto e descobrir todos os detalhes sobre como ele funciona.
+    </p>
+    <div className="lg:flex gap-10 block items-center justify-center">
+    <iframe width="400" height="215" className='lg:mb-0 mb-10'
+                src="https://www.youtube.com/embed/y1TF_JHcgjU" 
+                title="YouTube video player" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowFullScreen>
+        </iframe>
+        <iframe width="400" height="215" 
+                src="https://youtu.be/f4aw4F2vyvc?si=1zSLtvDB5nISZtGx" 
+                title="YouTube video player" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowFullScreen>
+        </iframe>
+    </div>
+</div>
+
+</section>
+
+<section className='bg-gray-100 pt-[3rem] h-full md:h-[90%] 2xl:h-[57%] max-sm:h-[83%] max-sm:pb-[2rem]'>
+  <div className=''>
+    <h2 className='font-tinos text-3xl md:text-6xl text-center'>Contate-nos</h2>
+    <p className='font-tinos text-azul font-bold text-base text-center mb-10 w-50% max-sm:w-[80%] max-sm:ml-8 '>
       Fale conosco em caso de dúvida, questionamentos, ou se apenas quiser nos dar uma dica de como melhorar
     </p>
-    <form className='mt-6'>
+    <form className='mt-6 pl-[5rem]'>
       <div className='mb-4'>
-        <label className='block text-azul text-sm font-bold mb-2 md:ml-0 ml-[-2.8rem]' htmlFor='name'>
+        <label className='block text-azul text-sm font-bold mb-2 md:ml-[-1rem] ml-[-2.8rem]' htmlFor='name'>
           Nome
         </label>
         <input
-          className='md:ml-0 ml-[-2.8rem] md:w-[95%] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
-          id='name'
-          type='text'
-          placeholder='Seu nome'
+          className='md:ml-[-1rem] ml-[-2.8rem] md:w-[95%] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline' id='name'type='text' placeholder='Seu nome'
         />
       </div>
       <div className='mb-4'>
-        <label className='block text-azul text-sm font-bold mb-2 md:ml-0 ml-[-2.8rem]' htmlFor='email'>
+        <label className='block text-azul text-sm font-bold mb-2 md:ml-[-1rem] ml-[-2.8rem]' htmlFor='email'>
           Email
         </label>
         <input
-          className=' md:ml-0 ml-[-2.8rem] md:w-[95%] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
+          className=' md:ml-[-1rem] ml-[-2.8rem] md:w-[95%] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
           id='email'
           type='email'
           placeholder='Seu email'
         />
       </div>
       <div className='mb-4'>
-        <label className='block text-azul text-sm font-bold mb-2 md:ml-0 ml-[-2.8rem]' htmlFor='message'>
+        <label className='block text-azul text-sm font-bold mb-2 md:ml-[-1rem] ml-[-2.8rem]' htmlFor='message'>
           Mensagem
         </label>
         <textarea
-          className='md:ml-0 ml-[-2.8rem] md:w-[95%] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'
-          id='message'
-          rows='4'
-          placeholder='Sua mensagem'
-></textarea>
+          className='md:ml-[-1rem] ml-[-2.8rem] md:w-[95%] shadow appearance-none border rounded w-full py-2 px-3 text-azul leading-tight focus:outline-none focus:shadow-outline'id='message' rows='4' placeholder='Sua mensagem'></textarea>
       </div>
       <div className='mb-4'>
         <button
-          className='md:ml-0 ml-[-2.8rem] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
+          className='md:ml-[-1rem] ml-[-2.8rem] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
           type='submit'>
           Enviar
         </button>
